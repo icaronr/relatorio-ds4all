@@ -4,9 +4,9 @@ title:  Ciência de Dados para Todos (Data Science
 author: "Antônio Henrique de Moura Rodrigues, Breno Felipe Nunes Gomes, Ícaro Nery Rezende"
 date: "17/11/2019"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -511,6 +511,7 @@ head(sort(table(unb.adv$ORIENTACAO_CONCLUIDA_MESTRADO$`2017`$curso), decreasing 
 ```
 ```{r}
 ci.adv <- fromJSON("./ciencia_informacao/ci.advise.json")
+names(unb.adv) == names(ci.adv)
 co.adv <- fromJSON("./comunicacao/co.advise.json")
 ps.adv <- fromJSON("./politica_social/ps.advise.json")
 so.adv <- fromJSON("./sociologia/so.advise.json")
@@ -535,7 +536,7 @@ A mesma leitura feita com o arquivo `unb.pub` pode ser realizada com os arquivos
 
 ###Descrição dos dados de agregação de docentes por área
 ```{r}
-unb.area <- fromJSON("ci/unbpos.researchers_by_area.json")
+unb.area <- fromJSON("./unbpos/unbpos.researchers_by_area.json")
 unb.area.df <- cbind(names(unb.area$`Areas dos pesquisadores`),
            (sapply(unb.area$`Areas dos pesquisadores`, function(x) length(x))))
 rownames(unb.area.df) <- c(1:nrow(unb.area.df)); colnames(unb.area.df) <- c("Area", "Professores")
@@ -882,8 +883,8 @@ extrai_areas_atuacao <- function(jsonProfessores){
 ########################### Inicio 
 
 # colocar o diretorio onde está o arquivo json de perfis a serem lidos 
-unb.prof.json <- read_file("unbpos/unbpos.profile.json")
-unb.prof.df.capes <- read.csv("PesqPosCapes.csv", 
+unb.prof.json <- read_file("./unbpos/unbpos.profile.json")
+unb.prof.df.capes <- read.csv("./unbpos/PesqPosCapes.csv", 
                               sep = ";", header = TRUE, colClasses = "character")
 unb.prof <- fromJSON(unb.prof.json)
 length(unb.prof)

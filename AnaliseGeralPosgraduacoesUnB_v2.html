@@ -428,11 +428,42 @@ $(document).ready(function () {
 </div>
 <div id="descricao-das-pos-graduacoes-da-unb" class="section level3">
 <h3>Descrição das pós-graduações da UnB</h3>
-<p>Como responsabilidade do grupo, foram alocados 4 programas para serem analisados. Os programas são: * Pós-Graduação em Comunicação * Pós-Graduação em Ciência da Informação * Pós-Graduação em Política Social * Pós-Graduação em Sociologia</p>
+<p>Como responsabilidade do grupo, foram alocados 4 programas para serem analisados. Os programas, com seus subprogramas relativos são:</p>
+<ul>
+<li>Pós-Graduação em Comunicação Possui uma área de concentração, Comunicação e Sociedade, que concentra as 4 linhas de pesquisa do programa:
+<ul>
+<li>Jornalismo e Sociedade</li>
+<li>Políticas de Comunicação e Cultura</li>
+<li>Teorias e Tecnologias de Comunicação</li>
+<li>Imagem, Som e Escrita</li>
+</ul></li>
+<li>Pós-Graduação em Ciência da Informação Possui uma área de concentração, Gestão da Informação, que concetra 2 linhas de pesquisa:
+<ul>
+<li>Comunicação e Mediação da Informação</li>
+<li>Organização da Informação</li>
+</ul></li>
+<li>Pós-Graduação em Política Social Possui uma área de concentração, Estado, Políticas Sociais e Direitos, que abrange 4 linhas de pesquisa:
+<ul>
+<li>Política Social, Estado e Sociedade</li>
+<li>Classes,Lutas sociais e Direitos</li>
+<li>Trabalho, Questão Social e Emancipação</li>
+<li>Exploração e Opressão de Sexo/genero, Raça/Etnia e Sexualidades.</li>
+</ul></li>
+<li>Pós-Graduação em Sociologia Possui uma área de concentração, Sociedade e Transformação, e 7 linhas de pesquisa:
+<ul>
+<li>Cidade, Cultura e Sociedade</li>
+<li>Educação, Ciência e Tecnologia</li>
+<li>Feminismo, Relações de Gênero e de Raça</li>
+<li>Pensamento e Teoria Social</li>
+<li>Política, Valores, Religião e Sociedade</li>
+<li>Trabalho e Sociedade</li>
+<li>Violência, Segurança e Cidadania</li>
+</ul></li>
+</ul>
 </div>
 <div id="outros-aspectos-que-caracterizam-a-producao-cientifica-e-academica-da-unb" class="section level3">
 <h3>Outros aspectos que caracterizam a produção científica e acadêmica da UnB</h3>
-<p>Texto a desenvolver.</p>
+<p>Os programas de pós-graduação da Universidade de Brasília possuem, em geral uma boa avaliação quanto às pontuações atribuídas. Os programas considerados de excelência, que possuem nota 6 ou 7, possuem produções em outros idiomas, o que sugere uma conexão com centros de pesquisa internacionais.</p>
 </div>
 </div>
 <div id="o-que-a-organizacao-precisa-realmente-alcancar" class="section level2">
@@ -446,7 +477,10 @@ $(document).ready(function () {
 <p>Este documento serve como base para a realização dos trabalhos dos alunos. apresenta limitações no tocante à quantidade pequena de dados que serão empregados para análises e avaliações, tendo em vista sua finalidade maior que é a didática, de permitir aos alunos demonstrarem a capacidade de aplicação das técnicas e ferramentas apreendidas durante o semestre.</p>
 <div id="avaliacao-preliminar-das-pos-graduacoes-na-unb" class="section level3">
 <h3>Avaliação preliminar das pós-graduações na UnB</h3>
-<p>Texto a desenvolver.</p>
+<div id="pos-graduacao-em-ciencia-da-informacao" class="section level4">
+<h4>Pós Graduação em Ciência da Informação</h4>
+<p>Na última avaliação, feita em 2017, obteve nota 5. Possui 27 docentes, 383 artigos publicados, sendo que 68 foram realizadas em 2017. #### Pós Graduação em Comunicação Na última avaliação, feita em 2017, obteve nota 4. Possui 31 docentes, 309 artigos publicados, sendo que 36 foram realizadas em 2017. #### Pós Graduação em Política Social Na última avaliação, feita em 2017, obteve nota 6. Possui 21 docentes, 192 artigos publicados, sendo que 25 foram realizadas em 2017. #### Pós Graduação em Sociologia Na última avaliação, feita em 2017, obteve nota 7. Possui 27 docentes, 253 artigos publicados, sendo que 28 foram realizadas em 2017.</p>
+</div>
 </div>
 <div id="avaliacao-preliminar-da-producao-cientifica-e-academica-da-unb" class="section level3">
 <h3>Avaliação preliminar da produção científica e acadêmica da UnB</h3>
@@ -462,57 +496,169 @@ $(document).ready(function () {
 <p>Todos os arquivos com dados iniciais a seguir apresentados foram fornecidos pelos professores responsáveis pela disciplina. Os dados foram gerados no mês de maio de 2018, e compilam informações entre os anos de 2010 e 2017. Os arquivos estão no formato JSON, e seus atributos iniciais e conteúdos são apresentados a seguir.</p>
 <div id="perfil-profissional-dos-docentes-vinculados-as-pos-graduacoes" class="section level3">
 <h3>Perfil profissional dos docentes vinculados às pós-graduações</h3>
-<pre class="r"><code>json.perfil &lt;- &quot;ci/ci.profile.json&quot;
+<pre class="r"><code>json.perfil &lt;- &quot;unbpos/unbpos.profile.json&quot;
 file.info(json.perfil)</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"1126228","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:18:59","6":"2018-11-17 19:20:51","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ci/ci.profile.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"75162725","2":"FALSE","3":"666","4":"2018-09-14 22:25:06","5":"2018-11-17 21:29:10","6":"2018-11-17 22:08:02","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"unbpos/unbpos.profile.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-<p>O arquivo ci/ci.profile.json apresenta dados sobre o perfil de todos os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017. Esse arquivo foi fornecido pelos docentes responsáveis pela disciplina.</p>
+<p>O arquivo unbpos/unbpos.profile.json apresenta dados sobre o perfil de todos os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017. Esse arquivo foi fornecido pelos docentes responsáveis pela disciplina.</p>
+<pre class="r"><code>json.ci.perfil &lt;- &quot;ciencia_informacao/ci.profile.json&quot;
+file.info(json.ci.perfil)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"1126228","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:18:59","6":"2018-11-17 19:20:51","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ciencia_informacao/ci.profile.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.co.perfil &lt;- &quot;comunicacao/co.profile.json&quot;
+file.info(json.co.perfil)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"1247316","2":"FALSE","3":"666","4":"2018-06-21 01:35:36","5":"2018-11-16 15:20:36","6":"2018-11-18 00:27:01","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"comunicacao/co.profile.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.ps.perfil &lt;- &quot;politica_social/ps.profile.json&quot;
+file.info(json.ps.perfil)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"848798","2":"FALSE","3":"666","4":"2018-06-21 02:14:28","5":"2018-11-16 15:21:18","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"politica_social/ps.profile.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.so.perfil &lt;- &quot;sociologia/so.profile.json&quot;
+file.info(json.so.perfil)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"793037","2":"FALSE","3":"666","4":"2018-06-21 02:24:24","5":"2018-11-16 15:19:44","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"sociologia/so.profile.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<p>Da mesma forma, os arquivos <code>json.ci.perfil</code>, <code>json.co.perfil</code>, <code>json.ps.perfil</code> e <code>json.so.perfil</code>, apresentam, respectivamente, os dados sobre o perfil dos docentes vinculados programas de pós-graduação em Ciência da Informação, Comunicação, Política Social e Sociologia.</p>
 </div>
 <div id="orientacoes-de-mestrado-e-doutorado-realizadas-pelos-docentes-vinculados-as-pos-graduacoes" class="section level3">
 <h3>Orientações de mestrado e doutorado realizadas pelos docentes vinculados às pós-graduações</h3>
-<pre class="r"><code>json.advise &lt;- &quot;ci/ci.advise.json&quot;
+<pre class="r"><code>json.advise &lt;- &quot;unbpos/unbpos.advise.json&quot;
 file.info(json.advise)</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"526741","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:18:45","6":"2018-11-17 19:20:51","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ci/ci.advise.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"29828920","2":"FALSE","3":"666","4":"2018-09-14 22:24:56","5":"2018-11-17 21:29:10","6":"2018-11-17 21:29:10","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"unbpos/unbpos.advise.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-<p>O arquivo ci/ci.advise.json apresenta dados sobre o orientações de mestrado e doutorado feitas por todos os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017. Esse arquivo foi fornecido pelos docentes responsáveis pela disciplina.</p>
+<p>O arquivo unbpos/unbpos.advise.json apresenta dados sobre o orientações de mestrado e doutorado feitas por todos os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017. Esse arquivo foi fornecido pelos docentes responsáveis pela disciplina.</p>
+<pre class="r"><code>json.ci.advise &lt;- &quot;ciencia_informacao/ci.advise.json&quot;
+file.info(json.ci.advise)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"526741","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:18:45","6":"2018-11-17 19:20:51","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ciencia_informacao/ci.advise.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.co.advise &lt;- &quot;comunicacao/co.advise.json&quot;
+file.info(json.co.advise)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"569439","2":"FALSE","3":"666","4":"2018-06-21 01:35:36","5":"2018-11-16 15:20:23","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"comunicacao/co.advise.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.ps.advise &lt;- &quot;politica_social/ps.advise.json&quot;
+file.info(json.ps.advise)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"452241","2":"FALSE","3":"666","4":"2018-06-21 02:14:28","5":"2018-11-16 15:21:03","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"politica_social/ps.advise.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.so.advise &lt;- &quot;sociologia/so.advise.json&quot;
+file.info(json.so.advise)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"358097","2":"FALSE","3":"666","4":"2018-06-21 02:24:24","5":"2018-11-16 15:19:27","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"sociologia/so.advise.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<p>Da mesma forma, os arquivos <code>json.ci.advise</code>, <code>json.co.advise</code>, <code>json.ps.advise</code> e <code>json.so.advise</code>, apresentam, respectivamente, os dados sobre as orientações de mestrado e doutorado feitas pelos docentes vinculados programas de pós-graduação em Ciência da Informação, Comunicação, Política Social e Sociologia.</p>
 </div>
 <div id="producao-bibliografica-gerada-pelos-docentes-vinculados-as-pos-graduacoes" class="section level3">
 <h3>Produção bibliográfica gerada pelos docentes vinculados às pós-graduações</h3>
-<pre class="r"><code>json.producao.bibliografica &lt;- &quot;ci/ci.publication.json&quot;
+<pre class="r"><code>json.producao.bibliografica &lt;- &quot;unbpos/unbpos.publication.json&quot;
 file.info(json.producao.bibliografica) </code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"465994","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:19:03","6":"2018-11-17 19:20:51","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ci/ci.publication.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"33546293","2":"FALSE","3":"666","4":"2018-09-14 22:25:14","5":"2018-11-17 21:29:10","6":"2018-11-17 22:08:11","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"unbpos/unbpos.publication.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-<p>O arquivo ci/ci.publication.json apresenta dados sobre a produção bibliográfica gerada por todos os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017.</p>
+<p>O arquivo unbpos/unbpos.publication.json apresenta dados sobre a produção bibliográfica gerada por todos os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017.</p>
+<pre class="r"><code>json.ci.producao.bibliografica &lt;- &quot;ciencia_informacao/ci.publication.json&quot;
+file.info(json.ci.producao.bibliografica)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"465994","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:19:03","6":"2018-11-17 19:20:51","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ciencia_informacao/ci.publication.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.co.producao.bibliografica &lt;- &quot;comunicacao/co.publication.json&quot;
+file.info(json.co.producao.bibliografica)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"539523","2":"FALSE","3":"666","4":"2018-06-21 01:35:36","5":"2018-11-16 15:20:40","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"comunicacao/co.publication.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.ps.producao.bibliografica &lt;- &quot;politica_social/ps.publication.json&quot;
+file.info(json.ps.producao.bibliografica)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"299198","2":"FALSE","3":"666","4":"2018-06-21 02:14:28","5":"2018-11-16 15:21:29","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"politica_social/ps.publication.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>json.so.producao.bibliografica &lt;- &quot;sociologia/so.publication.json&quot;
+file.info(json.so.producao.bibliografica)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"331814","2":"FALSE","3":"666","4":"2018-06-21 02:24:24","5":"2018-11-16 15:19:48","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"sociologia/so.publication.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<p>Da mesma forma, os arquivos <code>json.ci.producao.bibliografica</code>, <code>json.co.producao.bibliografica</code>, <code>json.ps.producao.bibliografica</code> e <code>json.so.producao.bibliografica</code>, apresentam, respectivamente, os dados sobre a produção bibliográfica gerada pelos docentes vinculados programas de pós-graduação em Ciência da Informação, Comunicação, Política Social e Sociologia.</p>
 </div>
 <div id="agrupamento-dos-docentes-conforme-areas-de-atuacao" class="section level3">
 <h3>Agrupamento dos docentes conforme áreas de atuação</h3>
-<pre class="r"><code>json.researchers_by_area &lt;- &quot;ci/unbpos.researchers_by_area.json&quot; 
+<pre class="r"><code>json.researchers_by_area &lt;- &quot;unbpos/unbpos.researchers_by_area.json&quot; 
 file.info(json.researchers_by_area)</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"64366","2":"FALSE","3":"666","4":"2018-09-14 22:25:14","5":"2018-11-17 00:44:18","6":"2018-11-17 00:44:36","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ci/unbpos.researchers_by_area.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"64366","2":"FALSE","3":"666","4":"2018-09-14 22:25:14","5":"2018-11-17 21:29:10","6":"2018-11-17 22:08:15","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"unbpos/unbpos.researchers_by_area.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-<p>O arquivo ci/unbpos.researchers_by_area.json apresenta as vinculações de todos os docentes que declararam atuar em cada uma das áreas de pós-graduação do Sistema Nacional de Pós-Graduação da CAPES, conforme apresenta-se registrada essa informação no currículo Lattes de cada um, em data recente.</p>
-<pre class="r"><code>file.info('ci/ci.graph.json')</code></pre>
-<div data-pagedtable="false">
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"3722","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:18:51","6":"2018-11-16 15:37:28","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ci/ci.graph.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-</div>
+<p>O arquivo unbpos/unbpos.researchers_by_area.json apresenta as vinculações de todos os docentes que declararam atuar em cada uma das áreas de pós-graduação do Sistema Nacional de Pós-Graduação da CAPES, conforme apresenta-se registrada essa informação no currículo Lattes de cada um, em data recente.</p>
 </div>
 <div id="redes-de-colaboracao-entre-docentes" class="section level3">
 <h3>Redes de colaboração entre docentes</h3>
-<p>O arquivo data/UnBPosGeral/graph.json apresenta redes de colaboração na co-autoria de artigos cientpificos, feitas entre os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017.</p>
+<pre class="r"><code>file.info('unbpos/unbpos.graph.json')</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"503798","2":"FALSE","3":"666","4":"2018-09-14 22:24:58","5":"2018-11-17 21:29:10","6":"2018-11-17 22:08:15","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"unbpos/unbpos.graph.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<p>O arquivo <code>unbpos/unbpos.graph.json</code> apresenta redes de colaboração na co-autoria de artigos científicos, feitas entre os docentes vinculados a programas de pós-graduação da UnB, entre 2010 e 2017.</p>
+<pre class="r"><code>file.info('ciencia_informacao/ci.graph.json')</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"3722","2":"FALSE","3":"666","4":"2018-06-21 01:20:00","5":"2018-11-16 15:18:51","6":"2018-11-17 22:25:10","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"ciencia_informacao/ci.graph.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>file.info('comunicacao/co.graph.json')</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"4409","2":"FALSE","3":"666","4":"2018-06-21 01:35:36","5":"2018-11-16 15:20:28","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"comunicacao/co.graph.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>file.info('politica_social/ps.graph.json')</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"2647","2":"FALSE","3":"666","4":"2018-06-21 02:14:28","5":"2018-11-16 15:21:07","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"politica_social/ps.graph.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<pre class="r"><code>file.info('sociologia/so.graph.json')</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["size"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["isdir"],"name":[2],"type":["lgl"],"align":["right"]},{"label":["mode"],"name":[3],"type":["S3: octmode"],"align":["right"]},{"label":["mtime"],"name":[4],"type":["S3: POSIXct"],"align":["right"]},{"label":["ctime"],"name":[5],"type":["S3: POSIXct"],"align":["right"]},{"label":["atime"],"name":[6],"type":["S3: POSIXct"],"align":["right"]},{"label":["uid"],"name":[7],"type":["int"],"align":["right"]},{"label":["gid"],"name":[8],"type":["int"],"align":["right"]},{"label":["uname"],"name":[9],"type":["chr"],"align":["left"]},{"label":["grname"],"name":[10],"type":["chr"],"align":["left"]}],"data":[{"1":"3180","2":"FALSE","3":"666","4":"2018-06-21 02:24:24","5":"2018-11-16 15:19:33","6":"2018-11-18 02:51:37","7":"1000","8":"1000","9":"icaro","10":"icaro","_rn_":"sociologia/so.graph.json"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<p>Do mesmo modo, esses arquivos apresentam redes de colaboração na co-autoria de artigos. Representando, respectivamente, os programas de pós-graduação em Ciência da Informação, Comunicação, Política Social e Sociologia.</p>
 </div>
 </div>
 <div id="crisp-dm-fase.atividade-2.2---descricao-dos-dados" class="section level2">
@@ -524,163 +670,142 @@ library(readxl)
 library(readr)
 library(readtext)
 library(ggplot2)
-library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
-<pre><code>## ✔ tibble  1.4.2     ✔ dplyr   0.7.6
-## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
-## ✔ purrr   0.2.5     ✔ forcats 0.3.0</code></pre>
-<pre><code>## ── Conflicts ─────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter()  masks stats::filter()
-## ✖ purrr::flatten() masks jsonlite::flatten()
-## ✖ dplyr::lag()     masks stats::lag()</code></pre>
-<pre class="r"><code>library(stringr)</code></pre>
+library(tidyverse)
+library(stringr)</code></pre>
 <p>Como já informado, a descrição dos dados verifica se os dados sendo acessados terão potencial para responder às questões de <em>data mining</em>. Além disso, deve-se avaliar qual o volume de dados, a estrutura dos dados (tipos), codificações usadas, etc. Neste projeto, a descrição dos dados é responsabilidade parcial dos alunos, tendo em vista que esta seção já oferece uma descrição inicial simplificada. O relatório final deve conter descrições significativas e aprofundadas dos dados.</p>
 <div id="descricao-dos-dados-do-perfil" class="section level3">
 <h3>Descrição dos dados do perfil</h3>
 <p>O arquivo unb.perfis.json, que contém dados que caracterizam o perfil profissional de todos os docentes do grupo sob análise, podem ser lido por meio do comando seguinte.</p>
-<pre class="r"><code>unb.prof &lt;- fromJSON(&quot;ci/ci.profile.json&quot;)</code></pre>
-<p>A quantidade de docentes sob análise é apresentada a seguir.</p>
+<pre class="r"><code>unb.prof &lt;- fromJSON(&quot;unbpos/unbpos.profile.json&quot;)</code></pre>
+<p>O mesmo pode ser replicado para cada uma das áreas de interesse.</p>
+<pre class="r"><code>ci.prof &lt;- fromJSON(&quot;./ciencia_informacao/ci.profile.json&quot;)
+co.prof &lt;- fromJSON(&quot;./comunicacao/co.profile.json&quot;)
+ps.prof &lt;- fromJSON(&quot;./politica_social/ps.profile.json&quot;)
+so.prof &lt;- fromJSON(&quot;./sociologia/so.profile.json&quot;)</code></pre>
+<p>A quantidade de docentes sob análise é apresentada a seguir: Quantidade de docentes na pós-graduação da UnB.</p>
 <pre class="r"><code>length(unb.prof)</code></pre>
+<pre><code>## [1] 1764</code></pre>
+<p>Quantidade em cada um dos programas.</p>
+<pre class="r"><code># ciencia da informacao
+length(ci.prof)</code></pre>
+<pre><code>## [1] 27</code></pre>
+<pre class="r"><code># comunicacao
+length(co.prof)</code></pre>
+<pre><code>## [1] 31</code></pre>
+<pre class="r"><code># politica social
+length(ps.prof)</code></pre>
+<pre><code>## [1] 21</code></pre>
+<pre class="r"><code># sociologia
+length(so.prof)</code></pre>
 <pre><code>## [1] 27</code></pre>
 <p>Para gerar uma apresentação inicial dos dados que estão contido nos dados de perfil dos docentes, pode-se usar a função glimpse, da biblioteca dplyr, como ilustra o código seguinte, que apresenta os atributos típicos que podem ser obtidos relativamente a um pesquisador específico, o mais antigo docente ainda em exercício na UnB a ter criado seu registro na plataforma Lattes.</p>
 <pre class="r"><code>glimpse(unb.prof[[1]], width = 30)</code></pre>
 <pre><code>## List of 7
-##  $ nome                  : chr &quot;Fernando César Lima Leite&quot;
-##  $ resumo_cv             : chr &quot;Graduado em Biblioteconomia. Mestre em Ciência da Informação. Doutor em Ciência da Informação. Experiência na á&quot;| __truncated__
-##  $ areas_de_atuacao      :'data.frame':  4 obs. of  4 variables:
-##   ..$ grande_area  : chr [1:4] &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot;
-##   ..$ area         : chr [1:4] &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot;
-##   ..$ sub_area     : chr [1:4] &quot;&quot; &quot;Comunicação Científica&quot; &quot;Biblioteconomia&quot; &quot;Gestão do Conhecimento&quot;
-##   ..$ especialidade: chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;Gestão da informação e do conhecimento&quot;
+##  $ nome                  : chr &quot;Norai Romeu Rocco&quot;
+##  $ resumo_cv             : chr &quot;Possui graduação em Matemática (licenciatura plena) pela Universidade Estadual Paulista Júlio de Mesquita Filho&quot;| __truncated__
+##  $ areas_de_atuacao      :'data.frame':  5 obs. of  4 variables:
+##   ..$ grande_area  : chr [1:5] &quot;CIENCIAS_EXATAS_E_DA_TERRA&quot; &quot;CIENCIAS_EXATAS_E_DA_TERRA&quot; &quot;CIENCIAS_EXATAS_E_DA_TERRA&quot; &quot;CIENCIAS_EXATAS_E_DA_TERRA&quot; ...
+##   ..$ area         : chr [1:5] &quot;Matemática&quot; &quot;Matemática&quot; &quot;Matemática&quot; &quot;Ciência da Computação&quot; ...
+##   ..$ sub_area     : chr [1:5] &quot;&quot; &quot;Álgebra&quot; &quot;Álgebra&quot; &quot;Matemática da Computação&quot; ...
+##   ..$ especialidade: chr [1:5] &quot;&quot; &quot;&quot; &quot;Grupos de Álgebra Não-Comutaviva&quot; &quot;Matemática Simbólica&quot; ...
 ##  $ endereco_profissional :List of 8
 ##   ..$ instituicao: chr &quot;Universidade de Brasília&quot;
-##   ..$ orgao      : chr &quot;Faculdade de Ciência da Informação&quot;
-##   ..$ unidade    : chr &quot;&quot;
-##   ..$ DDD        : chr &quot;61&quot;
-##   ..$ telefone   : chr &quot;33072641&quot;
+##   ..$ orgao      : chr &quot;Instituto de Ciências Exatas&quot;
+##   ..$ unidade    : chr &quot;Departamento de Matemática&quot;
+##   ..$ DDD        : chr &quot;061&quot;
+##   ..$ telefone   : chr &quot;31076442&quot;
 ##   ..$ bairro     : chr &quot;Asa Norte&quot;
-##   ..$ cep        : chr &quot;70919900&quot;
+##   ..$ cep        : chr &quot;70910900&quot;
 ##   ..$ cidade     : chr &quot;Brasília&quot;
-##  $ producao_bibiografica :List of 5
-##   ..$ CAPITULO_DE_LIVRO                     :'data.frame':   3 obs. of  13 variables:
-##   .. ..$ tipo                    : chr [1:3] &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot;
-##   .. ..$ titulo_do_capitulo      : chr [1:3] &quot;Insumos conceituais e práticos para iniciativas de repositórios institucionais de acesso aberto à informação ci&quot;| __truncated__ &quot;Acesso Aberto no Brasil: aspetos históricos, ações institucionais e panorama atual&quot; &quot;Gestão integrada da informação científica e tecnológica e o acesso aberto: onde estamos e onde podemos chegar&quot;
-##   .. ..$ titulo_do_livro         : chr [1:3] &quot;Implantação e gestão de repositórios institucionais: políticas, memória, livre acesso e preservação&quot; &quot;Uma década de acesso aberto na UMinho e no mundo&quot; &quot;Repositórios digitais: teoria e prática&quot;
-##   .. ..$ ano                     : chr [1:3] &quot;2010&quot; &quot;2013&quot; &quot;2017&quot;
-##   .. ..$ doi                     : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
-##   .. ..$ pais_de_publicacao      : chr [1:3] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot;
-##   .. ..$ isbn                    : chr [1:3] &quot;9788523206550&quot; &quot;9789899870406&quot; &quot;9788570141972&quot;
-##   .. ..$ nome_da_editora         : chr [1:3] &quot;EdUFBA&quot; &quot;Universidade do Minho, Serviços de Documentação&quot; &quot;EDUTFPR&quot;
-##   .. ..$ numero_da_edicao_revisao: chr [1:3] &quot;&quot; &quot;1&quot; &quot;1&quot;
-##   .. ..$ organizadores           : chr [1:3] &quot;MARCONDES, C. H.; SAYÃO, L. F.; TOUTAIN, L. B.; ROSA, F. G.&quot; &quot;Eloy Rodrigues; Alma Swan; Ana Alice Baptista&quot; &quot;Vechiato, Fernando Luiz et al&quot;
-##   .. ..$ paginas                 : chr [1:3] &quot;163 - 202&quot; &quot;133 - 150&quot; &quot;35 - 65&quot;
-##   .. ..$ autores                 :List of 3
-##   .. ..$ autores-endogeno        :List of 3
-##   ..$ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA:'data.frame':   1 obs. of  9 variables:
-##   .. ..$ natureza          : chr &quot;Cartilha&quot;
-##   .. ..$ titulo            : chr &quot;Boas práticas para a construção de repositórios institucionais da produção científica&quot;
-##   .. ..$ ano               : chr &quot;2012&quot;
-##   .. ..$ pais_de_publicacao: chr &quot;Brasil&quot;
-##   .. ..$ editora           : chr &quot;IBICT&quot;
-##   .. ..$ doi               : chr &quot;&quot;
-##   .. ..$ numero_de_paginas : chr &quot;34&quot;
-##   .. ..$ autores           :List of 1
-##   .. ..$ autores-endogeno  :List of 1
-##   ..$ EVENTO                                :'data.frame':   5 obs. of  11 variables:
-##   .. ..$ natureza        : chr [1:5] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;RESUMO&quot; &quot;RESUMO&quot; ...
-##   .. ..$ titulo          : chr [1:5] &quot;Software livre para implementação de repositórios digitais e provedores de serviços: experiência da Embrapa Inf&quot;| __truncated__ &quot;Práticas de busca, acesso e disseminação da informação científica de pesquisadores de diferentes áreas do conhecimento&quot; &quot;Open Access publishing and academics? career assessment. Peer reviewers knowledge and opinions regarding open a&quot;| __truncated__ &quot;Políticas de acesso aberto das agências brasileiras de fomento à pesquisa&quot; ...
-##   .. ..$ nome_do_evento  : chr [1:5] &quot;Jornadas Argentinas de Informática (Jornadas de Software Libre)&quot; &quot;Encontro Nacional de Pesquisa em Ciência da Informação -I ENANCIB&quot; &quot;Fourth International PKP Scholarly Publishing Conference&quot; &quot;4ª Conferência Luso-Brasileira sobre Acesso Aberto&quot; ...
-##   .. ..$ ano_do_trabalho : chr [1:5] &quot;2010&quot; &quot;2012&quot; &quot;2013&quot; &quot;2013&quot; ...
-##   .. ..$ pais_do_evento  : chr [1:5] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
-##   .. ..$ cidade_do_evento: chr [1:5] &quot;Caba, Argentina&quot; &quot;Rio de Janeiro&quot; &quot;Mexico City&quot; &quot;São Paulo&quot; ...
-##   .. ..$ doi             : chr [1:5] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##   .. ..$ classificacao   : chr [1:5] &quot;NACIONAL&quot; &quot;NACIONAL&quot; &quot;INTERNACIONAL&quot; &quot;INTERNACIONAL&quot; ...
-##   .. ..$ paginas         : chr [1:5] &quot;1 - 9&quot; &quot; - &quot; &quot; - &quot; &quot; - &quot; ...
-##   .. ..$ autores         :List of 5
-##   .. ..$ autores-endogeno:List of 5
-##   ..$ LIVRO                                 :'data.frame':   1 obs. of  13 variables:
-##   .. ..$ titulo                  : chr &quot;Repositórios institucionais da América Latina e o acesso aberto à informação científica&quot;
-##   .. ..$ ano                     : chr &quot;2017&quot;
-##   .. ..$ tipo                    : chr &quot;LIVRO_PUBLICADO&quot;
-##   .. ..$ natureza                : chr &quot;TEXTO_INTEGRAL&quot;
-##   .. ..$ pais_de_publicacao      : chr &quot;Brasil&quot;
-##   .. ..$ isbn                    : chr &quot;9788570131201&quot;
-##   .. ..$ doi                     : chr &quot;&quot;
-##   .. ..$ nome_da_editora         : chr &quot;IBICT&quot;
-##   .. ..$ numero_da_edicao_revisao: chr &quot;1&quot;
-##   .. ..$ numero_de_paginas       : chr &quot;&quot;
-##   .. ..$ numero_de_volumes       : chr &quot;&quot;
-##   .. ..$ autores                 :List of 1
-##   .. ..$ autores-endogeno        :List of 1
-##   ..$ PERIODICO                             :'data.frame':   13 obs. of  10 variables:
-##   .. ..$ natureza        : chr [1:13] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; ...
-##   .. ..$ titulo          : chr [1:13] &quot;An Open Access Approach to Scientific Information Management at the Brazilian Agricultural Research Corporation&quot; &quot;Acesso aberto como estratégia de disseminação e preservação da produção científica discente: a Biblioteca Digit&quot;| __truncated__ &quot;Acesso aberto à informação científica em agricultura: a experiência da Empresa Brasileira de Pesquisa Agropecuá&quot;| __truncated__ &quot;Search, access and dissemination of scientific information from scientists, social scientists and humanists&quot; ...
-##   .. ..$ periodico       : chr [1:13] &quot;Scholarly and Research Communication&quot; &quot;Bibliotecas Universitárias : pesquisas, experiências e perspectivas&quot; &quot;Liinc em Revista&quot; &quot;Biblios (Lima)&quot; ...
-##   .. ..$ ano             : chr [1:13] &quot;2010&quot; &quot;2011&quot; &quot;2012&quot; &quot;2015&quot; ...
-##   .. ..$ volume          : chr [1:13] &quot;1&quot; &quot;1&quot; &quot;8&quot; &quot;&quot; ...
-##   .. ..$ issn            : chr [1:13] &quot;03163849&quot; &quot;21799504&quot; &quot;18083536&quot; &quot;15624730&quot; ...
-##   .. ..$ paginas         : chr [1:13] &quot;1 - 12&quot; &quot;71 - 80&quot; &quot;414 - 430&quot; &quot;22 - 42&quot; ...
-##   .. ..$ doi             : chr [1:13] &quot;&quot; &quot;&quot; &quot;10.18225/liinc.v8i2.503&quot; &quot;10.5195/biblios.2014.195&quot; ...
-##   .. ..$ autores         :List of 13
-##   .. ..$ autores-endogeno:List of 13
-##  $ orientacoes_academicas:List of 4
-##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO  :'data.frame': 3 obs. of  13 variables:
+##  $ producao_bibiografica :List of 4
+##   ..$ ARTIGO_ACEITO                         :'data.frame':   1 obs. of  10 variables:
+##   .. ..$ natureza        : chr &quot;NAO_INFORMADO&quot;
+##   .. ..$ titulo          : chr &quot;Finiteness conditions for the non-abelian tensor product of groups&quot;
+##   .. ..$ periodico       : chr &quot;MONATSHEFTE FUR MATHEMATIK&quot;
+##   .. ..$ ano             : chr &quot;2017&quot;
+##   .. ..$ volume          : chr &quot;&quot;
+##   .. ..$ issn            : chr &quot;00269255&quot;
+##   .. ..$ paginas         : chr &quot; - &quot;
+##   .. ..$ doi             : chr &quot;10.1007/s00605-017-1143-x&quot;
+##   .. ..$ autores         :List of 1
+##   .. ..$ autores-endogeno:List of 1
+##   ..$ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA:'data.frame':   7 obs. of  9 variables:
+##   .. ..$ natureza          : chr [1:7] &quot;DIVULGAÇÃO DE RESULTADOS DE PESQUISA&quot; &quot;DIVULGAÇÃO DE RESULTADOS DE PESQUISA&quot; &quot;DIVULGAÇÃO DE RESULTADOS DE PESQUISA&quot; &quot;DIVULGAÇÃO DE RESULTADOS DE PESQUISA&quot; ...
+##   .. ..$ titulo            : chr [1:7] &quot;NON-ABELIAN TENSOR SQUARE OF FINITE-BY-NILPOTENT GROUPS&quot; &quot;The q-tensor square of finitely generated nilpotent groups, q &gt;=0&quot; &quot;The q-tensor square of finitely generated nilpotent groups, q &gt;=0&quot; &quot;THE NON-ABELIAN TENSOR SQUARE OF RESIDUALLY FINITE GROUPS&quot; ...
+##   .. ..$ ano               : chr [1:7] &quot;2015&quot; &quot;2016&quot; &quot;2016&quot; &quot;2016&quot; ...
+##   .. ..$ pais_de_publicacao: chr [1:7] &quot;Estados Unidos&quot; &quot;Estados Unidos&quot; &quot;Estados Unidos&quot; &quot;Estados Unidos&quot; ...
+##   .. ..$ editora           : chr [1:7] &quot;&quot; &quot;ArXiv.com - Cornell University Library&quot; &quot;ArXiv.com - Cornell University Library&quot; &quot;ArXiv.com - Cornell University Library&quot; ...
+##   .. ..$ doi               : chr [1:7] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ numero_de_paginas : chr [1:7] &quot;8&quot; &quot;12&quot; &quot;12&quot; &quot;11&quot; ...
+##   .. ..$ autores           :List of 7
+##   .. ..$ autores-endogeno  :List of 7
+##   ..$ EVENTO                                :'data.frame':   1 obs. of  11 variables:
+##   .. ..$ natureza        : chr &quot;RESUMO&quot;
+##   .. ..$ titulo          : chr &quot;On Semidirect Products and non-abelian Tensor Products of Groups&quot;
+##   .. ..$ nome_do_evento  : chr &quot;XIX Colóquio Latinoamericano de Álgebra&quot;
+##   .. ..$ ano_do_trabalho : chr &quot;2012&quot;
+##   .. ..$ pais_do_evento  : chr &quot;Chile&quot;
+##   .. ..$ cidade_do_evento: chr &quot;Pucón - Chile&quot;
+##   .. ..$ doi             : chr &quot;&quot;
+##   .. ..$ classificacao   : chr &quot;INTERNACIONAL&quot;
+##   .. ..$ paginas         : chr &quot; - &quot;
+##   .. ..$ autores         :List of 1
+##   .. ..$ autores-endogeno:List of 1
+##   ..$ PERIODICO                             :'data.frame':   6 obs. of  10 variables:
+##   .. ..$ natureza        : chr [1:6] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; ...
+##   .. ..$ titulo          : chr [1:6] &quot;On the q-tensor square of a group&quot; &quot;A survey of non-abelian tensor products of groups and related constructions&quot; &quot;The q-tensor square of finitely generated nilpotent groups, q odd&quot; &quot;Non-abelian tensor square of finite-by-nilpotent groups&quot; ...
+##   .. ..$ periodico       : chr [1:6] &quot;Journal of Group Theory&quot; &quot;Boletim da Sociedade Paranaense de Matemática&quot; &quot;JOURNAL OF ALGEBRA AND ITS APPLICATIONS&quot; &quot;Archiv der Mathematik (Printed ed.)&quot; ...
+##   .. ..$ ano             : chr [1:6] &quot;2011&quot; &quot;2012&quot; &quot;2016&quot; &quot;2016&quot; ...
+##   .. ..$ volume          : chr [1:6] &quot;14&quot; &quot;30&quot; &quot;16&quot; &quot;107&quot; ...
+##   .. ..$ issn            : chr [1:6] &quot;14335883&quot; &quot;21751188&quot; &quot;02194988&quot; &quot;0003889X&quot; ...
+##   .. ..$ paginas         : chr [1:6] &quot;785 - 805&quot; &quot;77 - 89&quot; &quot;1750211 - &quot; &quot;127 - 133&quot; ...
+##   .. ..$ doi             : chr [1:6] &quot;10.1515/JGT.2010.084&quot; &quot;10.5269/bspm.v30i1.13350&quot; &quot;10.1142/S0219498817502115&quot; &quot;10.1007/s00013-016-0930-2&quot; ...
+##   .. ..$ autores         :List of 6
+##   .. ..$ autores-endogeno:List of 6
+##  $ orientacoes_academicas:List of 3
+##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO   :'data.frame':    3 obs. of  13 variables:
 ##   .. ..$ natureza                   : chr [1:3] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot;
-##   .. ..$ titulo                     : chr [1:3] &quot;Depósito da produção científica em repositórios institucionais de acesso aberto à informação científica&quot; &quot;Framework de interação humano-computador para o desenvolvimento de sistemas orientados à redução de assimetrias&quot;| __truncated__ &quot;Fatores que influenciam a comunicação de dados de pesquisa sobre o vírus da zika, na perspectiva de pesquisadores&quot;
-##   .. ..$ ano                        : chr [1:3] &quot;2015&quot; &quot;2016&quot; &quot;2017&quot;
-##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;8636654005487585&quot; &quot;8743793460674396&quot; &quot;5676915146365703&quot;
-##   .. ..$ nome_aluno                 : chr [1:3] &quot;Marília Augusta de Freitas&quot; &quot;José Antônio Machado do Nascimento&quot; &quot;Michelli Pereira da Costa&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;Cotas superiores para o expoente e o número mínimo de geradores do quadrado q-tensorial de grupos nilpotentes, q geq 0.&quot; &quot;Uma Apresentação Policíclica para o Quadrado q-Tensorial de um Grupo Policíclico&quot; &quot;Quadrado Tensorial Não-Abeliano de p-Grupos Finitos com Subgrupo Derivado de Ordem p, p ímpar&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2011&quot; &quot;2011&quot; &quot;2017&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;9037151037918091&quot; &quot;8664599889120339&quot; &quot;0723203301483174&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Eunice Cândida Pereira Rodrigues&quot; &quot;Ivonildes Ribeiro Martins&quot; &quot;Cleilton Aparecido Canal&quot;
 ##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
-##   .. ..$ curso                      : chr [1:3] &quot;Ciência da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciência da Informação&quot;
-##   .. ..$ codigo_do_curso            : chr [1:3] &quot;90000011&quot; &quot;90000010&quot; &quot;90000005&quot;
-##   .. ..$ bolsa                      : chr [1:3] &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot;
-##   .. ..$ agencia_financiadora       : chr [1:3] &quot;&quot; &quot;&quot; &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot;
-##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;&quot; &quot;&quot; &quot;002200000000&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Matemática&quot; &quot;Matemática&quot; &quot;Matemática&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;51500035&quot; &quot;51500035&quot; &quot;51500035&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;SIM&quot; &quot;SIM&quot; &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;Fundação de Amparo à Pesquisa do Estado de Mato Grosso&quot; &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;035600000004&quot; &quot;002200000000&quot; &quot;&quot;
 ##   .. ..$ nome_orientadores          :List of 3
 ##   .. ..$ id_lattes_orientadores     :List of 3
-##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO   :'data.frame': 7 obs. of  13 variables:
-##   .. ..$ natureza                   : chr [1:7] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; ...
-##   .. ..$ titulo                     : chr [1:7] &quot;Acesso aberto à informação científica: estudo sobre iniciativas desenvolvidas na Universidade Federal de Minas Gerais&quot; &quot;Gestão de teses e dissertações eletrônicas no contexto do acesso aberto à informação científica no Brasil&quot; &quot;Características e contribuições da via verde para o acesso aberto na América Latina&quot; &quot;Modelos de negócios de periodicos científicos da América Latina e Caribe&quot; ...
-##   .. ..$ ano                        : chr [1:7] &quot;2010&quot; &quot;2013&quot; &quot;2014&quot; &quot;2014&quot; ...
-##   .. ..$ id_lattes_aluno            : chr [1:7] &quot;&quot; &quot;8018556894529318&quot; &quot;5676915146365703&quot; &quot;1937356712603636&quot; ...
-##   .. ..$ nome_aluno                 : chr [1:7] &quot;Raisa Mendes Fernandes de Souza&quot; &quot;Tainá Batista de Assis&quot; &quot;Michelli Pereira Costa&quot; &quot;Julio Francisco Santillan Aldana&quot; ...
-##   .. ..$ instituicao                : chr [1:7] &quot;Universidade Federal de Minas Gerais&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
-##   .. ..$ curso                      : chr [1:7] &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciência da Informação&quot; &quot;Ciências da Informação&quot; ...
-##   .. ..$ codigo_do_curso            : chr [1:7] &quot;32000286&quot; &quot;51500183&quot; &quot;90000002&quot; &quot;51500183&quot; ...
-##   .. ..$ bolsa                      : chr [1:7] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot; ...
-##   .. ..$ agencia_financiadora       : chr [1:7] &quot;&quot; &quot;&quot; &quot;&quot; &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; ...
-##   .. ..$ codigo_agencia_financiadora: chr [1:7] &quot;&quot; &quot;&quot; &quot;&quot; &quot;002200000000&quot; ...
-##   .. ..$ nome_orientadores          :List of 7
-##   .. ..$ id_lattes_orientadores     :List of 7
-##   ..$ ORIENTACAO_EM_ANDAMENTO_MESTRADO:'data.frame': 2 obs. of  13 variables:
-##   .. ..$ natureza                   : chr [1:2] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
-##   .. ..$ titulo                     : chr [1:2] &quot;Diretrizes internacionais para bibliotecas prisionais&quot; &quot;Periódicos científicos eletrônicos no contexto das publicações ampliadas&quot;
-##   .. ..$ ano                        : chr [1:2] &quot;2016&quot; &quot;2016&quot;
-##   .. ..$ id_lattes_aluno            : chr [1:2] &quot;2403536925847453&quot; &quot;1563407482755076&quot;
-##   .. ..$ nome_aluno                 : chr [1:2] &quot;Luanna Vieira Leite&quot; &quot;Danyelle Mayara da Silva&quot;
-##   .. ..$ instituicao                : chr [1:2] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
-##   .. ..$ curso                      : chr [1:2] &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot;
-##   .. ..$ codigo_do_curso            : chr [1:2] &quot;90000012&quot; &quot;90000012&quot;
-##   .. ..$ bolsa                      : chr [1:2] &quot;NAO&quot; &quot;NAO&quot;
-##   .. ..$ agencia_financiadora       : chr [1:2] &quot;&quot; &quot;&quot;
-##   .. ..$ codigo_agencia_financiadora: chr [1:2] &quot;&quot; &quot;&quot;
-##   .. ..$ nome_orientadores          :List of 2
-##   .. ..$ id_lattes_orientadores     :List of 2
-##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS   :'data.frame': 19 obs. of  13 variables:
-##   .. ..$ natureza                   : chr [1:19] &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; ...
-##   .. ..$ titulo                     : chr [1:19] &quot;Acesso aberto à informação científica: análise bibliométrica preliminar da literatura brasileira&quot; &quot;Modelo de gestão de repositórios institucionais de acesso aberto à informação científica&quot; &quot;Mapeamento e caracterização dos repositórios institucionais de acesso aberto à informação científica das univer&quot;| __truncated__ &quot;Estado atual das bibliotecas digitais das universidades federais do Brasil&quot; ...
-##   .. ..$ ano                        : chr [1:19] &quot;2010&quot; &quot;2010&quot; &quot;2010&quot; &quot;2011&quot; ...
-##   .. ..$ id_lattes_aluno            : chr [1:19] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##   .. ..$ nome_aluno                 : chr [1:19] &quot;Sílvia Regina Batista Mendonça&quot; &quot;Michelli Costa&quot; &quot;Janaina dos Santos Melo e Maria Fernanda Mascarenhas Melis&quot; &quot;Fabrícia da Silva Costa Feitosa e Ludmilla de Melo Silva&quot; ...
-##   .. ..$ instituicao                : chr [1:19] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
-##   .. ..$ curso                      : chr [1:19] &quot;Biblioteconomia&quot; &quot;Biblioteconomia&quot; &quot;Biblioteconomia&quot; &quot;Biblioteconomia&quot; ...
-##   .. ..$ codigo_do_curso            : chr [1:19] &quot;90000000&quot; &quot;90000000&quot; &quot;90000000&quot; &quot;90000000&quot; ...
-##   .. ..$ bolsa                      : chr [1:19] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; ...
-##   .. ..$ agencia_financiadora       : chr [1:19] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##   .. ..$ codigo_agencia_financiadora: chr [1:19] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##   .. ..$ nome_orientadores          :List of 19
-##   .. ..$ id_lattes_orientadores     :List of 19
-##  $ senioridade           : chr &quot;9&quot;</code></pre>
+##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO    :'data.frame':    3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;Algumas Cotas Súperiores para aordem do Quadrado Tensorial não abeliano de um Grupo&quot; &quot;O Grau de Permutabilidade de Subgrupos de um Grupo Finito&quot; &quot;Sobre pE-grupos e pA-grupos finitos&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2010&quot; &quot;2011&quot; &quot;2012&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;5367744818899315&quot; &quot;&quot; &quot;0121355793029434&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Bruno Cesar Rodrigues Lima&quot; &quot;Mônica Aparecida Crunivel Valadão&quot; &quot;Marina Gabriella Ribeiro Bardella&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Matemática&quot; &quot;Matemática&quot; &quot;Matemática&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;51500035&quot; &quot;51500035&quot; &quot;51500035&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;NAO&quot; &quot;SIM&quot; &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;&quot; &quot;045000000000&quot; &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ ORIENTACAO_EM_ANDAMENTO_DOUTORADO:'data.frame':    1 obs. of  13 variables:
+##   .. ..$ natureza                   : chr &quot;Tese de doutorado&quot;
+##   .. ..$ titulo                     : chr &quot;Quadrado Tensorial não Abeliano de certas classes de Grupos Finitos&quot;
+##   .. ..$ ano                        : chr &quot;2014&quot;
+##   .. ..$ id_lattes_aluno            : chr &quot;1933036212945705&quot;
+##   .. ..$ nome_aluno                 : chr &quot;Juliana Silva Canella&quot;
+##   .. ..$ instituicao                : chr &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr &quot;Matemática&quot;
+##   .. ..$ codigo_do_curso            : chr &quot;51500035&quot;
+##   .. ..$ bolsa                      : chr &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 1
+##   .. ..$ id_lattes_orientadores     :List of 1
+##  $ senioridade           : chr &quot;8&quot;</code></pre>
 <p>Uma breve inspeção visual dos atributos anteriormente apresentados permite inferir que o pesquisador sob análise:</p>
 <ul>
 <li>Atua predominantemente na área de matemática.</li>
@@ -689,6 +814,652 @@ library(tidyverse)</code></pre>
 <li>Possui uma orientação de doutorado em andamento, iniciada em 2014.</li>
 <li>Foi classificado com senioridade 5.</li>
 </ul>
+<p>É possível fazer o mesmo com os dados específicos de cada programa de pós-graduação.</p>
+<pre class="r"><code># ciencia da informacao
+glimpse(ci.prof[[3]], width = 30)</code></pre>
+<pre><code>## List of 7
+##  $ nome                  : chr &quot;André Porto Ancona Lopez&quot;
+##  $ resumo_cv             : chr &quot;André Porto Ancona Lopez (apalopez@gmail.com) é Doutor em História Social (2001), mestre em História Social (19&quot;| __truncated__
+##  $ areas_de_atuacao      :'data.frame':  6 obs. of  4 variables:
+##   ..$ grande_area  : chr [1:6] &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; ...
+##   ..$ area         : chr [1:6] &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot; &quot;Ciência da Informação&quot; ...
+##   ..$ sub_area     : chr [1:6] &quot;Arquivologia&quot; &quot;Acesso à Informação&quot; &quot;Tipologia Documental&quot; &quot;Organização de Arquivos&quot; ...
+##   ..$ especialidade: chr [1:6] &quot;Documentos Imagéticos&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##  $ endereco_profissional :List of 8
+##   ..$ instituicao: chr &quot;Universidade de Brasília&quot;
+##   ..$ orgao      : chr &quot;Faculdade de Ciência da Informação&quot;
+##   ..$ unidade    : chr &quot;&quot;
+##   ..$ DDD        : chr &quot;61&quot;
+##   ..$ telefone   : chr &quot;31072633&quot;
+##   ..$ bairro     : chr &quot;Asa Norte&quot;
+##   ..$ cep        : chr &quot;70910900&quot;
+##   ..$ cidade     : chr &quot;Brasília&quot;
+##  $ producao_bibiografica :List of 5
+##   ..$ CAPITULO_DE_LIVRO                     :'data.frame':   14 obs. of  13 variables:
+##   .. ..$ tipo                    : chr [1:14] &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; ...
+##   .. ..$ titulo_do_capitulo      : chr [1:14] &quot;La gestión documental y la transparencia&quot; &quot;Mapeamento das áreas de Biblioteconomia. Ciência da Informação, Arquivologia e Museologia&quot; &quot;Identificação de tipologias documentais em acervos de trabalhadores&quot; &quot;A formação de arquivistas no Brasil: notas para um debate&quot; ...
+##   .. ..$ titulo_do_livro         : chr [1:14] &quot;Transparencia en las Américas&quot; &quot;Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação - Ancib: reflexão e proposta para dinamização&quot; &quot;Arquivos do mundo dos trabalhadores: coletânea do 2º Seminário Internacional&quot; &quot;Estudos avançados em Arquivologia&quot; ...
+##   .. ..$ ano                     : chr [1:14] &quot;2010&quot; &quot;2011&quot; &quot;2012&quot; &quot;2012&quot; ...
+##   .. ..$ doi                     : chr [1:14] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ pais_de_publicacao      : chr [1:14] &quot;México&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ isbn                    : chr [1:14] &quot;9789685954570&quot; &quot;0000000000&quot; &quot;9788589210348&quot; &quot;9788579832666&quot; ...
+##   .. ..$ nome_da_editora         : chr [1:14] &quot;Instituto Federal de Acceso a la Información y Protección de Datos (IFAI)&quot; &quot;Ideia&quot; &quot;CUT ; Arquivo Nacional&quot; &quot;Cultura Acadêmica&quot; ...
+##   .. ..$ numero_da_edicao_revisao: chr [1:14] &quot;1&quot; &quot;&quot; &quot;1&quot; &quot;1&quot; ...
+##   .. ..$ organizadores           : chr [1:14] &quot;Jacqueline Peschard Mariscal ; Sigrid Arzt Colunga; María Marván Laborde; María Elena Pérez-Jaén Zermeño; Ángel&quot;| __truncated__ &quot;Joana Coeli Ribeiro Garcia; Maria das Graças Targino&quot; &quot;Antonio José Marques; Inez Tereznha Stampa&quot; &quot;Marta Lígia Pomim Valentim&quot; ...
+##   .. ..$ paginas                 : chr [1:14] &quot;229 - 258&quot; &quot;55 - 79&quot; &quot;15 - 31&quot; &quot;181 - 196&quot; ...
+##   .. ..$ autores                 :List of 14
+##   .. ..$ autores-endogeno        :List of 14
+##   ..$ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA:'data.frame':   2 obs. of  9 variables:
+##   .. ..$ natureza          : chr [1:2] &quot;Blog&quot; &quot;Blog&quot;
+##   .. ..$ titulo            : chr [1:2] &quot;Blog Iberoamericano de Enseñanza Arquivistica Universitária&quot; &quot;DigifotoWeb: repositório digital de materiais fotográficos de arquivo&quot;
+##   .. ..$ ano               : chr [1:2] &quot;2010&quot; &quot;2010&quot;
+##   .. ..$ pais_de_publicacao: chr [1:2] &quot;Brasil&quot; &quot;Brasil&quot;
+##   .. ..$ editora           : chr [1:2] &quot;Google Blogspot&quot; &quot;Google Blogspot&quot;
+##   .. ..$ doi               : chr [1:2] &quot;&quot; &quot;&quot;
+##   .. ..$ numero_de_paginas : chr [1:2] &quot;&quot; &quot;&quot;
+##   .. ..$ autores           :List of 2
+##   .. ..$ autores-endogeno  :List of 2
+##   ..$ EVENTO                                :'data.frame':   51 obs. of  11 variables:
+##   .. ..$ natureza        : chr [1:51] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; ...
+##   .. ..$ titulo          : chr [1:51] &quot;Blogs de Diplomática e Tipologia Documental como instrumento de aprendizagem: uma experiencia da Universidade de Brasília&quot; &quot;O uso da folksonomia na organização e preservação do acervo imagético da Confederação Nacional dos Trabalhadore&quot;| __truncated__ &quot;O uso da folksonomia na organização e preservação do acervo imagético da Confederação Nacional dos Trabalhadore&quot;| __truncated__ &quot;A Informação, a Ciência, o Cientista e o Conhecimento&quot; ...
+##   .. ..$ nome_do_evento  : chr [1:51] &quot;II Congreso Internacional Comunicación 3.0&quot; &quot;Conference on Technology, Culture and Memory: strategies for preservation and information access&quot; &quot;Conference on Technology, Culture and Memory: strategies for preservation and information access&quot; &quot;X CINFORM - Encontro Nacional de Ensino e Pesquisa em Informação&quot; ...
+##   .. ..$ ano_do_trabalho : chr [1:51] &quot;2010&quot; &quot;2011&quot; &quot;2011&quot; &quot;2011&quot; ...
+##   .. ..$ pais_do_evento  : chr [1:51] &quot;Espanha&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ cidade_do_evento: chr [1:51] &quot;Salamanca&quot; &quot;Recife&quot; &quot;Recife&quot; &quot;Salvador&quot; ...
+##   .. ..$ doi             : chr [1:51] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ classificacao   : chr [1:51] &quot;INTERNACIONAL&quot; &quot;INTERNACIONAL&quot; &quot;INTERNACIONAL&quot; &quot;NACIONAL&quot; ...
+##   .. ..$ paginas         : chr [1:51] &quot;1086 - 1098&quot; &quot; - &quot; &quot; - &quot; &quot; - &quot; ...
+##   .. ..$ autores         :List of 51
+##   .. ..$ autores-endogeno:List of 51
+##   ..$ LIVRO                                 :'data.frame':   1 obs. of  13 variables:
+##   .. ..$ titulo                  : chr &quot;Diretrizes para o desenvolvimento de projetos de cunho científico&quot;
+##   .. ..$ ano                     : chr &quot;2010&quot;
+##   .. ..$ tipo                    : chr &quot;LIVRO_PUBLICADO&quot;
+##   .. ..$ natureza                : chr &quot;TEXTO_INTEGRAL&quot;
+##   .. ..$ pais_de_publicacao      : chr &quot;Brasil&quot;
+##   .. ..$ isbn                    : chr &quot;0000000000000&quot;
+##   .. ..$ doi                     : chr &quot;&quot;
+##   .. ..$ nome_da_editora         : chr &quot;UnB: Gestão de Segurança da Informação e Comunicações&quot;
+##   .. ..$ numero_da_edicao_revisao: chr &quot;1&quot;
+##   .. ..$ numero_de_paginas       : chr &quot;24&quot;
+##   .. ..$ numero_de_volumes       : chr &quot;1&quot;
+##   .. ..$ autores                 :List of 1
+##   .. ..$ autores-endogeno        :List of 1
+##   ..$ PERIODICO                             :'data.frame':   26 obs. of  10 variables:
+##   .. ..$ natureza        : chr [1:26] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; ...
+##   .. ..$ titulo          : chr [1:26] &quot;Blogs como ferramenta de ensino-aprendizagem de diplomática e tipologia documental: uma estratégia didática par&quot;| __truncated__ &quot;Contextualización archivística de documentos fotográficos&quot; &quot;Archivos y ciudadanía: el acceso a la información pública&quot; &quot;Building the archives profession in Brazil&quot; ...
+##   .. ..$ periodico       : chr [1:26] &quot;Perspectivas em Gestão &amp; Conhecimento&quot; &quot;Alexandria (Peru)&quot; &quot;Revista General de Información y Documentación&quot; &quot;Comma: international journal on archives&quot; ...
+##   .. ..$ ano             : chr [1:26] &quot;2011&quot; &quot;2011&quot; &quot;2011&quot; &quot;2012&quot; ...
+##   .. ..$ volume          : chr [1:26] &quot;1&quot; &quot;5&quot; &quot;21&quot; &quot;10&quot; ...
+##   .. ..$ issn            : chr [1:26] &quot;2236417X&quot; &quot;19911653&quot; &quot;11321873&quot; &quot;16801865&quot; ...
+##   .. ..$ paginas         : chr [1:26] &quot;86 - 99&quot; &quot;3 - 16&quot; &quot;249 - 264&quot; &quot;73 - 83&quot; ...
+##   .. ..$ doi             : chr [1:26] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ autores         :List of 26
+##   .. ..$ autores-endogeno:List of 26
+##  $ orientacoes_academicas:List of 7
+##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO              :'data.frame': 5 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:5] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; ...
+##   .. ..$ titulo                     : chr [1:5] &quot;Monitoramento informacional de ambiente de negócios na micro e pequena empresa (MPE): estudo do comércio vareji&quot;| __truncated__ &quot;A autenticidade da informação no processo de produção de prova testemunhal no Inquérito Parlamentar&quot; &quot;Os registros imagéticos/fotografias na interação sociocultural e econômica no movimento junino&quot; &quot;Intertextualidade, Ciência da Informação e a criação de sentido em fotografias: o caso de Formiga (MG)&quot; ...
+##   .. ..$ ano                        : chr [1:5] &quot;2011&quot; &quot;2014&quot; &quot;2015&quot; &quot;2015&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:5] &quot;0979364277580186&quot; &quot;7980249454439837&quot; &quot;3445829566458687&quot; &quot;3854885552647613&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:5] &quot;Eber Luis Capistrano Martins&quot; &quot;Tarciso Aparecido Higino de Carvalho&quot; &quot;Luiz Carlos Flôres de Assumpção&quot; &quot;Niraldo José do Nascimento&quot; ...
+##   .. ..$ instituicao                : chr [1:5] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:5] &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:5] &quot;51500183&quot; &quot;51500183&quot; &quot;51500183&quot; &quot;51500183&quot; ...
+##   .. ..$ bolsa                      : chr [1:5] &quot;SIM&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:5] &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; &quot;&quot; &quot;&quot; &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:5] &quot;002200000000&quot; &quot;&quot; &quot;&quot; &quot;002200000000&quot; ...
+##   .. ..$ nome_orientadores          :List of 5
+##   .. ..$ id_lattes_orientadores     :List of 5
+##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO               :'data.frame': 11 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:11] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; ...
+##   .. ..$ titulo                     : chr [1:11] &quot;O lado invisível da participação política: gestão da informação dos mecanismos digitais de participação polític&quot;| __truncated__ &quot;O impacto da gestão arquivística no processo de produção digital da TV Senado&quot; &quot;Organização e acesso de documentos sonoros na web: uma proposta de relação entre as teorias da Ciência da Infor&quot;| __truncated__ &quot;Registros imagéticos e a sustentabilidade: representações sobre o uso da imagem em projetos de captação de recu&quot;| __truncated__ ...
+##   .. ..$ ano                        : chr [1:11] &quot;2010&quot; &quot;2010&quot; &quot;2012&quot; &quot;2013&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:11] &quot;0077214616801148&quot; &quot;&quot; &quot;7941926847621109&quot; &quot;3445829566458687&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:11] &quot;Andrea Sampaio Perna&quot; &quot;Edna de Sousa Carvalho&quot; &quot;Clara Bessa da Costa&quot; &quot;Luiz Carlos Flôres de Assumpção&quot; ...
+##   .. ..$ instituicao                : chr [1:11] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:11] &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:11] &quot;51500183&quot; &quot;51500183&quot; &quot;51500183&quot; &quot;51500183&quot; ...
+##   .. ..$ bolsa                      : chr [1:11] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;045000000000&quot; ...
+##   .. ..$ nome_orientadores          :List of 11
+##   .. ..$ id_lattes_orientadores     :List of 11
+##   ..$ ORIENTACAO_CONCLUIDA_POS_DOUTORADO          :'data.frame': 1 obs. of  13 variables:
+##   .. ..$ natureza                   : chr &quot;Supervisão de pós-doutorado&quot;
+##   .. ..$ titulo                     : chr &quot;&quot;
+##   .. ..$ ano                        : chr &quot;2012&quot;
+##   .. ..$ id_lattes_aluno            : chr &quot;&quot;
+##   .. ..$ nome_aluno                 : chr &quot;Antonia Salvador Benitez&quot;
+##   .. ..$ instituicao                : chr &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr &quot;&quot;
+##   .. ..$ codigo_do_curso            : chr &quot;&quot;
+##   .. ..$ bolsa                      : chr &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 1
+##   .. ..$ id_lattes_orientadores     :List of 1
+##   ..$ ORIENTACAO_EM_ANDAMENTO_DOUTORADO           :'data.frame': 3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;O estado do conhecimento sobre o tema da fotografia na Ciência da Informação no Brasil: inovações e recorrência&quot;| __truncated__ &quot;Acervos imagéticos e acesso à informação: estudo sobre os documentos relacionados à luta contra a violação dos &quot;| __truncated__ &quot;Fotografias periciais: definição diplomática de documentos imagéticos forenses&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2014&quot; &quot;2015&quot; &quot;2015&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;8058407443429697&quot; &quot;6292189136309964&quot; &quot;&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Alessandra dos Santos Araújo&quot; &quot;Laila Figueiredo Di Pietro&quot; &quot;Edson Freitas Jr.&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;51500183&quot; &quot;51500183&quot; &quot;51500183&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;SIM&quot; &quot;SIM&quot; &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;045000000000&quot; &quot;045000000000&quot; &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ ORIENTACAO_EM_ANDAMENTO_INICIACAO_CIENTIFICA:'data.frame': 1 obs. of  13 variables:
+##   .. ..$ natureza                   : chr &quot;Iniciação Científica&quot;
+##   .. ..$ titulo                     : chr &quot;A influência da fotografia em revistas na formulação do pensamento político da sociedade civil na Argentina&quot;
+##   .. ..$ ano                        : chr &quot;2015&quot;
+##   .. ..$ id_lattes_aluno            : chr &quot;&quot;
+##   .. ..$ nome_aluno                 : chr &quot;Adriano Casemiro Nogueira Campos de Sousa&quot;
+##   .. ..$ instituicao                : chr &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr &quot;Abi - Ciências Sociais&quot;
+##   .. ..$ codigo_do_curso            : chr &quot;60662107&quot;
+##   .. ..$ bolsa                      : chr &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 1
+##   .. ..$ id_lattes_orientadores     :List of 1
+##   ..$ ORIENTACAO_EM_ANDAMENTO_MESTRADO            :'data.frame': 3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;A autenticidade arquivística de documentos eletrônicos como subsidio para elaboração de um padrão de logs para &quot;| __truncated__ &quot;Um dimensionamento de capacidade de TI a partir da geração automática de configuração&quot; &quot;Redes Neurais aplicadas aos registros para identificação de padrões em transações&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2015&quot; &quot;2015&quot; &quot;2015&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;3572277728003382&quot; &quot;4885748587935162&quot; &quot;7944701818626706&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Lucas de Sousa Brito&quot; &quot;Odilon de Freitas Militão Neto&quot; &quot;Rodrigo Ribeiro Pereira&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot; &quot;Ciências da Informação&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;51500183&quot; &quot;51500183&quot; &quot;51500183&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS               :'data.frame': 14 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:14] &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;INICIACAO_CIENTIFICA&quot; &quot;INICIACAO_CIENTIFICA&quot; &quot;INICIACAO_CIENTIFICA&quot; ...
+##   .. ..$ titulo                     : chr [1:14] &quot;Organização de documentos audiovisuais e imagéticos: uma abordagem em diplomática e tipologia documental&quot; &quot;Analise do tratamento arquivístico dado pelo Arquivo Público do Distrito Federal às fotografias sobre a reconst&quot;| __truncated__ &quot;Análise dos efeitos da aplicação da Resolução 14 do CONARQ em documentos imagéticos de arquivo, no Arquivo Públ&quot;| __truncated__ &quot;Panorama arquivístico do tratamento de documentos imagéticos de arquivo pelo Instituto Euvaldo Lodi&quot; ...
+##   .. ..$ ano                        : chr [1:14] &quot;2010&quot; &quot;2011&quot; &quot;2011&quot; &quot;2011&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:14] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:14] &quot;Nathalia Ferreira de Carvalho&quot; &quot;Kelly Pontes de Souza&quot; &quot;Pedro Davi Silva Carvalho&quot; &quot;Marcella Mendes Gonçalves&quot; ...
+##   .. ..$ instituicao                : chr [1:14] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:14] &quot;Biblioteconomia&quot; &quot;Arquivologia&quot; &quot;Arquivologia&quot; &quot;Arquivologia&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:14] &quot;90000022&quot; &quot;90000021&quot; &quot;90000021&quot; &quot;90000021&quot; ...
+##   .. ..$ bolsa                      : chr [1:14] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:14] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:14] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_orientadores          :List of 14
+##   .. ..$ id_lattes_orientadores     :List of 14
+##  $ senioridade           : chr &quot;8&quot;</code></pre>
+<pre class="r"><code># comunicacao 
+glimpse(co.prof[[7]], width = 30)</code></pre>
+<pre><code>## List of 7
+##  $ nome                  : chr &quot;Claudia Guilmar Linhares Sanz&quot;
+##  $ resumo_cv             : chr &quot;Atualmente, pesquisadora do Zentrum für Literatur- und Kulturforschung (ZfL), em Berlim, desenvolvendo a pesqui&quot;| __truncated__
+##  $ areas_de_atuacao      :'data.frame':  5 obs. of  4 variables:
+##   ..$ grande_area  : chr [1:5] &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_HUMANAS&quot; &quot;CIENCIAS_HUMANAS&quot; &quot;LINGUISTICA_LETRAS_E_ARTES&quot; ...
+##   ..$ area         : chr [1:5] &quot;Comunicação&quot; &quot;Filosofia&quot; &quot;Educação&quot; &quot;Artes&quot; ...
+##   ..$ sub_area     : chr [1:5] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   ..$ especialidade: chr [1:5] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##  $ endereco_profissional :List of 8
+##   ..$ instituicao: chr &quot;Universidade de Brasília&quot;
+##   ..$ orgao      : chr &quot;Faculdade de Educação&quot;
+##   ..$ unidade    : chr &quot;&quot;
+##   ..$ DDD        : chr &quot;61&quot;
+##   ..$ telefone   : chr &quot;31076160&quot;
+##   ..$ bairro     : chr &quot;Asa Norte&quot;
+##   ..$ cep        : chr &quot;70910900&quot;
+##   ..$ cidade     : chr &quot;Brasília&quot;
+##  $ producao_bibiografica :List of 4
+##   ..$ CAPITULO_DE_LIVRO                     :'data.frame':   3 obs. of  13 variables:
+##   .. ..$ tipo                    : chr [1:3] &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot;
+##   .. ..$ titulo_do_capitulo      : chr [1:3] &quot;A memórias das casas&quot; &quot;Estados fotográficos, fósseis e fantasmas&quot; &quot;A potência da imagem e o acontecimento na escola&quot;
+##   .. ..$ titulo_do_livro         : chr [1:3] &quot;Sobrados da Zona Oeste&quot; &quot;Fronteiras e trangressões na fotografia contemporânea&quot; &quot;Estilos de aprendizagem, tecnolog ias e inovações na educação&quot;
+##   .. ..$ ano                     : chr [1:3] &quot;2012&quot; &quot;2013&quot; &quot;2013&quot;
+##   .. ..$ doi                     : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ pais_de_publicacao      : chr [1:3] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot;
+##   .. ..$ isbn                    : chr [1:3] &quot;9788562114168&quot; &quot;9788598205854&quot; &quot;9788564593183&quot;
+##   .. ..$ nome_da_editora         : chr [1:3] &quot;Editora Olhares&quot; &quot;Casa das Musas&quot; &quot;UnB&quot;
+##   .. ..$ numero_da_edicao_revisao: chr [1:3] &quot;&quot; &quot;1&quot; &quot;1&quot;
+##   .. ..$ organizadores           : chr [1:3] &quot;Fernando Martinho&quot; &quot;Susana Dobal e Osmar Gonçalves&quot; &quot;Leda Maria Rangearo Fiorentini; Liliane Campos Machado; Maria do Carmo Nascimento Diniz; Otília Maria Alves da &quot;| __truncated__
+##   .. ..$ paginas                 : chr [1:3] &quot;8 - 18&quot; &quot;179 - 187&quot; &quot;79 - 86&quot;
+##   .. ..$ autores                 :List of 3
+##   .. ..$ autores-endogeno        :List of 3
+##   ..$ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA:'data.frame':   13 obs. of  9 variables:
+##   .. ..$ natureza          : chr [1:13] &quot;ARTIGO&quot; &quot;Texto de abertura de exposição&quot; &quot;ARTIGO&quot; &quot;ARTIGO&quot; ...
+##   .. ..$ titulo            : chr [1:13] &quot;Fotografias dentro da mochila ou tecnologias iluminadas&quot; &quot;Photoland: fotografia transformada em paisagem&quot; &quot;Nascimentos fotográficos&quot; &quot;O que vem à luz sobre um fundamento que lhe vem estranho&quot; ...
+##   .. ..$ ano               : chr [1:13] &quot;2010&quot; &quot;2010&quot; &quot;2011&quot; &quot;2011&quot; ...
+##   .. ..$ pais_de_publicacao: chr [1:13] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ editora           : chr [1:13] &quot;Fórum Latino americano de Fotografia&quot; &quot;Paraty em Foco&quot; &quot;Icônica&quot; &quot;Icônica&quot; ...
+##   .. ..$ doi               : chr [1:13] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ numero_de_paginas : chr [1:13] &quot;&quot; &quot;&quot; &quot;&quot; &quot;5&quot; ...
+##   .. ..$ autores           :List of 13
+##   .. ..$ autores-endogeno  :List of 13
+##   ..$ EVENTO                                :'data.frame':   4 obs. of  11 variables:
+##   .. ..$ natureza        : chr [1:4] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;RESUMO_EXPANDIDO&quot; &quot;COMPLETO&quot;
+##   .. ..$ titulo          : chr [1:4] &quot;O tempo e o espaço no território da fotografia&quot; &quot;Tempo para nada, só para fazer fotografias&quot; &quot;Cybernetic Theory and the Meaning of Education in Contemporary Society&quot; &quot;Tal mãe, tal filha: famílias fitness e os empresários de si mesmos no contexto da ?boa forma'&quot;
+##   .. ..$ nome_do_evento  : chr [1:4] &quot;FESTPOA- Festival Internacional de Fotografia de Porto Alegre&quot; &quot;FESTPOA- Festival Internacional de Fotografia de Porto Alegre&quot; &quot;13th Annual International Conference on Communication and Mass Media&quot; &quot;VIII Enpecom - Encontro de Pesquisa em Comunicac&amp;#807;a&amp;#771;o&quot;
+##   .. ..$ ano_do_trabalho : chr [1:4] &quot;2010&quot; &quot;2011&quot; &quot;2015&quot; &quot;2016&quot;
+##   .. ..$ pais_do_evento  : chr [1:4] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot;
+##   .. ..$ cidade_do_evento: chr [1:4] &quot;Porto Alegre&quot; &quot;Porto Alegre&quot; &quot;Atenas&quot; &quot;Curitiba&quot;
+##   .. ..$ doi             : chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ classificacao   : chr [1:4] &quot;INTERNACIONAL&quot; &quot;INTERNACIONAL&quot; &quot;INTERNACIONAL&quot; &quot;NACIONAL&quot;
+##   .. ..$ paginas         : chr [1:4] &quot;33 - 44&quot; &quot;69 - 82&quot; &quot;11 - 93&quot; &quot; - &quot;
+##   .. ..$ autores         :List of 4
+##   .. ..$ autores-endogeno:List of 4
+##   ..$ PERIODICO                             :'data.frame':   5 obs. of  10 variables:
+##   .. ..$ natureza        : chr [1:5] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; ...
+##   .. ..$ titulo          : chr [1:5] &quot;Insônia Fotográfica: promessa e fracasso do aniquilamento do tempo&quot; &quot;Quando o tempo fugiu do instantâneo&quot; &quot;Entre o tempo perdido e o instante: cronofotografia, ciência e temporalidade moderna&quot; &quot;A fábula da câmera invisível na escola e o regime contemporâneo de imagens&quot; ...
+##   .. ..$ periodico       : chr [1:5] &quot;FACOM (FAAP)&quot; &quot;Studium (UNICAMP)&quot; &quot;Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas&quot; &quot;REVISTA ECO-PÓS (ONLINE)&quot; ...
+##   .. ..$ ano             : chr [1:5] &quot;2011&quot; &quot;2011&quot; &quot;2014&quot; &quot;2015&quot; ...
+##   .. ..$ volume          : chr [1:5] &quot;23&quot; &quot;32&quot; &quot;9&quot; &quot;V.18&quot; ...
+##   .. ..$ issn            : chr [1:5] &quot;16768221&quot; &quot;15194388&quot; &quot;19818122&quot; &quot;21758689&quot; ...
+##   .. ..$ paginas         : chr [1:5] &quot;16 - 30&quot; &quot;4 - &quot; &quot;443 - 462&quot; &quot;119 - &quot; ...
+##   .. ..$ doi             : chr [1:5] &quot;&quot; &quot;&quot; &quot;10.1590/1981-81222014000200011&quot; &quot;&quot; ...
+##   .. ..$ autores         :List of 5
+##   .. ..$ autores-endogeno:List of 5
+##  $ orientacoes_academicas:List of 3
+##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO   :'data.frame': 3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;Caiu na Net: Violação de intimidade e regime de vigilância distribuída&quot; &quot;Sua melhor versão de si: os sentidos e as práticas da boa forma na contemporaneidade&quot; &quot;SER NO TEMPO: IMAGEM, TECNOLOGIA E SUBJETIVIDADE NO MUNDO CONTEMPORÂNEO&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2015&quot; &quot;2015&quot; &quot;2016&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;3513003179027403&quot; &quot;7502890940192840&quot; &quot;1921859680948956&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Bruno Ramos Crayesmeyer&quot; &quot;Angélica Fonsêca de Freitas&quot; &quot;Paulo Henrique Martins de Jesus&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Comunicação&quot; &quot;Comunicação&quot; &quot;Programa de Pós-Graduação em Comunicação&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;90000035&quot; &quot;90000035&quot; &quot;90000039&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;NAO&quot; &quot;SIM&quot; &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;&quot; &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;&quot; &quot;002200000000&quot; &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ ORIENTACAO_EM_ANDAMENTO_MESTRADO:'data.frame': 3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;Fotografia e tempo na penumbra: Francesca Woodman e a dança com fantasmas&quot; &quot;Tempo, Imagem e Subjetividade: Os sentidos de ser velho na sociedade de risco&quot; &quot;Comunicação museológica: A influência da linguagem poética em museus históricos do Distrito Federal.&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2016&quot; &quot;2017&quot; &quot;2017&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;0819148077988194&quot; &quot;3063666731999466&quot; &quot;0887390289207360&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Fabiane da Silva de Souza&quot; &quot;Mirella Ramos Costa Pessoa&quot; &quot;Ingridde dos Santos Alves&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Comunicação&quot; &quot;Comunicação&quot; &quot;Programa de Pós-Graduação em Comunicação&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;90000041&quot; &quot;90000041&quot; &quot;90000042&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;SIM&quot; &quot;SIM&quot; &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;002200000000&quot; &quot;045000000000&quot; &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS   :'data.frame': 11 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:11] &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;INICIACAO_CIENTIFICA&quot; &quot;INICIACAO_CIENTIFICA&quot; &quot;MONOGRAFIA_DE_CONCLUSAO_DE_CURSO_APERFEICOAMENTO_E_ESPECIALIZACAO&quot; ...
+##   .. ..$ titulo                     : chr [1:11] &quot;Fotografia e desjo: uma analise ensaística&quot; &quot;Memória e imagem na obra de Walter Benjamin&quot; &quot;Infância, imagem e educação: um estudo acerca dos escritos de Walter Benjamin&quot; &quot;EJA COMBINADA: um caminho para uma organização mais adequada aos tempos do aluno trabalhador&quot; ...
+##   .. ..$ ano                        : chr [1:11] &quot;2011&quot; &quot;2012&quot; &quot;2015&quot; &quot;2015&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:11] &quot;Henrique Assis; Pedro Lino&quot; &quot;Letícia Marotta Pedersoli de Oliveira&quot; &quot;Aluízio Augusto Carvalho Santos&quot; &quot;Adriane de Cravalho&quot; ...
+##   .. ..$ instituicao                : chr [1:11] &quot;Universidade Católica de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:11] &quot;Comunicação Social&quot; &quot;Comunicação Social&quot; &quot;Pedagogia&quot; &quot;Curso de Especialização em Educação na Diversidade e Cidania com ênfase EJA&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:11] &quot;90000025&quot; &quot;60293420&quot; &quot;60065990&quot; &quot;90000040&quot; ...
+##   .. ..$ bolsa                      : chr [1:11] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_orientadores          :List of 11
+##   .. ..$ id_lattes_orientadores     :List of 11
+##  $ senioridade           : chr &quot;8&quot;</code></pre>
+<pre class="r"><code># politica social
+glimpse(ps.prof[[8]], width = 30)</code></pre>
+<pre><code>## List of 7
+##  $ nome                  : chr &quot;Ivanete Salete Boschetti&quot;
+##  $ resumo_cv             : chr &quot;Graduada em Serviço Social pela Universidade Católica Dom Bosco (1985), mestre em Política Social pela Universi&quot;| __truncated__
+##  $ areas_de_atuacao      :'data.frame':  6 obs. of  4 variables:
+##   ..$ grande_area  : chr [1:6] &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; &quot;CIENCIAS_SOCIAIS_APLICADAS&quot; ...
+##   ..$ area         : chr [1:6] &quot;Serviço Social&quot; &quot;Serviço Social&quot; &quot;Serviço Social&quot; &quot;Serviço Social&quot; ...
+##   ..$ sub_area     : chr [1:6] &quot;Serviço Social Aplicado&quot; &quot;Fundamentos do Serviço Social&quot; &quot;Trabalho&quot; &quot;Previdência Social&quot; ...
+##   ..$ especialidade: chr [1:6] &quot;Seguridade Social&quot; &quot;Formação Profissional&quot; &quot;&quot; &quot;Assistência Social&quot; ...
+##  $ endereco_profissional :List of 8
+##   ..$ instituicao: chr &quot;Universidade de Brasília&quot;
+##   ..$ orgao      : chr &quot;Instituto de Ciências Humanas&quot;
+##   ..$ unidade    : chr &quot;Departamento de Serviço Social&quot;
+##   ..$ DDD        : chr &quot;61&quot;
+##   ..$ telefone   : chr &quot;31076631&quot;
+##   ..$ bairro     : chr &quot;Asa Norte&quot;
+##   ..$ cep        : chr &quot;70919970&quot;
+##   ..$ cidade     : chr &quot;Brasília&quot;
+##  $ producao_bibiografica :List of 6
+##   ..$ CAPITULO_DE_LIVRO                     :'data.frame':   9 obs. of  13 variables:
+##   .. ..$ tipo                    : chr [1:9] &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; ...
+##   .. ..$ titulo_do_capitulo      : chr [1:9] &quot;Os Custos da Crise para a Política Social&quot; &quot;As Políticas Sociais e os Programas Sociais Atuais na França e no Brasil&quot; &quot;Les Politiques Publiques et les Programmes Sociaux Actuels en France et au Brésil&quot; &quot;América Latina, Política Social e Pobreza: novo modelo de desenvolvimento?&quot; ...
+##   .. ..$ titulo_do_livro         : chr [1:9] &quot;Capitalismo em Crise. Política Social e Direitos&quot; &quot;O Trabalho Social França Brasil&quot; &quot;Le Travail Social en France et au Brésil&quot; &quot;Financeirização, Fundo Público e Poítica Social&quot; ...
+##   .. ..$ ano                     : chr [1:9] &quot;2010&quot; &quot;2011&quot; &quot;2011&quot; &quot;2012&quot; ...
+##   .. ..$ doi                     : chr [1:9] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ pais_de_publicacao      : chr [1:9] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ isbn                    : chr [1:9] &quot;9788524916694&quot; &quot;9788579950186&quot; &quot;9788579950186&quot; &quot;9788524919961&quot; ...
+##   .. ..$ nome_da_editora         : chr [1:9] &quot;Cortez&quot; &quot;SESC/CBCISS&quot; &quot;SESC;CBCISS&quot; &quot;Cortez&quot; ...
+##   .. ..$ numero_da_edicao_revisao: chr [1:9] &quot;1a&quot; &quot;1&quot; &quot;1&quot; &quot;1a&quot; ...
+##   .. ..$ organizadores           : chr [1:9] &quot;Ivanete Boschetti; Elaine Rossetti Behring; Silvana Mara de Morais dos Santos; Regina Célia Tamaso Mioto&quot; &quot;SESC;CBCISS&quot; &quot;SESC;CBCISS&quot; &quot;Evilásio Salvador; Elaine Rossetti Behring; Ivanete Boschetti, Sara Granemann&quot; ...
+##   .. ..$ paginas                 : chr [1:9] &quot;64 - 85&quot; &quot;63 - 76&quot; &quot;255 - 269&quot; &quot;31 - 58&quot; ...
+##   .. ..$ autores                 :List of 9
+##   .. ..$ autores-endogeno        :List of 9
+##   ..$ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA:'data.frame':   10 obs. of  9 variables:
+##   .. ..$ natureza          : chr [1:10] &quot;CFESS Manifesta&quot; &quot;CFESS Manifesta&quot; &quot;CFESS Manifesta&quot; &quot;CFESS Manifesta&quot; ...
+##   .. ..$ titulo            : chr [1:10] &quot;O Amor Exige Expressão e Reverência Coletiva&quot; &quot;Lutas Sociais e Exercício Profisisonal no Contexto da Crise do Capital: mediações e a consolidação do Projeto É&quot;| __truncated__ &quot;Pela Sustentabilidade dos Conselhos Profissionais e Aprovação do PL Anuidade&quot; &quot;Trabalho com Direitos. Pelo Fim da Desigualdade&quot; ...
+##   .. ..$ ano               : chr [1:10] &quot;2010&quot; &quot;2010&quot; &quot;2010&quot; &quot;2010&quot; ...
+##   .. ..$ pais_de_publicacao: chr [1:10] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ editora           : chr [1:10] &quot;CFESS&quot; &quot;CFESS&quot; &quot;CFESS&quot; &quot;CFESS&quot; ...
+##   .. ..$ doi               : chr [1:10] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ numero_de_paginas : chr [1:10] &quot;02&quot; &quot;04&quot; &quot;02&quot; &quot;02&quot; ...
+##   .. ..$ autores           :List of 10
+##   .. ..$ autores-endogeno  :List of 10
+##   ..$ EVENTO                                :'data.frame':   11 obs. of  11 variables:
+##   .. ..$ natureza        : chr [1:11] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;RESUMO&quot; ...
+##   .. ..$ titulo          : chr [1:11] &quot;Política Social e Direitos&quot; &quot;Condições de Trabalho e Projeto Ético Político Profissional&quot; &quot;AS ?REFORMAS? DA PROTEÇÃO SOCIAL EM TEMPOS DE CRISE&quot; &quot;Les effets de la crise actuelle sur la protection sociale au Brésil et en France&quot; ...
+##   .. ..$ nome_do_evento  : chr [1:11] &quot;XII Encontro Nacional de Pesquisadores em Serviço Social - ENPES&quot; &quot;Seminário Nacional: O Trabalho de Assistentes Sociais no SUAS&quot; &quot;XIII Encontro Nacional de Pesquisadores em Serviço Social&quot; &quot;Joint World Conference in Social Work and Social Development: Action and Impact&quot; ...
+##   .. ..$ ano_do_trabalho : chr [1:11] &quot;2010&quot; &quot;2011&quot; &quot;2012&quot; &quot;2012&quot; ...
+##   .. ..$ pais_do_evento  : chr [1:11] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ cidade_do_evento: chr [1:11] &quot;Rio de Janeiro&quot; &quot;Rio de Janeiro&quot; &quot;Juiz de Fora MG&quot; &quot;Estocolmo, Suécia&quot; ...
+##   .. ..$ doi             : chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ classificacao   : chr [1:11] &quot;NACIONAL&quot; &quot;NACIONAL&quot; &quot;NACIONAL&quot; &quot;INTERNACIONAL&quot; ...
+##   .. ..$ paginas         : chr [1:11] &quot; - &quot; &quot;`291 - 307&quot; &quot;s/p - s/p&quot; &quot; - &quot; ...
+##   .. ..$ autores         :List of 11
+##   .. ..$ autores-endogeno:List of 11
+##   ..$ LIVRO                                 :'data.frame':   6 obs. of  13 variables:
+##   .. ..$ titulo                  : chr [1:6] &quot;Política Social:Fundamentos e História&quot; &quot;Capitalismo em Crise. Política Social e Direitos&quot; &quot;Direito se Conquista: a Luta dos/as assistentes Sociais pelas 30 horas Semanais&quot; &quot;Política Social. Fundamentos e História&quot; ...
+##   .. ..$ ano                     : chr [1:6] &quot;2010&quot; &quot;2010&quot; &quot;2011&quot; &quot;2011&quot; ...
+##   .. ..$ tipo                    : chr [1:6] &quot;LIVRO_PUBLICADO&quot; &quot;LIVRO_ORGANIZADO_OU_EDICAO&quot; &quot;LIVRO_ORGANIZADO_OU_EDICAO&quot; &quot;LIVRO_PUBLICADO&quot; ...
+##   .. ..$ natureza                : chr [1:6] &quot;TEXTO_INTEGRAL&quot; &quot;LIVRO&quot; &quot;LIVRO&quot; &quot;TEXTO_INTEGRAL&quot; ...
+##   .. ..$ pais_de_publicacao      : chr [1:6] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; ...
+##   .. ..$ isbn                    : chr [1:6] &quot;8524912596&quot; &quot;9788524916694&quot; &quot;579.496.707-2&quot; &quot;8524912596&quot; ...
+##   .. ..$ doi                     : chr [1:6] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_da_editora         : chr [1:6] &quot;Cortez&quot; &quot;Cortez&quot; &quot;CFESS&quot; &quot;Cortez Editora&quot; ...
+##   .. ..$ numero_da_edicao_revisao: chr [1:6] &quot;7a&quot; &quot;1a&quot; &quot;1a&quot; &quot;9a&quot; ...
+##   .. ..$ numero_de_paginas       : chr [1:6] &quot;213&quot; &quot;309&quot; &quot;155&quot; &quot;213&quot; ...
+##   .. ..$ numero_de_volumes       : chr [1:6] &quot;1&quot; &quot;1&quot; &quot;1&quot; &quot;1&quot; ...
+##   .. ..$ autores                 :List of 6
+##   .. ..$ autores-endogeno        :List of 6
+##   ..$ PERIODICO                             :'data.frame':   10 obs. of  10 variables:
+##   .. ..$ natureza        : chr [1:10] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; ...
+##   .. ..$ titulo          : chr [1:10] &quot;Condições de trabalho e a luta dos(as) assistentes sociais pela jornada semanal de 30 horas&quot; &quot;Desafios e Atuação da ABEPSS no Contexto da ?Reforma? do Ensino Superior no Final dos Anos 1990 - Gestão 1998-2000 Qualis B1&quot; &quot;Os Intensos Anos de ?Atitude Crítica para Avançar na Luta? - Qualis B4&quot; &quot;A insidiosa corrosão dos sistemas de proteção social europeus&quot; ...
+##   .. ..$ periodico       : chr [1:10] &quot;Serviço Social &amp; Sociedade&quot; &quot;Temporalis (Brasília)&quot; &quot;Revista Inscrita (Rio de Janeiro)&quot; &quot;Serviço Social &amp; Sociedade&quot; ...
+##   .. ..$ ano             : chr [1:10] &quot;2011&quot; &quot;2011&quot; &quot;2012&quot; &quot;2012&quot; ...
+##   .. ..$ volume          : chr [1:10] &quot;&quot; &quot;2&quot; &quot;13&quot; &quot;&quot; ...
+##   .. ..$ issn            : chr [1:10] &quot;01016628&quot; &quot;15187934&quot; &quot;14150921&quot; &quot;01016628&quot; ...
+##   .. ..$ paginas         : chr [1:10] &quot;557 - 584&quot; &quot;27 - 42&quot; &quot;28 - 33&quot; &quot;754 - 803&quot; ...
+##   .. ..$ doi             : chr [1:10] &quot;10.1590/S0101-66282011000300010&quot; &quot;&quot; &quot;&quot; &quot;10.1590/S0101-66282012000400008&quot; ...
+##   .. ..$ autores         :List of 10
+##   .. ..$ autores-endogeno:List of 10
+##   ..$ TEXTO_EM_JORNAIS                      :'data.frame':   1 obs. of  9 variables:
+##   .. ..$ natureza        : chr &quot;REVISTA_MAGAZINE&quot;
+##   .. ..$ titulo          : chr &quot;Tendências da Assistência Social após 20 anos de LOAS&quot;
+##   .. ..$ periodico       : chr &quot;Revista do Congemas&quot;
+##   .. ..$ ano             : chr &quot;2013&quot;
+##   .. ..$ issn            : chr &quot;&quot;
+##   .. ..$ paginas         : chr &quot;23 - 29&quot;
+##   .. ..$ doi             : chr &quot;&quot;
+##   .. ..$ autores         :List of 1
+##   .. ..$ autores-endogeno:List of 1
+##  $ orientacoes_academicas:List of 7
+##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO              :'data.frame': 11 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:11] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; ...
+##   .. ..$ titulo                     : chr [1:11] &quot;(Des)Estruturação do Trabalho e Condições para a Universalização da Previdência Social no Brasil&quot; &quot;Mercosul e a Política de Assistência Social:&quot; &quot;A Concepção da Política de Assistência Social e sua Efetivação em Municípios Goianos: o Novo Jargão e o Conserv&quot;| __truncated__ &quot;Proteção Social no Capitalismo: Contribuições à Crítica de Matrizes Teóricas e Ideológicas Conflitantes&quot; ...
+##   .. ..$ ano                        : chr [1:11] &quot;2011&quot; &quot;2011&quot; &quot;2012&quot; &quot;2013&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:11] &quot;6985760672107950&quot; &quot;5314743908635602&quot; &quot;5100268908025158&quot; &quot;4621637454405096&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:11] &quot;Maria Lucia Lopes da Silva&quot; &quot;Karen Santana de Almeida Vieira&quot; &quot;Maisa Miralva Silva&quot; &quot;Camila Potyara Pereira&quot; ...
+##   .. ..$ instituicao                : chr [1:11] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:11] &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:11] &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot; ...
+##   .. ..$ bolsa                      : chr [1:11] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;045000000000&quot; ...
+##   .. ..$ nome_orientadores          :List of 11
+##   .. ..$ id_lattes_orientadores     :List of 11
+##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO               :'data.frame': 4 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:4] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
+##   .. ..$ titulo                     : chr [1:4] &quot;O Direito Socio-assistencial de Segurança de Renda no Brasil&quot; &quot;O Crescimento da Previdência Complementar como Efeito da Contrarreforma do Estado no Brasil: o Direito à Proteç&quot;| __truncated__ &quot;Conceito de Deficiência na Materialização do Acesso ao BPC: Impactos na Proteção e na Relação Assistência Social e Trabalho&quot; &quot;A Política de Trabalho no Brasil e a Efetivação de Vínculos Estáveis: retorno à Individualização da Proteção Social&quot;
+##   .. ..$ ano                        : chr [1:4] &quot;2011&quot; &quot;2011&quot; &quot;2014&quot; &quot;2014&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:4] &quot;8276613839586798&quot; &quot;9076244548086829&quot; &quot;0126476057249391&quot; &quot;5310348041508543&quot;
+##   .. ..$ nome_aluno                 : chr [1:4] &quot;Alvaro André Santarém Amorim&quot; &quot;Pollyana Moreira de Assis&quot; &quot;Taís Leite Flores&quot; &quot;Fabiana Esteves Boaventura&quot;
+##   .. ..$ instituicao                : chr [1:4] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:4] &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot;
+##   .. ..$ codigo_do_curso            : chr [1:4] &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot;
+##   .. ..$ bolsa                      : chr [1:4] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 4
+##   .. ..$ id_lattes_orientadores     :List of 4
+##   ..$ ORIENTACAO_CONCLUIDA_POS_DOUTORADO          :'data.frame': 3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Supervisão de pós-doutorado&quot; &quot;Supervisão de pós-doutorado&quot; &quot;Supervisão de pós-doutorado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2015&quot; &quot;2015&quot; &quot;2017&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Silvana Mara de Morais dos Santos&quot; &quot;Andrea Lima da Silva&quot; &quot;Esther Luiza de Souza Lemos&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;SIM&quot; &quot;SIM&quot; &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;045000000000&quot; &quot;045000000000&quot; &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ ORIENTACAO_EM_ANDAMENTO_DOUTORADO           :'data.frame': 4 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:4] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot;
+##   .. ..$ titulo                     : chr [1:4] &quot;O fetiche da inserção individual no mercado de trabalho no Brasil: precarização do trabalho e das políticas de &quot;| __truncated__ &quot;O extermínio da juventude negra e os desafios às políticas sociais&quot; &quot;O debate teórico e as polêmicas sobre a assistência social nas produções do Serviço Social&quot; &quot;TRABALHO, OPRESSÕES E ONTOLOGIA DO SER SOCIAL: A ALIENAÇÃO E A UNIDADE EXPLORAÇÃO-OPRESSÃO&quot;
+##   .. ..$ ano                        : chr [1:4] &quot;2014&quot; &quot;2015&quot; &quot;2016&quot; &quot;2017&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:4] &quot;5310348041508543&quot; &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ nome_aluno                 : chr [1:4] &quot;Fabiana Esteves Boaventura&quot; &quot;Leonardo Ortegal&quot; &quot;Raquel Sabará de Freitas&quot; &quot;PAULO WESCLEY PINHEIRO&quot;
+##   .. ..$ instituicao                : chr [1:4] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:4] &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot;
+##   .. ..$ codigo_do_curso            : chr [1:4] &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot;
+##   .. ..$ bolsa                      : chr [1:4] &quot;SIM&quot; &quot;NAO&quot; &quot;SIM&quot; &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr [1:4] &quot;&quot; &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:4] &quot;&quot; &quot;&quot; &quot;045000000000&quot; &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 4
+##   .. ..$ id_lattes_orientadores     :List of 4
+##   ..$ ORIENTACAO_EM_ANDAMENTO_INICIACAO_CIENTIFICA:'data.frame': 4 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:4] &quot;Iniciação Científica&quot; &quot;Iniciação Científica&quot; &quot;Iniciação Científica&quot; &quot;Iniciação Científica&quot;
+##   .. ..$ titulo                     : chr [1:4] &quot;O Debate sobre Dívida Pública e Expropriação de Direitos nas Teses de Doutorados e Livros do Serviço Social&quot; &quot;O Debate sobre Dívida Pública e Expropriação de Direitos nos Artigos Científicos na Área do Serviço Social&quot; &quot;A Dívida Pública e os Processos de Expropriação dos Direitos Sociais no Brasileiro&quot; &quot;Expropriação e Acumulação de Capital na Literatura Francesa Marxista&quot;
+##   .. ..$ ano                        : chr [1:4] &quot;2017&quot; &quot;2017&quot; &quot;2017&quot; &quot;2017&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ nome_aluno                 : chr [1:4] &quot;Victoria Maria da Costa&quot; &quot;Giovanna Guarese&quot; &quot;Gabriela Rodrigues de Moraes&quot; &quot;Sofia Rodrigues&quot;
+##   .. ..$ instituicao                : chr [1:4] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:4] &quot;Serviço Social&quot; &quot;Serviço Social&quot; &quot;Serviço Social&quot; &quot;Serviço Social&quot;
+##   .. ..$ codigo_do_curso            : chr [1:4] &quot;60317493&quot; &quot;60317493&quot; &quot;60317493&quot; &quot;60317493&quot;
+##   .. ..$ bolsa                      : chr [1:4] &quot;SIM&quot; &quot;SIM&quot; &quot;SIM&quot; &quot;SIM&quot;
+##   .. ..$ agencia_financiadora       : chr [1:4] &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;Universidade de Brasília&quot; &quot;Conselho Nacional de Desenvolvimento Científico e Tecnológico&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:4] &quot;045000000000&quot; &quot;002000000996&quot; &quot;002200000000&quot; &quot;045000000000&quot;
+##   .. ..$ nome_orientadores          :List of 4
+##   .. ..$ id_lattes_orientadores     :List of 4
+##   ..$ ORIENTACAO_EM_ANDAMENTO_MESTRADO            :'data.frame': 3 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:3] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot;
+##   .. ..$ titulo                     : chr [1:3] &quot;Política Econômica e Bloco Político no Governo Lula&quot; &quot;A concepção da família na seguridade social brasileira e a garantia dos direitos das pessoas LGBT: Uma analise &quot;| __truncated__ &quot;POLÍTICA SOCIAL E CIDADANIA LGBT: A GARANTIA DE DIREITOS E OS LIMITES EMANCIPATÓRIOS NO CAPITALISMO&quot;
+##   .. ..$ ano                        : chr [1:3] &quot;2016&quot; &quot;2017&quot; &quot;2017&quot;
+##   .. ..$ id_lattes_aluno            : chr [1:3] &quot;&quot; &quot;6298226014768391&quot; &quot;1134437109362587&quot;
+##   .. ..$ nome_aluno                 : chr [1:3] &quot;Franklin Rabelo de Melo&quot; &quot;Helena Godoy Brito&quot; &quot;DJONATAN KAIC RIBEIRO DE SOUZA&quot;
+##   .. ..$ instituicao                : chr [1:3] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr [1:3] &quot;Política Social&quot; &quot;Política Social&quot; &quot;Política Social&quot;
+##   .. ..$ codigo_do_curso            : chr [1:3] &quot;51500353&quot; &quot;51500353&quot; &quot;51500353&quot;
+##   .. ..$ bolsa                      : chr [1:3] &quot;NAO&quot; &quot;SIM&quot; &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr [1:3] &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr [1:3] &quot;&quot; &quot;045000000000&quot; &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 3
+##   .. ..$ id_lattes_orientadores     :List of 3
+##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS               :'data.frame': 32 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:32] &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot; &quot;INICIACAO_CIENTIFICA&quot; ...
+##   .. ..$ titulo                     : chr [1:32] &quot;Os Desafios da Avaliação Social para Acesso ao BPC&quot; &quot;O Avanço dos Planos Privados de Saúde Pós Constituição de 1988: a Consolidação de um Sistema Dual&quot; &quot;População de Rua e (Des) Proteção Social: Análise da Política Nacional para a População em Situação de Rua&quot; &quot;As Tendências Contemporâneas da Política de Direitos da Cidadania para Mulheres no Brasil&quot; ...
+##   .. ..$ ano                        : chr [1:32] &quot;2010&quot; &quot;2011&quot; &quot;2011&quot; &quot;2013&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:32] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:32] &quot;Alan Teles da Silva&quot; &quot;Jorge Augusto Bezerra&quot; &quot;Getúlio Henrique Alves&quot; &quot;Helena Fragoso de Mendonça Santiago&quot; ...
+##   .. ..$ instituicao                : chr [1:32] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:32] &quot;Serviço Social&quot; &quot;Serviço Social&quot; &quot;Serviço Social&quot; &quot;Serviço Social&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:32] &quot;90000004&quot; &quot;90000004&quot; &quot;90000004&quot; &quot;60083557&quot; ...
+##   .. ..$ bolsa                      : chr [1:32] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:32] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:32] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_orientadores          :List of 32
+##   .. ..$ id_lattes_orientadores     :List of 32
+##  $ senioridade           : chr &quot;8&quot;</code></pre>
+<pre class="r"><code># sociologia
+glimpse(so.prof[[2]], width = 30)</code></pre>
+<pre><code>## List of 7
+##  $ nome                  : chr &quot;Christiane Girard Ferreira Nunes&quot;
+##  $ resumo_cv             : chr &quot;Graduação em Sociologia - Universite de Paris VIII (1981), Mestrado em Sociologia - Universite Paris VIIII (198&quot;| __truncated__
+##  $ areas_de_atuacao      :'data.frame':  3 obs. of  4 variables:
+##   ..$ grande_area  : chr [1:3] &quot;CIENCIAS_HUMANAS&quot; &quot;CIENCIAS_HUMANAS&quot; &quot;CIENCIAS_HUMANAS&quot;
+##   ..$ area         : chr [1:3] &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot;
+##   ..$ sub_area     : chr [1:3] &quot;&quot; &quot;SOCIOLOGIA DO TRABALHO&quot; &quot;Sociologia Clínica&quot;
+##   ..$ especialidade: chr [1:3] &quot;&quot; &quot;&quot; &quot;&quot;
+##  $ endereco_profissional :List of 8
+##   ..$ instituicao: chr &quot;Universidade de Brasília&quot;
+##   ..$ orgao      : chr &quot;Instituto de Ciências Humanas&quot;
+##   ..$ unidade    : chr &quot;&quot;
+##   ..$ DDD        : chr &quot;061&quot;
+##   ..$ telefone   : chr &quot;31077333&quot;
+##   ..$ bairro     : chr &quot;ASA NORTE&quot;
+##   ..$ cep        : chr &quot;70910-900&quot;
+##   ..$ cidade     : chr &quot;Brasilia&quot;
+##  $ producao_bibiografica :List of 6
+##   ..$ ARTIGO_ACEITO                         :'data.frame':   2 obs. of  10 variables:
+##   .. ..$ natureza        : chr [1:2] &quot;NAO_INFORMADO&quot; &quot;NAO_INFORMADO&quot;
+##   .. ..$ titulo          : chr [1:2] &quot;Entre o prescrito e o real: o papel da subjetividade na efetivação dos direitos das empregadas domesticas no Brasil&quot; &quot;A Arte de trabalhar&quot;
+##   .. ..$ periodico       : chr [1:2] &quot;Sociedade e Estado (UnB. Impresso)&quot; &quot;Lamparina: Revista de Ensino do Teatro&quot;
+##   .. ..$ ano             : chr [1:2] &quot;2014&quot; &quot;2014&quot;
+##   .. ..$ volume          : chr [1:2] &quot;&quot; &quot;&quot;
+##   .. ..$ issn            : chr [1:2] &quot;01026992&quot; &quot;21776121&quot;
+##   .. ..$ paginas         : chr [1:2] &quot; - &quot; &quot; - &quot;
+##   .. ..$ doi             : chr [1:2] &quot;&quot; &quot;&quot;
+##   .. ..$ autores         :List of 2
+##   .. ..$ autores-endogeno:List of 2
+##   ..$ CAPITULO_DE_LIVRO                     :'data.frame':   4 obs. of  13 variables:
+##   .. ..$ tipo                    : chr [1:4] &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot; &quot;Capítulo de livro publicado&quot;
+##   .. ..$ titulo_do_capitulo      : chr [1:4] &quot;As Representações dos Empresários Sobre Inovação&quot; &quot;Sociologia Clinica&quot; &quot;o contexto do trabalho dos professores (as) na educação superior: as mudanças no mundo do trabalho do professor&quot; &quot;A pluralidade dos movimentos sociais (em temáticas de Políticas Públicas Espaciais)&quot;
+##   .. ..$ titulo_do_livro         : chr [1:4] &quot;PAEDI - Pesquisa sobre Atitudes Empresariais para Desenvolvimento e Inovação&quot; &quot;Dicionário Critica de Gestão e Psicodinâmica do trabalho&quot; &quot;O contexto do trabalho dos professores (as) na educação superior: as mudanças no mundo do trabalho e no mundo dos professores&quot; &quot;Território, agentes-atores e políticas públicas espaciais&quot;
+##   .. ..$ ano                     : chr [1:4] &quot;2012&quot; &quot;2013&quot; &quot;2013&quot; &quot;2017&quot;
+##   .. ..$ doi                     : chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ pais_de_publicacao      : chr [1:4] &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot; &quot;Brasil&quot;
+##   .. ..$ isbn                    : chr [1:4] &quot;9788578111465&quot; &quot;9788536243559&quot; &quot;9788536242514&quot; &quot;9788564898820&quot;
+##   .. ..$ nome_da_editora         : chr [1:4] &quot;Ipea&quot; &quot;Juruá editora psicologia biblioteca&quot; &quot;Juruá editora&quot; &quot;&quot;
+##   .. ..$ numero_da_edicao_revisao: chr [1:4] &quot;1&quot; &quot;22&quot; &quot;22&quot; &quot;1&quot;
+##   .. ..$ organizadores           : chr [1:4] &quot;Lenita Maria Turchi; João Alberto de Negri; Alvaro Comin&quot; &quot;Fernando de Oliveira Viera; Ana Magnolia Mendes, Alvaro Roberto Crespo de Melo&quot; &quot;Leda Gonçalves de Freitas&quot; &quot;Marilia Steinberger&quot;
+##   .. ..$ paginas                 : chr [1:4] &quot;421 - 464&quot; &quot;409 - 413&quot; &quot;49 - 67&quot; &quot;1 - &quot;
+##   .. ..$ autores                 :List of 4
+##   .. ..$ autores-endogeno        :List of 4
+##   ..$ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA:'data.frame':   1 obs. of  9 variables:
+##   .. ..$ natureza          : chr &quot;artigo&quot;
+##   .. ..$ titulo            : chr &quot;A arte de trabalhar&quot;
+##   .. ..$ ano               : chr &quot;2014&quot;
+##   .. ..$ pais_de_publicacao: chr &quot;Brasil&quot;
+##   .. ..$ editora           : chr &quot;UFMG belas artes&quot;
+##   .. ..$ doi               : chr &quot;&quot;
+##   .. ..$ numero_de_paginas : chr &quot;57-70&quot;
+##   .. ..$ autores           :List of 1
+##   .. ..$ autores-endogeno  :List of 1
+##   ..$ LIVRO                                 :'data.frame':   1 obs. of  13 variables:
+##   .. ..$ titulo                  : chr &quot;Manifeste convivialiste- déclaration d´interdépendance&quot;
+##   .. ..$ ano                     : chr &quot;2013&quot;
+##   .. ..$ tipo                    : chr &quot;LIVRO_PUBLICADO&quot;
+##   .. ..$ natureza                : chr &quot;COLETANEA&quot;
+##   .. ..$ pais_de_publicacao      : chr &quot;França&quot;
+##   .. ..$ isbn                    : chr &quot;9782356872517&quot;
+##   .. ..$ doi                     : chr &quot;&quot;
+##   .. ..$ nome_da_editora         : chr &quot;Le Bord de l´Eau&quot;
+##   .. ..$ numero_da_edicao_revisao: chr &quot;1&quot;
+##   .. ..$ numero_de_paginas       : chr &quot;39&quot;
+##   .. ..$ numero_de_volumes       : chr &quot;1&quot;
+##   .. ..$ autores                 :List of 1
+##   .. ..$ autores-endogeno        :List of 1
+##   ..$ PERIODICO                             :'data.frame':   4 obs. of  10 variables:
+##   .. ..$ natureza        : chr [1:4] &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot; &quot;COMPLETO&quot;
+##   .. ..$ titulo          : chr [1:4] &quot;Rumo a um novo mercado: uma abordagem sociológica do comércio justo e solidário&quot; &quot;Entre o prescrito e o Real: O papel da subjetividade na efetivação dos direitos das empregadas domesticas&quot; &quot;A arte de trabalhar&quot; &quot;Planejamento urbano, arquitetura e urbanismo: a serviços de uma outra geografia? Brasilmar Ferreira Nunes (em memória)&quot;
+##   .. ..$ periodico       : chr [1:4] &quot;Mercado de Trabalho (Rio de Janeiro. 1996)&quot; &quot;Sociedade e Estado (UnB. Impresso)&quot; &quot;Lamparina: Revista de Ensino do Teatro&quot; &quot;Sociedade e Estado&quot;
+##   .. ..$ ano             : chr [1:4] &quot;2011&quot; &quot;2013&quot; &quot;2014&quot; &quot;2016&quot;
+##   .. ..$ volume          : chr [1:4] &quot;49&quot; &quot;28&quot; &quot;1&quot; &quot;31&quot;
+##   .. ..$ issn            : chr [1:4] &quot;16760883&quot; &quot;01026992&quot; &quot;21776121&quot; &quot;19805462&quot;
+##   .. ..$ paginas         : chr [1:4] &quot;67 - 77&quot; &quot;587-606 - &quot; &quot;57 - 70&quot; &quot;1980-5462 - &quot;
+##   .. ..$ doi             : chr [1:4] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot;
+##   .. ..$ autores         :List of 4
+##   .. ..$ autores-endogeno:List of 4
+##   ..$ TEXTO_EM_JORNAIS                      :'data.frame':   1 obs. of  9 variables:
+##   .. ..$ natureza        : chr &quot;JORNAL_DE_NOTICIAS&quot;
+##   .. ..$ titulo          : chr &quot;Sobre a perpetuação da pobreza&quot;
+##   .. ..$ periodico       : chr &quot;Correio Braziliense&quot;
+##   .. ..$ ano             : chr &quot;2017&quot;
+##   .. ..$ issn            : chr &quot;&quot;
+##   .. ..$ paginas         : chr &quot; - &quot;
+##   .. ..$ doi             : chr &quot;&quot;
+##   .. ..$ autores         :List of 1
+##   .. ..$ autores-endogeno:List of 1
+##  $ orientacoes_academicas:List of 5
+##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO   :'data.frame':    11 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:11] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; ...
+##   .. ..$ titulo                     : chr [1:11] &quot;?A construção política e o engajamento militante na economia solidária?&quot; &quot;?Sentidos da prática docente ? o caso da Universidade Católica de Brasília?&quot; &quot;?Análise da ambigüidade discursiva em uma experiência na economia solidária?&quot; &quot;Direito ao trabalho e conquista da cidadania: um estudo sobre cooperativas sociais no contexto da economia solidária&quot; ...
+##   .. ..$ ano                        : chr [1:11] &quot;2010&quot; &quot;2010&quot; &quot;2010&quot; &quot;2010&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:11] &quot;0580793909196813&quot; &quot;&quot; &quot;8596631752170536&quot; &quot;8450612520149090&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:11] &quot;Jonas de Oliveira Bertucci&quot; &quot;Ricardo Spíndola Mariz&quot; &quot;Simone Aparecida Lisniowski&quot; &quot;Rita de Cássia Andrade Martins&quot; ...
+##   .. ..$ instituicao                : chr [1:11] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:11] &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:11] &quot;51500094&quot; &quot;51500094&quot; &quot;51500094&quot; &quot;51500094&quot; ...
+##   .. ..$ bolsa                      : chr [1:11] &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; &quot;NAO&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:11] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_orientadores          :List of 11
+##   .. ..$ id_lattes_orientadores     :List of 11
+##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO    :'data.frame':    5 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:5] &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; &quot;Dissertação de mestrado&quot; ...
+##   .. ..$ titulo                     : chr [1:5] &quot;Construção do Mercado Solidário Brasileiro: contribuições das redes econômicas solidárias&quot; &quot;Peguei o diploma, e agora? - Desafios, dilemas e estratégias de inserção ocupacional de jovens recém-graduados &quot;| __truncated__ &quot;Formas de Vida, Formas de Conhecimento e Processos de Mudança Sócio-Cultural&quot; &quot;Reestruturação Produtiva da Economia e Terceirização (ou semi-escravidão?): os sentidos do trabalho e as disput&quot;| __truncated__ ...
+##   .. ..$ ano                        : chr [1:5] &quot;2011&quot; &quot;2011&quot; &quot;2012&quot; &quot;2014&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:5] &quot;&quot; &quot;9756886246113422&quot; &quot;5142964346538200&quot; &quot;2068612156860278&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:5] &quot;Ivette Tatiana Castilla Carrascal&quot; &quot;Tauvana da Silva Yung&quot; &quot;Thamires Castelar Torres Sales&quot; &quot;Samuel Nogueira Costa&quot; ...
+##   .. ..$ instituicao                : chr [1:5] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:5] &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:5] &quot;51500094&quot; &quot;51500094&quot; &quot;51500094&quot; &quot;51500094&quot; ...
+##   .. ..$ bolsa                      : chr [1:5] &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot; &quot;NAO&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:5] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:5] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##   .. ..$ nome_orientadores          :List of 5
+##   .. ..$ id_lattes_orientadores     :List of 5
+##   ..$ ORIENTACAO_EM_ANDAMENTO_DOUTORADO:'data.frame':    5 obs. of  13 variables:
+##   .. ..$ natureza                   : chr [1:5] &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; &quot;Tese de doutorado&quot; ...
+##   .. ..$ titulo                     : chr [1:5] &quot;A definir&quot; &quot;A definir&quot; &quot;A definir&quot; &quot;A definir&quot; ...
+##   .. ..$ ano                        : chr [1:5] &quot;2015&quot; &quot;2016&quot; &quot;2016&quot; &quot;2016&quot; ...
+##   .. ..$ id_lattes_aluno            : chr [1:5] &quot;&quot; &quot;2587452729961465&quot; &quot;&quot; &quot;2881285886940119&quot; ...
+##   .. ..$ nome_aluno                 : chr [1:5] &quot;Tauvana da Silva Yung&quot; &quot;Márcio Henrique de Carvalho&quot; &quot;Carolina Vicente Ferreira Lima&quot; &quot;Marcello Cavalcanti Barra&quot; ...
+##   .. ..$ instituicao                : chr [1:5] &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; &quot;Universidade de Brasília&quot; ...
+##   .. ..$ curso                      : chr [1:5] &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot; &quot;Sociologia&quot; ...
+##   .. ..$ codigo_do_curso            : chr [1:5] &quot;51500094&quot; &quot;51500094&quot; &quot;51500094&quot; &quot;51500094&quot; ...
+##   .. ..$ bolsa                      : chr [1:5] &quot;NAO&quot; &quot;NAO&quot; &quot;SIM&quot; &quot;NAO&quot; ...
+##   .. ..$ agencia_financiadora       : chr [1:5] &quot;&quot; &quot;&quot; &quot;Coordenação de Aperfeiçoamento de Pessoal de Nível Superior&quot; &quot;&quot; ...
+##   .. ..$ codigo_agencia_financiadora: chr [1:5] &quot;&quot; &quot;&quot; &quot;045000000000&quot; &quot;&quot; ...
+##   .. ..$ nome_orientadores          :List of 5
+##   .. ..$ id_lattes_orientadores     :List of 5
+##   ..$ ORIENTACAO_EM_ANDAMENTO_GRADUACAO:'data.frame':    1 obs. of  13 variables:
+##   .. ..$ natureza                   : chr &quot;Trabalho de conclusão de curso de graduação&quot;
+##   .. ..$ titulo                     : chr &quot;assédio moral e educação&quot;
+##   .. ..$ ano                        : chr &quot;2014&quot;
+##   .. ..$ id_lattes_aluno            : chr &quot;&quot;
+##   .. ..$ nome_aluno                 : chr &quot;Orion Macunaima Basso Coppe&quot;
+##   .. ..$ instituicao                : chr &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr &quot;Sociologia&quot;
+##   .. ..$ codigo_do_curso            : chr &quot;90000014&quot;
+##   .. ..$ bolsa                      : chr &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 1
+##   .. ..$ id_lattes_orientadores     :List of 1
+##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS    :'data.frame':    1 obs. of  13 variables:
+##   .. ..$ natureza                   : chr &quot;TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO&quot;
+##   .. ..$ titulo                     : chr &quot;Trabalho e questão racial&quot;
+##   .. ..$ ano                        : chr &quot;2014&quot;
+##   .. ..$ id_lattes_aluno            : chr &quot;&quot;
+##   .. ..$ nome_aluno                 : chr &quot;Marina Macedo Araujo&quot;
+##   .. ..$ instituicao                : chr &quot;Universidade de Brasília&quot;
+##   .. ..$ curso                      : chr &quot;Sociologia&quot;
+##   .. ..$ codigo_do_curso            : chr &quot;90000014&quot;
+##   .. ..$ bolsa                      : chr &quot;NAO&quot;
+##   .. ..$ agencia_financiadora       : chr &quot;&quot;
+##   .. ..$ codigo_agencia_financiadora: chr &quot;&quot;
+##   .. ..$ nome_orientadores          :List of 1
+##   .. ..$ id_lattes_orientadores     :List of 1
+##  $ senioridade           : chr &quot;8&quot;</code></pre>
 <div id="potencial-de-utilizacao-dos-dados-do-perfil-dos-docentes" class="section level4">
 <h4>Potencial de utilização dos dados do perfil dos docentes</h4>
 <p>Esses dados terão potencial para responder às questões de <em>data mining</em>? O que é possível gerar a partir desses dados, para o conjunto dos 1592 docentes da UnB? A fim de compreender a relevância dos dados para a avaliação da produção acadêmica nas pós-graduações brasileiras pode-se recorrer a trabalhos como os seguintes:</p>
@@ -712,7 +1483,7 @@ Estariam esses fatores contemplados, de alguma forma, memso que parcialmente, no
 </div>
 <div id="descricao-dos-dados-de-orientacoes" class="section level3">
 <h3>Descrição dos dados de orientações</h3>
-<pre class="r"><code>unb.adv &lt;- fromJSON(&quot;ci/ci.advise.json&quot;)
+<pre class="r"><code>unb.adv &lt;- fromJSON(&quot;unbpos/unbpos.advise.json&quot;)
 names(unb.adv)</code></pre>
 <pre><code>## [1] &quot;ORIENTACAO_EM_ANDAMENTO_DE_POS_DOUTORADO&quot;    
 ## [2] &quot;ORIENTACAO_EM_ANDAMENTO_DOUTORADO&quot;           
@@ -726,37 +1497,62 @@ names(unb.adv)</code></pre>
 <pre class="r"><code>names(unb.adv$ORIENTACAO_CONCLUIDA_DOUTORADO)</code></pre>
 <pre><code>## [1] &quot;2010&quot; &quot;2011&quot; &quot;2012&quot; &quot;2013&quot; &quot;2014&quot; &quot;2015&quot; &quot;2016&quot; &quot;2017&quot;</code></pre>
 <pre class="r"><code>length(unb.adv$ORIENTACAO_CONCLUIDA_DOUTORADO$`2016`$natureza)</code></pre>
-<pre><code>## [1] 11</code></pre>
+<pre><code>## [1] 606</code></pre>
 <pre class="r"><code>head(sort(table(unb.adv$ORIENTACAO_CONCLUIDA_DOUTORADO$`2017`$curso), decreasing = TRUE), 10)</code></pre>
 <pre><code>## 
-##                             Ciências da Informação 
-##                                                 10 
-## Programa de Pós-Graduação em Ciência da Informação 
-##                                                  2 
-##                              Ciência da Informação 
-##                                                  1 
-##                                   Ciências Sociais 
-##                                                  1 
-##                                           Educação 
-##                                                  1 
-##                   História da Ciência / Museologia 
-##                                                  1 
-##         História e Filosofia da Ciência Museologia 
-##                                                  1</code></pre>
+##                           Ciências da Saúde 
+##                                          17 
+##                                   Geografia 
+##                                          15 
+##                                    Educação 
+##                                          14 
+##                Psicologia Clínica e Cultura 
+##                                          14 
+## Processos de Desenvolvimento Humano e Saúde 
+##                                          13 
+##                                    Economia 
+##                                          12 
+##                                   Geotecnia 
+##                                          11 
+##                             Biologia Animal 
+##                                          10 
+##                      Ciências da Informação 
+##                                          10 
+##                                    Geologia 
+##                                          10</code></pre>
 <pre class="r"><code>head(sort(table(unb.adv$ORIENTACAO_CONCLUIDA_MESTRADO$`2017`$curso), decreasing = TRUE), 10)</code></pre>
 <pre><code>## 
-##                             Ciências da Informação 
-##                                                  4 
-##                                        Comunicação 
-##                                                  2 
-##                              Ciência da Informação 
-##                                                  1 
-## Programa de Pós-Graduação em Ciência da Informação 
-##                                                  1</code></pre>
+##                                    Economia 
+##                                          43 
+##                                     Direito 
+##                                          34 
+##                           Ciências da Saúde 
+##                                          28 
+##             Ciências e Tecnologias em Saúde 
+##                                          26 
+##               Estruturas e Construção Civil 
+##                                          25 
+##                         Estudos de Tradução 
+##                                          25 
+##                                  Literatura 
+##                                          21 
+## Processos de Desenvolvimento Humano e Saúde 
+##                                          20 
+##                                    Geologia 
+##                                          19 
+##                          Ciências Mecânicas 
+##                                          18</code></pre>
+<pre class="r"><code>ci.adv &lt;- fromJSON(&quot;./ciencia_informacao/ci.advise.json&quot;)
+names(unb.adv) == names(ci.adv)</code></pre>
+<pre><code>## [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE</code></pre>
+<pre class="r"><code>co.adv &lt;- fromJSON(&quot;./comunicacao/co.advise.json&quot;)
+ps.adv &lt;- fromJSON(&quot;./politica_social/ps.advise.json&quot;)
+so.adv &lt;- fromJSON(&quot;./sociologia/so.advise.json&quot;)</code></pre>
+<p>A mesma leitura feita com o arquivo <code>unb.adv</code> pode ser realizada com os arquivos dos programas específicos.</p>
 </div>
 <div id="descricao-dos-dados-de-producao-bibliografica" class="section level3">
 <h3>Descrição dos dados de produção bibliográfica</h3>
-<pre class="r"><code>unb.pub &lt;- fromJSON(&quot;ci/ci.publication.json&quot;)
+<pre class="r"><code>unb.pub &lt;- fromJSON(&quot;unbpos/unbpos.publication.json&quot;)
 names(unb.pub)</code></pre>
 <pre><code>## [1] &quot;PERIODICO&quot;                             
 ## [2] &quot;LIVRO&quot;                                 
@@ -772,48 +1568,47 @@ names(unb.pub)</code></pre>
 ## [10] &quot;autores-endogeno&quot;</code></pre>
 <pre class="r"><code>head(sort(table(unb.pub$PERIODICO$`2017`$periodico), decreasing = TRUE), 10)</code></pre>
 <pre><code>## 
-##                           REVISTA IBERO-AMERICANA DE CIÊNCIA DA INFORMAÇÃO 
-##                                                                          6 
-##                                           Informação &amp; Informação (Online) 
-##                                                                          5 
-##                                      INFORMAÇÃO &amp; SOCIEDADE (UFPB. ONLINE) 
-##                                                                          5 
-##             PESQUISA BRASILEIRA EM CIÊNCIA DA INFORMAÇÃO E BIBLIOTECONOMIA 
-##                                                                          4 
-## RECIIS - Revista Eletrônica de Comunicação, Informação &amp; Inovação em Saúde 
-##                                                                          4 
-##                                                             BIBLIOS (LIMA) 
-##                                                                          3 
-##                                   BRAZILIAN JOURNAL OF INFORMATION SCIENCE 
-##                                                                          3 
-##                                                                 Em Questão 
-##                                                                          2 
-##                                                                 EM QUESTÃO 
-##                                                                          2 
-##                            Perspectivas em Ciência da Informação (on line) 
-##                                                                          2</code></pre>
+##               REVISTA DE SAÚDE PÚBLICA (ONLINE) 
+##                                              23 
+##                                        PLoS One 
+##                                              21 
+##                              ESPACIOS (CARACAS) 
+##                                              16 
+##                              Scientific Reports 
+##                                              16 
+##                        Ciencia &amp; Saude Coletiva 
+##                                              15 
+##                 GENETICS AND MOLECULAR RESEARCH 
+##                                              15 
+##                          CADERNOS DE PROSPECÇÃO 
+##                                              14 
+##        JOURNAL OF SOUTH AMERICAN EARTH SCIENCES 
+##                                              14 
+##           Journal of Molecular Modeling (Print) 
+##                                              13 
+## RBC. REVISTA BRASILEIRA DE CARTOGRAFIA (ONLINE) 
+##                                              13</code></pre>
 <pre class="r"><code>head(sort(table(unb.pub$LIVRO$`2015`$nome_da_editora), decreasing = TRUE), 10)</code></pre>
 <pre><code>## 
-##                                                Atlas 
-##                                                    1 
-##                       Brasil. Ministério da Cultura. 
-##                                                    1 
-##                                             Cebraspe 
-##                                                    1 
-##                                    Editora Thesaurus 
-##                                                    1 
-##                                           IGI Global 
-##                                                    1 
-## Novas Edições Acadêmicas/ OmniScriptum GmbH &amp; Co. Kg 
-##                                                    1 
-##                           OmniScriptum GmbH &amp; Co. KG 
-##                                                    1 
-##                                            Thesaurus 
-##                                                    1</code></pre>
+##                            ANPOF                                  
+##                               23                               13 
+##         Novas Edições Acadêmicas            Laccademia Publishing 
+##                               12                                8 
+## Editora Universidade de Brasília                  Pontes Editores 
+##                                7                                7 
+##                      Lumen Juris                       Fino Traço 
+##                                6                                5 
+##                         INEP/MEC                              LTr 
+##                                5                                5</code></pre>
+<pre class="r"><code>ci.pub &lt;- fromJSON(&quot;./ciencia_informacao/ci.publication.json&quot;)
+co.pub &lt;- fromJSON(&quot;./comunicacao/co.publication.json&quot;)
+ps.pub &lt;- fromJSON(&quot;./politica_social/ps.publication.json&quot;)
+so.pub &lt;- fromJSON(&quot;./sociologia/so.publication.json&quot;)</code></pre>
+<p>A mesma leitura feita com o arquivo <code>unb.pub</code> pode ser realizada com os arquivos dos programas específicos.</p>
 </div>
 <div id="descricao-dos-dados-de-agregacao-de-docentes-por-area" class="section level3">
 <h3>Descrição dos dados de agregação de docentes por área</h3>
-<pre class="r"><code>unb.area &lt;- fromJSON(&quot;ci/unbpos.researchers_by_area.json&quot;)
+<pre class="r"><code>unb.area &lt;- fromJSON(&quot;./unbpos/unbpos.researchers_by_area.json&quot;)
 unb.area.df &lt;- cbind(names(unb.area$`Areas dos pesquisadores`),
            (sapply(unb.area$`Areas dos pesquisadores`, function(x) length(x))))
 rownames(unb.area.df) &lt;- c(1:nrow(unb.area.df)); colnames(unb.area.df) &lt;- c(&quot;Area&quot;, &quot;Professores&quot;)
@@ -844,148 +1639,172 @@ glimpse(unb.area.df)</code></pre>
 <pre class="r"><code># jsonedit(unb.prof)
 # Número de áreas de atuação cumulativo
 sum(sapply(unb.prof, function(x) nrow(x$areas_de_atuacao)))</code></pre>
-<pre><code>## [1] 113</code></pre>
+<pre><code>## [1] 7119</code></pre>
 <pre class="r"><code># Número de áreas de atuação por pessoa
 table(unlist(sapply(unb.prof, function(x) nrow(x$areas_de_atuacao))))</code></pre>
 <pre><code>## 
-## 1 2 3 4 5 6 
-## 1 4 4 7 2 9</code></pre>
+##   1   2   3   4   5   6  10 
+## 119 205 350 331 342 416   1</code></pre>
 <pre class="r"><code># Número de pessoas por grande area
 table(unlist(sapply(unb.prof, function(x) (x$areas_de_atuacao$grande_area))))</code></pre>
 <pre><code>## 
-##          CIENCIAS_DA_SAUDE CIENCIAS_EXATAS_E_DA_TERRA 
-##                          1                          5 
-##           CIENCIAS_HUMANAS CIENCIAS_SOCIAIS_APLICADAS 
-##                         13                         78 
-##                ENGENHARIAS LINGUISTICA_LETRAS_E_ARTES 
-##                          4                          9 
-##                     OUTROS 
-##                          3</code></pre>
+##                                     CIENCIAS_AGRARIAS 
+##                         27                        427 
+##        CIENCIAS_BIOLOGICAS          CIENCIAS_DA_SAUDE 
+##                        780                        601 
+## CIENCIAS_EXATAS_E_DA_TERRA           CIENCIAS_HUMANAS 
+##                       1075                       1641 
+## CIENCIAS_SOCIAIS_APLICADAS                ENGENHARIAS 
+##                       1172                        697 
+## LINGUISTICA_LETRAS_E_ARTES                     OUTROS 
+##                        634                         65</code></pre>
 <pre class="r"><code># Número de pessoas que produziram os específicos tipos de produção
 table(unlist(sapply(unb.prof, function(x) names(x$producao_bibiografica))))</code></pre>
 <pre><code>## 
 ##                          ARTIGO_ACEITO 
-##                                      6 
+##                                    349 
 ##                      CAPITULO_DE_LIVRO 
-##                                     26 
+##                                   1346 
 ## DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA 
-##                                     15 
+##                                    532 
 ##                                 EVENTO 
-##                                     27 
+##                                   1504 
 ##                                  LIVRO 
-##                                     23 
+##                                    867 
 ##                              PERIODICO 
-##                                     27 
+##                                   1716 
 ##                       TEXTO_EM_JORNAIS 
-##                                      7</code></pre>
+##                                    492</code></pre>
 <pre class="r"><code># Número de publicações por tipo
 sum(sapply(unb.prof, function(x) length(x$producao_bibiografica$ARTIGO_ACEITO$ano)))</code></pre>
-<pre><code>## [1] 28</code></pre>
+<pre><code>## [1] 563</code></pre>
 <pre class="r"><code>sum(sapply(unb.prof, function(x) length(x$producao_bibiografica$CAPITULO_DE_LIVRO$ano)))</code></pre>
-<pre><code>## [1] 188</code></pre>
+<pre><code>## [1] 8816</code></pre>
 <pre class="r"><code>sum(sapply(unb.prof, function(x) length(x$producao_bibiografica$LIVRO$ano)))</code></pre>
-<pre><code>## [1] 62</code></pre>
+<pre><code>## [1] 2932</code></pre>
 <pre class="r"><code>sum(sapply(unb.prof, function(x) length(x$producao_bibiografica$PERIODICO$ano)))</code></pre>
-<pre><code>## [1] 399</code></pre>
+<pre><code>## [1] 30352</code></pre>
 <pre class="r"><code>sum(sapply(unb.prof, function(x) length(x$producao_bibiografica$TEXTO_EM_JORNAIS$ano)))</code></pre>
-<pre><code>## [1] 13</code></pre>
+<pre><code>## [1] 3042</code></pre>
 <pre class="r"><code># Número de pessoas por quantitativo de produções por pessoa 0 = 1; 1 = 2...
 table(unlist(sapply(unb.prof, function(x) length(x$producao_bibiografica$ARTIGO_ACEITO$ano))))</code></pre>
 <pre><code>## 
-##  0  1  9 15 
-## 21  4  1  1</code></pre>
+##    0    1    2    3    4    5    6    7    9   10   11   15 
+## 1415  242   66   21    8    2    3    3    1    1    1    1</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) length(x$producao_bibiografica$CAPITULO_DE_LIVRO$ano))))</code></pre>
 <pre><code>## 
-##  0  1  2  3  4  5  6  7  8  9 10 11 12 14 21 28 
-##  1  2  2  2  3  5  2  2  1  1  1  1  1  1  1  1</code></pre>
+##   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17 
+## 418 258 204 139 130  99  68  64  52  43  32  36  31  33  19  14  10  11 
+##  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  37 
+##  13   9  11   6   7   5   6   4   2   7   4   1   3   4   2   3   3   1 
+##  38  39  40  44  47  52  56  69 
+##   3   1   2   1   1   1   2   1</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) length(x$producao_bibiografica$LIVRO$ano))))</code></pre>
 <pre><code>## 
-## 0 1 2 3 4 5 6 9 
-## 4 6 8 4 2 1 1 1</code></pre>
+##   0   1   2   3   4   5   6   7   8   9  10  11  12  14  15  16  18  19 
+## 897 322 189 100  67  50  29  29  19  14  12   7   8   2   2   3   2   3 
+##  20  21  26  28  31  32  39  49 
+##   1   2   1   1   1   1   1   1</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) length(x$producao_bibiografica$PERIODICO$ano))))</code></pre>
 <pre><code>## 
-##  2  3  4  6  7  8  9 11 13 14 15 16 17 19 21 22 24 26 27 30 32 
-##  1  1  1  2  1  1  1  2  3  1  3  1  1  1  1  1  1  1  1  1  1</code></pre>
+##   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17 
+##  48  55  63  74  74 101  83  86  66  75  69  61  60  53  46  47  48  27 
+##  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35 
+##  34  44  32  38  31  32  20  25  19  26  22  17  18  13  13  11  21  10 
+##  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53 
+##  10  11  13   6   9   8   7   6   7  14   5   8   5   4   1   6   9   2 
+##  54  55  56  57  58  59  60  61  62  63  64  66  67  68  69  70  71  73 
+##   1   3   2   3   3   3   2   4   2   6   2   3   2   3   1   1   4   2 
+##  74  75  76  77  78  83  86  88  89  90 103 104 126 146 222 233 
+##   1   1   1   4   3   1   2   1   2   2   1   1   1   1   1   1</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) length(x$producao_bibiografica$TEXTO_EM_JORNAIS$ano))))</code></pre>
 <pre><code>## 
-##  0  1  2  3  4 
-## 20  4  1  1  1</code></pre>
+##    0    1    2    3    4    5    6    7    8    9   10   11   12   14   15 
+## 1272  219   92   46   25   20    9    9   10    4    9    4    5    5    3 
+##   17   18   19   21   22   23   25   27   29   30   31   34   35   38   39 
+##    1    5    1    1    1    1    1    1    3    2    1    1    1    1    1 
+##   49   51   67   86  109  146  148  176  178  181 
+##    1    1    1    1    1    1    1    1    1    1</code></pre>
 <pre class="r"><code># Número de produções por ano
 table(unlist(sapply(unb.prof, function(x) (x$producao_bibiografica$ARTIGO_ACEITO$ano))))</code></pre>
 <pre><code>## 
-## 2011 2013 2014 2015 2016 2017 
-##    2    1    1    4    4   16</code></pre>
+## 2010 2011 2012 2013 2014 2015 2016 2017 
+##   21   17   29   44   48   60   93  251</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) (x$producao_bibiografica$CAPITULO_DE_LIVRO$ano))))</code></pre>
 <pre><code>## 
 ## 2010 2011 2012 2013 2014 2015 2016 2017 
-##   15   26   20   18   21   41   28   19</code></pre>
+## 1042 1052 1325  891 1135 1185 1162 1024</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) (x$producao_bibiografica$LIVRO$ano))))</code></pre>
 <pre><code>## 
 ## 2010 2011 2012 2013 2014 2015 2016 2017 
-##   11   10    5    7    6    9   11    3</code></pre>
+##  353  301  373  383  388  426  371  337</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) (x$producao_bibiografica$PERIODICO$ano))))</code></pre>
 <pre><code>## 
 ## 2010 2011 2012 2013 2014 2015 2016 2017 
-##   27   40   23   51   39   73   74   72</code></pre>
+## 3097 3193 3633 3859 3943 4154 4322 4151</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) (x$producao_bibiografica$TEXTO_EM_JORNAIS$ano))))</code></pre>
 <pre><code>## 
-## 2010 2011 2014 2015 
-##    4    5    2    2</code></pre>
+## 2010 2011 2012 2013 2014 2015 2016 2017 
+##  459  440  424  374  384  310  360  291</code></pre>
 <pre class="r"><code># Número de pessoas que realizaram diferentes tipos de orientações
 length(unlist(sapply(unb.prof, function(x) names(x$orientacoes_academicas))))</code></pre>
-<pre><code>## [1] 133</code></pre>
+<pre><code>## [1] 7317</code></pre>
 <pre class="r"><code># Número de pessoas por tipo de orientação
 table(unlist(sapply(unb.prof, function(x) names(x$orientacoes_academicas))))</code></pre>
 <pre><code>## 
 ##               ORIENTACAO_CONCLUIDA_DOUTORADO 
-##                                           19 
+##                                          935 
 ##                ORIENTACAO_CONCLUIDA_MESTRADO 
-##                                           26 
+##                                         1546 
 ##           ORIENTACAO_CONCLUIDA_POS_DOUTORADO 
-##                                            5 
+##                                          267 
 ##            ORIENTACAO_EM_ANDAMENTO_DOUTORADO 
-##                                           18 
+##                                         1061 
 ##            ORIENTACAO_EM_ANDAMENTO_GRADUACAO 
-##                                            6 
+##                                          195 
 ## ORIENTACAO_EM_ANDAMENTO_INICIACAO_CIENTIFICA 
-##                                           12 
+##                                          591 
 ##             ORIENTACAO_EM_ANDAMENTO_MESTRADO 
-##                                           22 
+##                                         1168 
 ##                OUTRAS_ORIENTACOES_CONCLUIDAS 
-##                                           25</code></pre>
+##                                         1554</code></pre>
 <pre class="r"><code>#Número de orientações concluidas
 sum(sapply(unb.prof, function(x) length(x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_MESTRADO$ano)))</code></pre>
-<pre><code>## [1] 121</code></pre>
+<pre><code>## [1] 10875</code></pre>
 <pre class="r"><code>sum(sapply(unb.prof, function(x) length(x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_DOUTORADO$ano)))</code></pre>
-<pre><code>## [1] 97</code></pre>
+<pre><code>## [1] 3899</code></pre>
 <pre class="r"><code>sum(sapply(unb.prof, function(x) length(x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_POS_DOUTORADO$ano)))</code></pre>
-<pre><code>## [1] 9</code></pre>
+<pre><code>## [1] 740</code></pre>
 <pre class="r"><code># Número de pessoas por quantitativo de orientações por pessoa 0 = 1; 1 = 2...
 table(unlist(sapply(unb.prof, function(x) length(x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_MESTRADO$ano))))</code></pre>
 <pre><code>## 
-##  0  1  2  3  4  6  7  8 11 
-##  1  1  6  4  6  1  4  2  2</code></pre>
+##   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17 
+## 218 142 126 137 153 139 134 105 113  92  95  76  45  37  42  25  23   6 
+##  18  19  20  21  22  23  24  25  26  27  28  30  31  34  38  41  45 
+##  15  12   4   2   4   4   2   2   1   3   1   1   1   1   1   1   1</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) length(x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_DOUTORADO$ano))))</code></pre>
 <pre><code>## 
-##  0  1  2  3  4  5  7  8  9 12 
-##  8  3  1  3  1  4  2  3  1  1</code></pre>
+##   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  16  17  19 
+## 829 203 158 119 116  84  68  55  55  19  13  14  13   4   4   2   3   1 
+##  20  21  22 
+##   1   1   2</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) length(x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_POS_DOUTORADO$ano))))</code></pre>
 <pre><code>## 
-##  0  1  2  4 
-## 22  3  1  1</code></pre>
+##    0    1    2    3    4    5    6    7    8    9   10   14   16   17   21 
+## 1497  109   66   28   23   10   11    7    3    2    2    3    1    1    1</code></pre>
 <pre class="r"><code># Número de orientações por ano
 table(unlist(sapply(unb.prof, function(x) (x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_MESTRADO$ano))))</code></pre>
 <pre><code>## 
 ## 2010 2011 2012 2013 2014 2015 2016 2017 
-##   13    9   12   21   18   21   19    8</code></pre>
+##  962 1167 1288 1541 1621 1513 1502 1281</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) (x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_DOUTORADO$ano))))</code></pre>
 <pre><code>## 
 ## 2010 2011 2012 2013 2014 2015 2016 2017 
-##    9   12   11   14    3   20   11   17</code></pre>
+##  304  360  433  557  550  554  617  524</code></pre>
 <pre class="r"><code>table(unlist(sapply(unb.prof, function(x) (x$orientacoes_academicas$ORIENTACAO_CONCLUIDA_POS_DOUTORADO$ano))))</code></pre>
 <pre><code>## 
-## 2012 2014 2015 2016 
-##    1    4    1    3</code></pre>
+## 2010 2011 2012 2013 2014 2015 2016 2017 
+##   75   66   95  103  134  106   98   63</code></pre>
 </div>
 <div id="arquivo-publicacao" class="section level3">
 <h3>Arquivo Publicação</h3>
@@ -996,36 +1815,36 @@ unb.pub.df &lt;- data.frame()
 for (i in 1:length(unb.pub[[1]]))
   unb.pub.df &lt;- rbind(unb.pub.df, unb.pub$PERIODICO[[i]])
 glimpse(unb.pub.df)</code></pre>
-<pre><code>## Observations: 383
+<pre><code>## Observations: 24,456
 ## Variables: 10
 ## $ natureza           &lt;chr&gt; &quot;COMPLETO&quot;, &quot;COMPLETO&quot;, &quot;COMPLETO&quot;, &quot;COMPLE...
-## $ titulo             &lt;chr&gt; &quot;O posicionamento da arquitetura da informa...
-## $ periodico          &lt;chr&gt; &quot;Brazilian journal of information science&quot;,...
+## $ titulo             &lt;chr&gt; &quot;An unusual presentation of pediatric Cushi...
+## $ periodico          &lt;chr&gt; &quot;Journal of Pediatric Endocrinology &amp; Metab...
 ## $ ano                &lt;chr&gt; &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;20...
-## $ volume             &lt;chr&gt; &quot;04&quot;, &quot;11&quot;, &quot;6&quot;, &quot;4&quot;, &quot;1&quot;, &quot;1&quot;, &quot;33&quot;, &quot;15&quot;,...
-## $ issn               &lt;chr&gt; &quot;19811640&quot;, &quot;15168603&quot;, &quot;18081967&quot;, &quot;180886...
-## $ paginas            &lt;chr&gt; &quot;38 - 43&quot;, &quot;195 - 207&quot;, &quot;121 - 140&quot;, &quot;67 - ...
-## $ doi                &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;10.1590/S1413-...
-## $ autores            &lt;list&gt; [&lt;&quot;LYRA, M. R.&quot;, &quot;DUQUE, C. G.;DUQUE, CLAU...
-## $ `autores-endogeno` &lt;list&gt; [&quot;8531105272766089&quot;, &quot;8175059045027748&quot;, &quot;...</code></pre>
+## $ volume             &lt;chr&gt; &quot;23&quot;, &quot;5&quot;, &quot;78&quot;, &quot;32&quot;, &quot;13&quot;, &quot;7&quot;, &quot;259&quot;, &quot;2...
+## $ issn               &lt;chr&gt; &quot;0334018X&quot;, &quot;17446651&quot;, &quot;00099163&quot;, &quot;180611...
+## $ paginas            &lt;chr&gt; &quot;607 - 612&quot;, &quot;697 - 709&quot;, &quot;457 - 463&quot;, &quot;1 -...
+## $ doi                &lt;chr&gt; &quot;&quot;, &quot;10.1586/eem.10.47&quot;, &quot;10.1111/j.1399-00...
+## $ autores            &lt;list&gt; [&lt;&quot;AZEVEDO, M. F.;Azevedo, M;AZEVEDO, M F;...
+## $ `autores-endogeno` &lt;list&gt; [&quot;0017467628165816&quot;, &quot;0017467628165816&quot;, &quot;...</code></pre>
 <pre class="r"><code># Limpando o data-frame de listas
 unb.pub.df$autores &lt;- gsub(&quot;\&quot;,\&quot;|\&quot;, \&quot;&quot;, &quot;; &quot;, unb.pub.df$autores)
 unb.pub.df$autores &lt;- gsub(&quot;\&quot;|c\\(|\\)&quot;, &quot;&quot;, unb.pub.df$autores)
 unb.pub.df$`autores-endogeno` &lt;- gsub(&quot;,&quot;, &quot;;&quot;, unb.pub.df$`autores-endogeno`)
 unb.pub.df$`autores-endogeno` &lt;- gsub(&quot;\&quot;|c\\(|\\)&quot;, &quot;&quot;, unb.pub.df$`autores-endogeno`)
 glimpse(unb.pub.df)</code></pre>
-<pre><code>## Observations: 383
+<pre><code>## Observations: 24,456
 ## Variables: 10
 ## $ natureza           &lt;chr&gt; &quot;COMPLETO&quot;, &quot;COMPLETO&quot;, &quot;COMPLETO&quot;, &quot;COMPLE...
-## $ titulo             &lt;chr&gt; &quot;O posicionamento da arquitetura da informa...
-## $ periodico          &lt;chr&gt; &quot;Brazilian journal of information science&quot;,...
+## $ titulo             &lt;chr&gt; &quot;An unusual presentation of pediatric Cushi...
+## $ periodico          &lt;chr&gt; &quot;Journal of Pediatric Endocrinology &amp; Metab...
 ## $ ano                &lt;chr&gt; &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;20...
-## $ volume             &lt;chr&gt; &quot;04&quot;, &quot;11&quot;, &quot;6&quot;, &quot;4&quot;, &quot;1&quot;, &quot;1&quot;, &quot;33&quot;, &quot;15&quot;,...
-## $ issn               &lt;chr&gt; &quot;19811640&quot;, &quot;15168603&quot;, &quot;18081967&quot;, &quot;180886...
-## $ paginas            &lt;chr&gt; &quot;38 - 43&quot;, &quot;195 - 207&quot;, &quot;121 - 140&quot;, &quot;67 - ...
-## $ doi                &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;10.1590/S1413-...
-## $ autores            &lt;chr&gt; &quot;LYRA, M. R.; DUQUE, C. G.;DUQUE, CLAUDIO G...
-## $ `autores-endogeno` &lt;chr&gt; &quot;8531105272766089&quot;, &quot;8175059045027748&quot;, &quot;81...</code></pre>
+## $ volume             &lt;chr&gt; &quot;23&quot;, &quot;5&quot;, &quot;78&quot;, &quot;32&quot;, &quot;13&quot;, &quot;7&quot;, &quot;259&quot;, &quot;2...
+## $ issn               &lt;chr&gt; &quot;0334018X&quot;, &quot;17446651&quot;, &quot;00099163&quot;, &quot;180611...
+## $ paginas            &lt;chr&gt; &quot;607 - 612&quot;, &quot;697 - 709&quot;, &quot;457 - 463&quot;, &quot;1 -...
+## $ doi                &lt;chr&gt; &quot;&quot;, &quot;10.1586/eem.10.47&quot;, &quot;10.1111/j.1399-00...
+## $ autores            &lt;chr&gt; &quot;AZEVEDO, M. F.;Azevedo, M;AZEVEDO, M F;AZE...
+## $ `autores-endogeno` &lt;chr&gt; &quot;0017467628165816&quot;, &quot;0017467628165816&quot;, &quot;00...</code></pre>
 </div>
 <div id="arquivo-orientacao" class="section level3">
 <h3>Arquivo Orientação</h3>
@@ -1044,79 +1863,86 @@ for (i in 1:length(unb.adv[[1]]))
   unb.adv.tipo.df &lt;- rbind(unb.adv.tipo.df, unb.adv$ORIENTACAO_CONCLUIDA_MESTRADO[[i]])
 unb.adv.df &lt;- rbind(unb.adv.df, unb.adv.tipo.df)
 glimpse(unb.adv.df)</code></pre>
-<pre><code>## Observations: 227
+<pre><code>## Observations: 15,109
 ## Variables: 13
 ## $ natureza                    &lt;chr&gt; &quot;Supervisão de pós-doutorado&quot;, &quot;Su...
-## $ titulo                      &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;...
-## $ ano                         &lt;chr&gt; &quot;2012&quot;, &quot;2014&quot;, &quot;2014&quot;, &quot;2014&quot;, &quot;2...
+## $ titulo                      &lt;chr&gt; &quot;A Interculturalidade na sala de a...
+## $ ano                         &lt;chr&gt; &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;2010&quot;, &quot;2...
 ## $ id_lattes_aluno             &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;...
-## $ nome_aluno                  &lt;chr&gt; &quot;Antonia Salvador Benitez&quot;, &quot;Loren...
-## $ instituicao                 &lt;chr&gt; &quot;Universidade de Brasília&quot;, &quot;Unive...
+## $ nome_aluno                  &lt;chr&gt; &quot;Lucielena Mendonça de Lima&quot;, &quot;Iov...
+## $ instituicao                 &lt;chr&gt; &quot;Universidad de Brasília&quot;, &quot;Univer...
 ## $ curso                       &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;...
 ## $ codigo_do_curso             &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;...
-## $ bolsa                       &lt;chr&gt; &quot;NAO&quot;, &quot;NAO&quot;, &quot;NAO&quot;, &quot;NAO&quot;, &quot;SIM&quot;,...
-## $ agencia_financiadora        &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;Coordenação de Ap...
-## $ codigo_agencia_financiadora &lt;chr&gt; &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;045000000000&quot;, &quot;0...
-## $ nome_orientadores           &lt;list&gt; [&quot;André Porto Ancona Lopez&quot;, &quot;Mir...
-## $ id_lattes_orientadores      &lt;list&gt; [&quot;2683882609392455&quot;, &quot;83562254563...</code></pre>
+## $ bolsa                       &lt;chr&gt; &quot;NAO&quot;, &quot;SIM&quot;, &quot;SIM&quot;, &quot;SIM&quot;, &quot;SIM&quot;,...
+## $ agencia_financiadora        &lt;chr&gt; &quot;&quot;, &quot;Fundação de Ciência e Tecnolo...
+## $ codigo_agencia_financiadora &lt;chr&gt; &quot;&quot;, &quot;005100000992&quot;, &quot;000700000992&quot;...
+## $ nome_orientadores           &lt;list&gt; [&quot;Maria Luisa Ortíz Alvarez&quot;, &quot;Ma...
+## $ id_lattes_orientadores      &lt;list&gt; [&quot;0562632464695581&quot;, &quot;05626324646...</code></pre>
 <pre class="r"><code>#Transformar as colunas de listas em caracteres eliminando c(&quot;&quot;)
 unb.adv.df$nome_orientadores &lt;- gsub(&quot;\&quot;|c\\(|\\)&quot;, &quot;&quot;, unb.adv.df$nome_orientadores)
 unb.adv.df$id_lattes_orientadores &lt;- gsub(&quot;\&quot;|c\\(|\\)&quot;, &quot;&quot;, unb.adv.df$id_lattes_orientadores)
 #Separar as colunas com dois orientadores
 unb.adv.df &lt;- separate(unb.adv.df, nome_orientadores, into = c(&quot;ori1&quot;, &quot;ori2&quot;), sep = &quot;,&quot;)</code></pre>
-<pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 227 rows [1,
-## 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...].</code></pre>
+<pre><code>## Warning: Expected 2 pieces. Additional pieces discarded in 6 rows [34, 35,
+## 36, 2771, 5282, 5283].</code></pre>
+<pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 14710
+## rows [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+## 21, ...].</code></pre>
 <pre class="r"><code>unb.adv.df &lt;- separate(unb.adv.df, id_lattes_orientadores, into = c(&quot;idLattes1&quot;, &quot;idLattes2&quot;), sep = &quot;,&quot;)</code></pre>
-<pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 227 rows [1,
-## 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...].</code></pre>
+<pre><code>## Warning: Expected 2 pieces. Additional pieces discarded in 6 rows [34, 35,
+## 36, 2771, 5282, 5283].
+
+## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 14710
+## rows [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+## 21, ...].</code></pre>
 <pre class="r"><code>#Numero de orientacoes por ano
 table(unb.adv.df$ano)</code></pre>
 <pre><code>## 
 ## 2010 2011 2012 2013 2014 2015 2016 2017 
-##   22   21   24   35   25   42   33   25</code></pre>
+## 1301 1556 1749 2150 2237 2117 2166 1833</code></pre>
 <pre class="r"><code>#Tabela com nome de professor e numero de orientacoes
 head(sort(table(rbind(unb.adv.df$ori1, unb.adv.df$ori2)), decreasing = TRUE), 20)</code></pre>
 <pre><code>## 
-##                André Porto Ancona Lopez 
-##                                      17 
-##                Claudio Gottschalg Duque 
-##                                      15 
-##                       Emir José Suaiden 
-##                                      15 
-##                     Miriam Paula Manini 
-##                                      15 
-##       Rogerio Henrique de Araújo Júnior 
-##                                      15 
-##               Georgete Medleg Rodrigues 
-##                                      14 
-##         Jorge Henrique Cabral Fernandes 
-##                                      12 
-##         Renato Tarciso Barbosa de Sousa 
-##                                      12 
-##                     Ivette Kafure Muñoz 
-##                                      11 
-##                  Murilo Bastos da Cunha 
-##                                      11 
-##         Suzana Pinheiro Machado Mueller 
-##                                      11 
-##               Fernando César Lima Leite 
-##                                      10 
-##         Elmira Luzia Melo Soares Simeão 
-##                                       9 
-## Lillian Maria Araújo de Rezende Alvares 
-##                                       9 
-##   Kelley Cristine Goncalves Dias Gasque 
-##                                       8 
-##                    Maria Margaret Lopes 
-##                                       8 
-##      Emerson Dionisio Gomes de Oliveira 
-##                                       7 
-##                    Dulce Maria Baptista 
-##                                       5 
-##                Ana Lúcia de Abreu Gomes 
-##                                       4 
-##                Eliane Braga de Oliveira 
-##                                       4</code></pre>
+##                        Octavio Luiz Franco 
+##                                         76 
+##              Célia Maria de Almeida Soares 
+##                                         61 
+##                  Maria Fatima Grossi de Sa 
+##                                         59 
+##                     Jorge Madeira Nogueira 
+##                                         53 
+##         Concepta Margaret McManus Pimentel 
+##                                         51 
+##                    Juliana de Fátima Sales 
+##                                         44 
+##                Ana Maria Resende Junqueira 
+##                                         40 
+##                               Debora Diniz 
+##                                         39 
+##            Ana Suelly Arruda Câmara Cabral 
+##                                         36 
+##                          Gabriele Cornelli 
+##                                         36 
+##                         Helena Eri Shimizu 
+##                                         36 
+##                         Nivaldo dos Santos 
+##                                         36 
+##                         Lucio França Teles 
+##                                         35 
+##                      Edson Silva de Farias 
+##                                         34 
+##                      Ileno Izídio da Costa 
+##                                         34 
+##                  Ricardo Bentes de Azevedo 
+##                                         34 
+## Stella Maris Bortoni de Figueiredo Ricardo 
+##                                         34 
+##                  Anderson de Rezende Rocha 
+##                                         33 
+##                   Aparecido Divino da Cruz 
+##                                         33 
+##                     André Pacheco de Assis 
+##                                         32</code></pre>
 </div>
 </div>
 <div id="crisp-dm-fase.atividade-2.4---verificacao-da-qualidade-dos-dados." class="section level2">
@@ -1343,12 +2169,12 @@ extrai_areas_atuacao &lt;- function(jsonProfessores){
 ########################### Inicio 
 
 # colocar o diretorio onde está o arquivo json de perfis a serem lidos 
-unb.prof.json &lt;- read_file(&quot;ci/ci.profile.json&quot;)
-unb.prof.df.capes &lt;- read.csv(&quot;PesqPosCapes.csv&quot;, 
+unb.prof.json &lt;- read_file(&quot;./unbpos/unbpos.profile.json&quot;)
+unb.prof.df.capes &lt;- read.csv(&quot;./unbpos/PesqPosCapes.csv&quot;, 
                               sep = &quot;;&quot;, header = TRUE, colClasses = &quot;character&quot;)
 unb.prof &lt;- fromJSON(unb.prof.json)
 length(unb.prof)</code></pre>
-<pre><code>## [1] 27</code></pre>
+<pre><code>## [1] 1764</code></pre>
 <pre class="r"><code># extrai perfis dos professores 
 unb.prof.df.professores &lt;- extrai_perfis(unb.prof)
 
@@ -1399,24 +2225,24 @@ unb.prof.df &lt;- unb.prof.df.professores %&gt;%
     by = &quot;idLattes&quot;)
 
 glimpse(unb.prof.df)</code></pre>
-<pre><code>## Observations: 27
+<pre><code>## Observations: 1,764
 ## Variables: 16
-## $ idLattes                               &lt;chr&gt; &quot;1923828283438124&quot;, &quot;24...
-## $ nome                                   &lt;chr&gt; &quot;Fernando César Lima Le...
-## $ resumo_cv                              &lt;chr&gt; &quot;Graduado em Biblioteco...
-## $ senioridade                            &lt;chr&gt; &quot;9&quot;, &quot;8&quot;, &quot;8&quot;, &quot;8&quot;, &quot;7&quot;...
-## $ ORIENTACAO_CONCLUIDA_DOUTORADO         &lt;int&gt; 3, NA, 5, 9, 1, NA, 8, ...
-## $ ORIENTACAO_CONCLUIDA_MESTRADO          &lt;int&gt; 7, 2, 11, 3, 2, 3, 2, 1...
-## $ ORIENTACAO_CONCLUIDA_POS_DOUTORADO     &lt;int&gt; NA, NA, 1, 2, NA, NA, 1...
-## $ OUTRAS_ORIENTACOES_CONCLUIDAS          &lt;int&gt; 19, 7, 14, 3, 17, 38, N...
-## $ CAPITULO_DE_LIVRO                      &lt;int&gt; 3, 9, 14, 21, 2, 6, 1, ...
-## $ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA &lt;int&gt; 1, NA, 2, 2, 1, 1, NA, ...
-## $ EVENTO                                 &lt;int&gt; 5, 10, 51, 31, 15, 21, ...
-## $ LIVRO                                  &lt;int&gt; 1, 3, 1, 4, NA, NA, NA,...
-## $ PERIODICO                              &lt;int&gt; 13, 17, 26, 27, 6, 15, ...
-## $ TEXTO_EM_JORNAIS                       &lt;int&gt; NA, NA, NA, NA, NA, NA,...
-## $ `n_distinct(area)`                     &lt;int&gt; 1, 1, 1, 2, 1, 1, 1, 2,...
-## $ `n_distinct(AreaPos)`                  &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1,...</code></pre>
+## $ idLattes                               &lt;chr&gt; &quot;0000507838194708&quot;, &quot;00...
+## $ nome                                   &lt;chr&gt; &quot;Norai Romeu Rocco&quot;, &quot;A...
+## $ resumo_cv                              &lt;chr&gt; &quot;Possui graduação em Ma...
+## $ senioridade                            &lt;chr&gt; &quot;8&quot;, &quot;9&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;...
+## $ ORIENTACAO_CONCLUIDA_DOUTORADO         &lt;int&gt; 3, 3, NA, NA, NA, NA, N...
+## $ ORIENTACAO_CONCLUIDA_MESTRADO          &lt;int&gt; 3, 14, 1, 5, 2, 3, NA, ...
+## $ ORIENTACAO_CONCLUIDA_POS_DOUTORADO     &lt;int&gt; NA, NA, NA, NA, NA, NA,...
+## $ OUTRAS_ORIENTACOES_CONCLUIDAS          &lt;int&gt; NA, 6, 11, 7, 5, 14, 10...
+## $ CAPITULO_DE_LIVRO                      &lt;int&gt; NA, 3, 1, 5, 1, NA, 3, ...
+## $ DEMAIS_TIPOS_DE_PRODUCAO_BIBLIOGRAFICA &lt;int&gt; 7, 10, NA, NA, NA, NA, ...
+## $ EVENTO                                 &lt;int&gt; 1, 8, 25, 17, 9, 1, 26,...
+## $ LIVRO                                  &lt;int&gt; NA, 2, NA, 2, NA, NA, 1...
+## $ PERIODICO                              &lt;int&gt; 6, 27, 3, 6, 27, 2, 14,...
+## $ TEXTO_EM_JORNAIS                       &lt;int&gt; NA, NA, NA, 1, NA, NA, ...
+## $ `n_distinct(area)`                     &lt;int&gt; 2, 1, 2, 2, 1, 1, 1, 4,...
+## $ `n_distinct(AreaPos)`                  &lt;int&gt; 1, 1, 1, 2, 1, 1, 1, 2,...</code></pre>
 </div>
 <div id="crisp-dm-fase.atividade-3.4---integracao-dos-dados" class="section level2">
 <h2>CRISP-DM Fase.Atividade 3.4 - Integração dos dados</h2>

@@ -89,7 +89,7 @@ table(unlist(sapply(perfil, function(x) (x$orientacoes_academicas$ORIENTACAO_CON
 ###Análise dos dados em formato Data Frame
 #Arquivo Profile por Currículo
 # extrai perfis dos professores 
-perfil.df.professores <- extrai.perfis(co.perfil)
+perfil.df.professores <- extrai.perfis(perfil)
 
 # extrai producao bibliografica de todos os professores 
 perfil.df.publicacoes <- extrai.producoes(perfil)
