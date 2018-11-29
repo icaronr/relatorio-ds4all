@@ -1,0 +1,2376 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.17)  18 NOV 2018 23:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**AnaliseGeralPosgraduacoesUnB_v2.tex
+(./AnaliseGeralPosgraduacoesUnB_v2.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen120
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count104
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count105
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count106
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+Package hyperref Info: Option `unicode' set `true' on input line 30.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 30.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+)) (/home/icaro/texmf/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count112
+\FV@InFile=\read1
+\FV@TabBox=\box28
+\c@FancyVerbLine=\count113
+\FV@StepNumber=\count114
+\FV@OutFile=\write3
+) (/home/icaro/texmf/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip47
+\fb@frw=\dimen124
+\fb@frh=\dimen125
+\FrameRule=\dimen126
+\FrameSep=\dimen127
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count115
+\LTcapwidth=\dimen128
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count116
+\LT@rows=\count117
+\c@LT@tables=\count118
+\c@LT@chunks=\count119
+\LT@p@ftn=\toks24
+) (/home/icaro/texmf/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen129
+\lightrulewidth=\dimen130
+\cmidrulewidth=\dimen131
+\belowrulesep=\dimen132
+\belowbottomsep=\dimen133
+\aboverulesep=\dimen134
+\abovetopsep=\dimen135
+\cmidrulesep=\dimen136
+\cmidrulekern=\dimen137
+\defaultaddspace=\dimen138
+\@cmidla=\count120
+\@cmidlb=\count121
+\@aboverulesep=\dimen139
+\@belowrulesep=\dimen140
+\@thisruleclass=\count122
+\@lastruleclass=\count123
+\@thisrulewidth=\dimen141
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+) (/home/icaro/texmf/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip52
+\thanksmargin=\skip53
+\droptitle=\skip54
+)
+No file AnaliseGeralPosgraduacoesUnB_v2.aux.
+\openout1 = `AnaliseGeralPosgraduacoesUnB_v2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 133.
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 133.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
+\@outlinefile=\write4
+\openout4 = `AnaliseGeralPosgraduacoesUnB_v2.out'.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count125
+\scratchdimen=\dimen144
+\scratchbox=\box34
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen145
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 213.
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 213
+.
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 213.
+[2] [3] [4] [5]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 593.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2 on input line 612.
+
+
+Overfull \hbox (0.25432pt too wide) in alignment at lines 621--635
+ [] [] [] 
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3 on input line 635.
+
+[6] [7] [8]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 830.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 832.
+[9] [10] [11] [12] [13] [14]
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##  $ resumo_cv             : chr "Possui graduação em Matemá
+tica (licenciatura plena) pela Universidade Estadual Paulista Júlio de Mesquita
+ Filho"| __truncated__[] 
+ []
+
+
+Overfull \hbox (333.49265pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   ..$ grande_area  : chr [1:5] "CIENCIAS_EXATAS_E_DA_TERRA
+" "CIENCIAS_EXATAS_E_DA_TERRA" "CIENCIAS_EXATAS_E_DA_TERRA" "CIENCIAS_EXATAS_E_
+DA_TERRA" ...[] 
+ []
+
+
+Overfull \hbox (55.24345pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   ..$ area         : chr [1:5] "Matemática" "Matemática" "
+Matemática" "Ciência da Computação" ...[] 
+ []
+
+
+Overfull \hbox (60.49344pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   ..$ especialidade: chr [1:5] "" "" "Grupos de Álgebra Nã
+o-Comutaviva" "Matemática Simbólica" ...[] 
+ []
+
+[15]
+Overfull \hbox (65.74342pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr "Finiteness conditions for 
+the non-abelian tensor product of groups"[] 
+ []
+
+
+Overfull \hbox (585.49191pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza          : chr [1:7] "DIVULGAÇÃO DE RESU
+LTADOS DE PESQUISA" "DIVULGAÇÃO DE RESULTADOS DE PESQUISA" "DIVULGAÇÃO DE RESUL
+TADOS DE PESQUISA" "DIVULGAÇÃO DE RESULTADOS DE PESQUISA" ...[] 
+ []
+
+
+Overfull \hbox (1099.99042pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo            : chr [1:7] "NON-ABELIAN TENSOR
+ SQUARE OF FINITE-BY-NILPOTENT GROUPS" "The q-tensor square of finitely generat
+ed nilpotent groups, q >=0" "The q-tensor square of finitely generated nilpoten
+t groups, q >=0" "THE NON-ABELIAN TENSOR SQUARE OF RESIDUALLY FINITE GROUPS" ..
+.[] 
+ []
+
+
+Overfull \hbox (123.49326pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ pais_de_publicacao: chr [1:7] "Estados Unidos" "E
+stados Unidos" "Estados Unidos" "Estados Unidos" ...[] 
+ []
+
+
+Overfull \hbox (427.99237pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ editora           : chr [1:7] "" "ArXiv.com - Cor
+nell University Library" "ArXiv.com - Cornell University Library" "ArXiv.com - 
+Cornell University Library" ...[] 
+ []
+
+
+Overfull \hbox (55.24345pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr "On Semidirect Products and
+ non-abelian Tensor Products of Groups"[] 
+ []
+
+
+Overfull \hbox (1015.99066pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:6] "On the q-tensor squa
+re of a group" "A survey of non-abelian tensor products of groups and related c
+onstructions" "The q-tensor square of finitely generated nilpotent groups, q od
+d" "Non-abelian tensor square of finite-by-nilpotent groups" ...[] 
+ []
+
+
+Overfull \hbox (564.49197pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ periodico       : chr [1:6] "Journal of Group The
+ory" "Boletim da Sociedade Paranaense de Matemática" "JOURNAL OF ALGEBRA AND IT
+S APPLICATIONS" "Archiv der Mathematik (Printed ed.)" ...[] 
+ []
+
+
+Overfull \hbox (2.7436pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ paginas         : chr [1:6] "785 - 805" "77 - 89"
+ "1750211 - " "127 - 133" ...[] 
+ []
+
+
+Overfull \hbox (312.4927pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ doi             : chr [1:6] "10.1515/JGT.2010.084
+" "10.5269/bspm.v30i1.13350" "10.1142/S0219498817502115" "10.1007/s00013-016-09
+30-2" ...[] 
+ []
+
+[16]
+Overfull \hbox (107.7433pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Tese de d
+outorado" "Tese de doutorado" "Tese de doutorado"[] 
+ []
+
+
+Overfull \hbox (1372.98962pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "Cotas sup
+eriores para o expoente e o número mínimo de geradores do quadrado q-tensorial 
+de grupos nilpotentes, q geq 0." "Uma Apresentação Policíclica para o Quadrado 
+q-Tensorial de um Grupo Policíclico" "Quadrado Tensorial Não-Abeliano de p-Grup
+os Finitos com Subgrupo Derivado de Ordem p, p ímpar"[] 
+ []
+
+
+Overfull \hbox (91.99335pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "903715103
+7918091" "8664599889120339" "0723203301483174"[] 
+ []
+
+
+Overfull \hbox (265.24284pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Eunice Câ
+ndida Pereira Rodrigues" "Ivonildes Ribeiro Martins" "Cleilton Aparecido Canal"
+[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (443.74232pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "Fundação 
+de Amparo à Pesquisa do Estado de Mato Grosso" "Conselho Nacional de Desenvolvi
+mento Científico e Tecnológico" ""[] 
+ []
+
+
+Overfull \hbox (202.24303pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Dissertaç
+ão de mestrado" "Dissertação de mestrado" "Dissertação de mestrado"[] 
+ []
+
+
+Overfull \hbox (758.74141pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "Algumas C
+otas Súperiores para aordem do Quadrado Tensorial não abeliano de um Grupo" "O 
+Grau de Permutabilidade de Subgrupos de um Grupo Finito" "Sobre pE-grupos e pA-
+grupos finitos"[] 
+ []
+
+
+Overfull \hbox (7.99359pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "536774481
+8899315" "" "0121355793029434"[] 
+ []
+
+
+Overfull \hbox (322.99268pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Bruno Ces
+ar Rodrigues Lima" "Mônica Aparecida Crunivel Valadão" "Marina Gabriella Ribeir
+o Bardella"[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (459.49228pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "" "Coorde
+nação de Aperfeiçoamento de Pessoal de Nível Superior" "Coordenação de Aperfeiç
+oamento de Pessoal de Nível Superior"[] 
+ []
+
+
+Overfull \hbox (128.74324pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr "Quadrado Tensor
+ial não Abeliano de certas classes de Grupos Finitos"[] 
+ []
+
+
+Overfull \hbox (86.74336pt too wide) in paragraph at lines 1465--1465
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr "Coordenação de 
+Aperfeiçoamento de Pessoal de Nível Superior"[] 
+ []
+
+[17]
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##  $ resumo_cv             : chr "André Porto Ancona Lopez (
+apalopez@gmail.com) é Doutor em História Social (2001), mestre em História Soci
+al (19"| __truncated__[] 
+ []
+
+
+Overfull \hbox (333.49265pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ grande_area  : chr [1:6] "CIENCIAS_SOCIAIS_APLICADAS
+" "CIENCIAS_SOCIAIS_APLICADAS" "CIENCIAS_SOCIAIS_APLICADAS" "CIENCIAS_SOCIAIS_A
+PLICADAS" ...[] 
+ []
+
+
+Overfull \hbox (228.49295pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ area         : chr [1:6] "Ciência da Informação" "Ci
+ência da Informação" "Ciência da Informação" "Ciência da Informação" ...[] 
+ []
+
+
+Overfull \hbox (175.9931pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ sub_area     : chr [1:6] "Arquivologia" "Acesso à In
+formação" "Tipologia Documental" "Organização de Arquivos" ...[] 
+ []
+
+
+Overfull \hbox (433.24236pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ tipo                    : chr [1:14] "Capítulo de
+ livro publicado" "Capítulo de livro publicado" "Capítulo de livro publicado" "
+Capítulo de livro publicado" ...[] 
+ []
+
+
+Overfull \hbox (1194.49014pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_capitulo      : chr [1:14] "La gestión 
+documental y la transparencia" "Mapeamento das áreas de Biblioteconomia. Ciênci
+a da Informação, Arquivologia e Museologia" "Identificação de tipologias docume
+ntais em acervos de trabalhadores" "A formação de arquivistas no Brasil: notas 
+para um debate" ...[] 
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1675
+.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1675
+.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 167
+5.
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 1675.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 1675.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 1675.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1675.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1675.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (1209.20886pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_livro         : chr [1:14] "Transparenc
+ia en las Américas" "Associação Nacional de Pesquisa e Pós-Graduação em Ciência
+ da Informação - Ancib: reflexão e proposta para dinamização" "Arquivos do mund
+o dos trabalhadores: coletânea do 2$[]$ Seminário Internacional" "Estudos avanç
+ados em Arquivologia" ...[] 
+ []
+
+
+Overfull \hbox (123.49326pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ isbn                    : chr [1:14] "97896859545
+70" "0000000000" "9788589210348" "9788579832666" ...[] 
+ []
+
+
+Overfull \hbox (480.49222pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_da_editora         : chr [1:14] "Instituto F
+ederal de Acceso a la Información y Protección de Datos (IFAI)" "Ideia" "CUT ; 
+Arquivo Nacional" "Cultura Acadêmica" ...[] 
+ []
+
+
+Overfull \hbox (1157.74025pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ organizadores           : chr [1:14] "Jacqueline 
+Peschard Mariscal ; Sigrid Arzt Colunga; María Marván Laborde; María Elena Pére
+z-Jaén Zermeño; Ángel"| __truncated__ "Joana Coeli Ribeiro Garcia; Maria das Gr
+aças Targino" "Antonio José Marques; Inez Tereznha Stampa" "Marta Lígia Pomim V
+alentim" ...[] 
+ []
+
+
+Overfull \hbox (34.24352pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ paginas                 : chr [1:14] "229 - 258" 
+"55 - 79" "15 - 31" "181 - 196" ...[] 
+ []
+
+
+Overfull \hbox (448.99231pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo            : chr [1:2] "Blog Iberoamerican
+o de Enseñanza Arquivistica Universitária" "DigifotoWeb: repositório digital de
+ materiais fotográficos de arquivo"[] 
+ []
+
+
+Overfull \hbox (2060.73763pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:51] "Blogs de Diplomátic
+a e Tipologia Documental como instrumento de aprendizagem: uma experiencia da U
+niversidade de Brasília" "O uso da folksonomia na organização e preservação do 
+acervo imagético da Confederação Nacional dos Trabalhadore"| __truncated__ "O u
+so da folksonomia na organização e preservação do acervo imagético da Confedera
+ção Nacional dos Trabalhadore"| __truncated__ "A Informação, a Ciência, o Cient
+ista e o Conhecimento" ...[] 
+ []
+
+
+Overfull \hbox (1388.73958pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_do_evento  : chr [1:51] "II Congreso Interna
+cional Comunicación 3.0" "Conference on Technology, Culture and Memory: strateg
+ies for preservation and information access" "Conference on Technology, Culture
+ and Memory: strategies for preservation and information access" "X CINFORM - E
+ncontro Nacional de Ensino e Pesquisa em Informação" ...[] 
+ []
+
+[18]
+Overfull \hbox (70.99341pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ classificacao   : chr [1:51] "INTERNACIONAL" "INT
+ERNACIONAL" "INTERNACIONAL" "NACIONAL" ...[] 
+ []
+
+
+Overfull \hbox (102.49332pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                  : chr "Diretrizes para o 
+desenvolvimento de projetos de cunho científico"[] 
+ []
+
+
+Overfull \hbox (39.4935pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_da_editora         : chr "UnB: Gestão de Seg
+urança da Informação e Comunicações"[] 
+ []
+
+
+Overfull \hbox (1304.73982pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:26] "Blogs como ferramen
+ta de ensino-aprendizagem de diplomática e tipologia documental: uma estratégia
+ didática par"| __truncated__ "Contextualización archivística de documentos fot
+ográficos" "Archivos y ciudadanía: el acceso a la información pública" "Buildin
+g the archives profession in Brazil" ...[] 
+ []
+
+
+Overfull \hbox (559.24199pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ periodico       : chr [1:26] "Perspectivas em Ges
+tão & Conhecimento" "Alexandria (Peru)" "Revista General de Información y Docum
+entación" "Comma: international journal on archives" ...[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO              :'data.f
+rame': 5 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (233.74294pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:5] "Tese de d
+outorado" "Tese de doutorado" "Tese de doutorado" "Tese de doutorado" ...[] 
+ []
+
+
+Overfull \hbox (2086.98755pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:5] "Monitoram
+ento informacional de ambiente de negócios na micro e pequena empresa (MPE): es
+tudo do comércio vareji"| __truncated__ "A autenticidade da informação no proce
+sso de produção de prova testemunhal no Inquérito Parlamentar" "Os registros im
+agéticos/fotografias na interação sociocultural e econômica no movimento junino
+" "Intertextualidade, Ciência da Informação e a criação de sentido em fotografi
+as: o caso de Formiga (MG)" ...[] 
+ []
+
+
+Overfull \hbox (212.743pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:5] "097936427
+7580186" "7980249454439837" "3445829566458687" "3854885552647613" ...[] 
+ []
+
+
+Overfull \hbox (511.99213pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:5] "Eber Luis
+ Capistrano Martins" "Tarciso Aparecido Higino de Carvalho" "Luiz Carlos Flôres
+ de Assumpção" "Niraldo José do Nascimento" ...[] 
+ []
+
+
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:5] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univers
+idade de Brasília" ...[] 
+ []
+
+
+Overfull \hbox (338.74263pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:5] "Ciências 
+da Informação" "Ciências da Informação" "Ciências da Informação" "Ciências da I
+nformação" ...[] 
+ []
+
+
+Overfull \hbox (44.74348pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:5] "51500183"
+ "51500183" "51500183" "51500183" ...[] 
+ []
+
+
+Overfull \hbox (517.24211pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:5] "Conselho 
+Nacional de Desenvolvimento Científico e Tecnológico" "" "" "Conselho Nacional 
+de Desenvolvimento Científico e Tecnológico" ...[] 
+ []
+
+
+Overfull \hbox (2.7436pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_agencia_financiadora: chr [1:5] "002200000
+000" "" "" "002200000000" ...[] 
+ []
+
+
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO               :'data.f
+rame': 11 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (364.99255pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:11] "Disserta
+ção de mestrado" "Dissertação de mestrado" "Dissertação de mestrado" "Dissertaç
+ão de mestrado" ...[] 
+ []
+
+
+Overfull \hbox (2270.73701pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:11] "O lado i
+nvisível da participação política: gestão da informação dos mecanismos digitais
+ de participação polític"| __truncated__ "O impacto da gestão arquivística no p
+rocesso de produção digital da TV Senado" "Organização e acesso de documentos s
+onoros na web: uma proposta de relação entre as teorias da Ciência da Infor"| _
+_truncated__ "Registros imagéticos e a sustentabilidade: representações sobre o
+ uso da imagem em projetos de captação de recu"| __truncated__ ...[] 
+ []
+
+
+Overfull \hbox (133.99323pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:11] "00772146
+16801148" "" "7941926847621109" "3445829566458687" ...[] 
+ []
+
+
+Overfull \hbox (370.24254pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:11] "Andrea S
+ampaio Perna" "Edna de Sousa Carvalho" "Clara Bessa da Costa" "Luiz Carlos Flôr
+es de Assumpção" ...[] 
+ []
+
+
+Overfull \hbox (385.9925pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:11] "Universi
+dade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univer
+sidade de Brasília" ...[] 
+ []
+
+
+Overfull \hbox (343.99261pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:11] "Ciências
+ da Informação" "Ciências da Informação" "Ciências da Informação" "Ciências da 
+Informação" ...[] 
+ []
+
+
+Overfull \hbox (49.99347pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:11] "51500183
+" "51500183" "51500183" "51500183" ...[] 
+ []
+
+[19]
+Overfull \hbox (191.74306pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:11] "" "" "" 
+"Coordenação de Aperfeiçoamento de Pessoal de Nível Superior" ...[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_CONCLUIDA_POS_DOUTORADO          :'data.f
+rame': 1 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_EM_ANDAMENTO_DOUTORADO           :'data.f
+rame': 3 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (107.7433pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Tese de d
+outorado" "Tese de doutorado" "Tese de doutorado"[] 
+ []
+
+
+Overfull \hbox (1572.48904pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "O estado 
+do conhecimento sobre o tema da fotografia na Ciência da Informação no Brasil: 
+inovações e recorrência"| __truncated__ "Acervos imagéticos e acesso à informaç
+ão: estudo sobre os documentos relacionados à luta contra a violação dos "| __t
+runcated__ "Fotografias periciais: definição diplomática de documentos imagétic
+os forenses"[] 
+ []
+
+
+Overfull \hbox (7.99359pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "805840744
+3429697" "6292189136309964" ""[] 
+ []
+
+
+Overfull \hbox (212.743pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Alessandr
+a dos Santos Araújo" "Laila Figueiredo Di Pietro" "Edson Freitas Jr."[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (186.49307pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:3] "Ciências 
+da Informação" "Ciências da Informação" "Ciências da Informação"[] 
+ []
+
+
+Overfull \hbox (459.49228pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "Coordenaç
+ão de Aperfeiçoamento de Pessoal de Nível Superior" "Coordenação de Aperfeiçoam
+ento de Pessoal de Nível Superior" ""[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_EM_ANDAMENTO_INICIACAO_CIENTIFICA:'data.f
+rame': 1 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (338.74263pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr "A influência da
+ fotografia em revistas na formulação do pensamento político da sociedade civil
+ na Argentina"[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_EM_ANDAMENTO_MESTRADO            :'data.f
+rame': 3 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (202.24303pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Dissertaç
+ão de mestrado" "Dissertação de mestrado" "Dissertação de mestrado"[] 
+ []
+
+
+Overfull \hbox (1372.98962pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "A autenti
+cidade arquivística de documentos eletrônicos como subsidio para elaboração de 
+um padrão de logs para "| __truncated__ "Um dimensionamento de capacidade de TI
+ a partir da geração automática de configuração" "Redes Neurais aplicadas aos r
+egistros para identificação de padrões em transações"[] 
+ []
+
+
+Overfull \hbox (91.99335pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "357227772
+8003382" "4885748587935162" "7944701818626706"[] 
+ []
+
+
+Overfull \hbox (223.24297pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Lucas de 
+Sousa Brito" "Odilon de Freitas Militão Neto" "Rodrigo Ribeiro Pereira"[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (186.49307pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:3] "Ciências 
+da Informação" "Ciências da Informação" "Ciências da Informação"[] 
+ []
+
+[20]
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS               :'data.f
+rame': 14 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (406.99243pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:14] "TRABALHO
+_DE_CONCLUSAO_DE_CURSO_GRADUACAO" "INICIACAO_CIENTIFICA" "INICIACAO_CIENTIFICA"
+ "INICIACAO_CIENTIFICA" ...[] 
+ []
+
+
+Overfull \hbox (2270.73701pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:14] "Organiza
+ção de documentos audiovisuais e imagéticos: uma abordagem em diplomática e tip
+ologia documental" "Analise do tratamento arquivístico dado pelo Arquivo Públic
+o do Distrito Federal às fotografias sobre a reconst"| __truncated__ "Análise d
+os efeitos da aplicação da Resolução 14 do CONARQ em documentos imagéticos de a
+rquivo, no Arquivo Públ"| __truncated__ "Panorama arquivístico do tratamento de
+ documentos imagéticos de arquivo pelo Instituto Euvaldo Lodi" ...[] 
+ []
+
+
+Overfull \hbox (406.99243pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:14] "Nathalia
+ Ferreira de Carvalho" "Kelly Pontes de Souza" "Pedro Davi Silva Carvalho" "Mar
+cella Mendes Gonçalves" ...[] 
+ []
+
+
+Overfull \hbox (385.9925pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:14] "Universi
+dade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univer
+sidade de Brasília" ...[] 
+ []
+
+
+Overfull \hbox (149.74318pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:14] "Bibliote
+conomia" "Arquivologia" "Arquivologia" "Arquivologia" ...[] 
+ []
+
+
+Overfull \hbox (49.99347pt too wide) in paragraph at lines 1675--1675
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:14] "90000022
+" "90000021" "90000021" "90000021" ...[] 
+ []
+
+
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##  $ resumo_cv             : chr "Atualmente, pesquisadora d
+o Zentrum für Literatur- und Kulturforschung (ZfL), em Berlim, desenvolvendo a 
+pesqui"| __truncated__[] 
+ []
+
+
+Overfull \hbox (228.49295pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   ..$ grande_area  : chr [1:5] "CIENCIAS_SOCIAIS_APLICADAS
+" "CIENCIAS_HUMANAS" "CIENCIAS_HUMANAS" "LINGUISTICA_LETRAS_E_ARTES" ...[] 
+ []
+
+
+Overfull \hbox (249.49289pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ tipo                    : chr [1:3] "Capítulo de 
+livro publicado" "Capítulo de livro publicado" "Capítulo de livro publicado"[] 
+
+ []
+
+
+Overfull \hbox (396.49246pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_capitulo      : chr [1:3] "A memórias d
+as casas" "Estados fotográficos, fósseis e fantasmas" "A potência da imagem e o
+ acontecimento na escola"[] 
+ []
+
+
+Overfull \hbox (538.24205pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_livro         : chr [1:3] "Sobrados da 
+Zona Oeste" "Fronteiras e trangressões na fotografia contemporânea" "Estilos de
+ aprendizagem, tecnolog ias e inovações na educação"[] 
+ []
+
+
+Overfull \hbox (28.99353pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ isbn                    : chr [1:3] "978856211416
+8" "9788598205854" "9788564593183"[] 
+ []
+
+
+Overfull \hbox (732.49149pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ organizadores           : chr [1:3] "Fernando Mar
+tinho" "Susana Dobal e Osmar Gonçalves" "Leda Maria Rangearo Fiorentini; Lilian
+e Campos Machado; Maria do Carmo Nascimento Diniz; Otília Maria Alves da "| __t
+runcated__[] 
+ []
+
+[21]
+Overfull \hbox (86.74336pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza          : chr [1:13] "ARTIGO" "Texto de
+ abertura de exposição" "ARTIGO" "ARTIGO" ...[] 
+ []
+
+
+Overfull \hbox (784.99133pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo            : chr [1:13] "Fotografias dentr
+o da mochila ou tecnologias iluminadas" "Photoland: fotografia transformada em 
+paisagem" "Nascimentos fotográficos" "O que vem à luz sobre um fundamento que l
+he vem estranho" ...[] 
+ []
+
+
+Overfull \hbox (170.74312pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ editora           : chr [1:13] "Fórum Latino amer
+icano de Fotografia" "Paraty em Foco" "Icônica" "Icônica" ...[] 
+ []
+
+
+Overfull \hbox (7.99359pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza        : chr [1:4] "COMPLETO" "COMPLETO"
+ "RESUMO_EXPANDIDO" "COMPLETO"[] 
+ []
+
+
+Overfull \hbox (1115.74037pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:4] "O tempo e o espaço n
+o território da fotografia" "Tempo para nada, só para fazer fotografias" "Cyber
+netic Theory and the Meaning of Education in Contemporary Society" "Tal mãe, ta
+l filha: famílias fitness e os empresários de si mesmos no contexto da ?boa for
+ma'"[] 
+ []
+
+
+Overfull \hbox (1120.99036pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_do_evento  : chr [1:4] "FESTPOA- Festival In
+ternacional de Fotografia de Porto Alegre" "FESTPOA- Festival Internacional de 
+Fotografia de Porto Alegre" "13th Annual International Conference on Communicat
+ion and Mass Media" "VIII Enpecom - Encontro de Pesquisa em Comunicac&#807;a&#7
+71;o"[] 
+ []
+
+
+Overfull \hbox (44.74348pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ classificacao   : chr [1:4] "INTERNACIONAL" "INTE
+RNACIONAL" "INTERNACIONAL" "NACIONAL"[] 
+ []
+
+
+Overfull \hbox (1178.74019pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:5] "Insônia Fotográfica:
+ promessa e fracasso do aniquilamento do tempo" "Quando o tempo fugiu do instan
+tâneo" "Entre o tempo perdido e o instante: cronofotografia, ciência e temporal
+idade moderna" "A fábula da câmera invisível na escola e o regime contemporâneo
+ de imagens" ...[] 
+ []
+
+
+Overfull \hbox (396.49246pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ periodico       : chr [1:5] "FACOM (FAAP)" "Studi
+um (UNICAMP)" "Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas" "REVI
+STA ECO-PÓS (ONLINE)" ...[] 
+ []
+
+
+Overfull \hbox (202.24303pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Dissertaç
+ão de mestrado" "Dissertação de mestrado" "Dissertação de mestrado"[] 
+ []
+
+
+Overfull \hbox (1021.24065pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "Caiu na N
+et: Violação de intimidade e regime de vigilância distribuída" "Sua melhor vers
+ão de si: os sentidos e as práticas da boa forma na contemporaneidade" "SER NO 
+TEMPO: IMAGEM, TECNOLOGIA E SUBJETIVIDADE NO MUNDO CONTEMPORÂNEO"[] 
+ []
+
+
+Overfull \hbox (91.99335pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "351300317
+9027403" "7502890940192840" "1921859680948956"[] 
+ []
+
+
+Overfull \hbox (265.24284pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Bruno Ram
+os Crayesmeyer" "Angélica Fonsêca de Freitas" "Paulo Henrique Martins de Jesus"
+[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (165.49313pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:3] "Comunicaç
+ão" "Comunicação" "Programa de Pós-Graduação em Comunicação"[] 
+ []
+
+
+Overfull \hbox (469.99225pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "" "Consel
+ho Nacional de Desenvolvimento Científico e Tecnológico" "Coordenação de Aperfe
+içoamento de Pessoal de Nível Superior"[] 
+ []
+
+
+Overfull \hbox (202.24303pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Dissertaç
+ão de mestrado" "Dissertação de mestrado" "Dissertação de mestrado"[] 
+ []
+
+
+Overfull \hbox (1152.49026pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "Fotografi
+a e tempo na penumbra: Francesca Woodman e a dança com fantasmas" "Tempo, Image
+m e Subjetividade: Os sentidos de ser velho na sociedade de risco" "Comunicação
+ museológica: A influência da linguagem poética em museus históricos do Distrit
+o Federal."[] 
+ []
+
+[22]
+Overfull \hbox (91.99335pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "081914807
+7988194" "3063666731999466" "0887390289207360"[] 
+ []
+
+
+Overfull \hbox (238.99292pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Fabiane d
+a Silva de Souza" "Mirella Ramos Costa Pessoa" "Ingridde dos Santos Alves"[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (165.49313pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:3] "Comunicaç
+ão" "Comunicação" "Programa de Pós-Graduação em Comunicação"[] 
+ []
+
+
+Overfull \hbox (779.74135pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "Conselho 
+Nacional de Desenvolvimento Científico e Tecnológico" "Coordenação de Aperfeiço
+amento de Pessoal de Nível Superior" "Coordenação de Aperfeiçoamento de Pessoal
+ de Nível Superior"[] 
+ []
+
+
+Overfull \hbox (28.99353pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_agencia_financiadora: chr [1:3] "002200000
+000" "045000000000" "045000000000"[] 
+ []
+
+
+Overfull \hbox (643.24174pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:11] "TRABALHO
+_DE_CONCLUSAO_DE_CURSO_GRADUACAO" "INICIACAO_CIENTIFICA" "INICIACAO_CIENTIFICA"
+ "MONOGRAFIA_DE_CONCLUSAO_DE_CURSO_APERFEICOAMENTO_E_ESPECIALIZACAO" ...[] 
+ []
+
+
+Overfull \hbox (1215.49008pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:11] "Fotograf
+ia e desjo: uma analise ensaística" "Memória e imagem na obra de Walter Benjami
+n" "Infância, imagem e educação: um estudo acerca dos escritos de Walter Benjam
+in" "EJA COMBINADA: um caminho para uma organização mais adequada aos tempos do
+ aluno trabalhador" ...[] 
+ []
+
+
+Overfull \hbox (475.24223pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:11] "Henrique
+ Assis; Pedro Lino" "Letícia Marotta Pedersoli de Oliveira" "Aluízio Augusto Ca
+rvalho Santos" "Adriane de Cravalho" ...[] 
+ []
+
+
+Overfull \hbox (433.24236pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:11] "Universi
+dade Católica de Brasília" "Universidade de Brasília" "Universidade de Brasília
+" "Universidade de Brasília" ...[] 
+ []
+
+
+Overfull \hbox (511.99213pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:11] "Comunica
+ção Social" "Comunicação Social" "Pedagogia" "Curso de Especialização em Educaç
+ão na Diversidade e Cidania com ênfase EJA" ...[] 
+ []
+
+
+Overfull \hbox (49.99347pt too wide) in paragraph at lines 1794--1794
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:11] "90000025
+" "60293420" "60065990" "90000040" ...[] 
+ []
+
+
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##  $ resumo_cv             : chr "Graduada em Serviço Social
+ pela Universidade Católica Dom Bosco (1985), mestre em Política Social pela Un
+iversi"| __truncated__[] 
+ []
+
+
+Overfull \hbox (333.49265pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ grande_area  : chr [1:6] "CIENCIAS_SOCIAIS_APLICADAS
+" "CIENCIAS_SOCIAIS_APLICADAS" "CIENCIAS_SOCIAIS_APLICADAS" "CIENCIAS_SOCIAIS_A
+PLICADAS" ...[] 
+ []
+
+
+Overfull \hbox (81.49338pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ area         : chr [1:6] "Serviço Social" "Serviço S
+ocial" "Serviço Social" "Serviço Social" ...[] 
+ []
+
+
+Overfull \hbox (196.99304pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ sub_area     : chr [1:6] "Serviço Social Aplicado" "
+Fundamentos do Serviço Social" "Trabalho" "Previdência Social" ...[] 
+ []
+
+
+Overfull \hbox (81.49338pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ especialidade: chr [1:6] "Seguridade Social" "Formaç
+ão Profissional" "" "Assistência Social" ...[] 
+ []
+
+
+Overfull \hbox (427.99237pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ tipo                    : chr [1:9] "Capítulo de 
+livro publicado" "Capítulo de livro publicado" "Capítulo de livro publicado" "C
+apítulo de livro publicado" ...[] 
+ []
+
+
+Overfull \hbox (1267.98993pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_capitulo      : chr [1:9] "Os Custos da
+ Crise para a Política Social" "As Políticas Sociais e os Programas Sociais Atu
+ais na França e no Brasil" "Les Politiques Publiques et les Programmes Sociaux 
+Actuels en France et au Brésil" "América Latina, Política Social e Pobreza: nov
+o modelo de desenvolvimento?" ...[] 
+ []
+
+
+Overfull \hbox (732.49149pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_livro         : chr [1:9] "Capitalismo 
+em Crise. Política Social e Direitos" "O Trabalho Social França Brasil" "Le Tra
+vail Social en France et au Brésil" "Financeirização, Fundo Público e Poítica S
+ocial" ...[] 
+ []
+
+[23]
+Overfull \hbox (133.99323pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ isbn                    : chr [1:9] "978852491669
+4" "9788579950186" "9788579950186" "9788524919961" ...[] 
+ []
+
+
+Overfull \hbox (39.4935pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_da_editora         : chr [1:9] "Cortez" "SES
+C/CBCISS" "SESC;CBCISS" "Cortez" ...[] 
+ []
+
+
+Overfull \hbox (926.74092pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ organizadores           : chr [1:9] "Ivanete Bosc
+hetti; Elaine Rossetti Behring; Silvana Mara de Morais dos Santos; Regina Célia
+ Tamaso Mioto" "SESC;CBCISS" "SESC;CBCISS" "Evilásio Salvador; Elaine Rossetti 
+Behring; Ivanete Boschetti, Sara Granemann" ...[] 
+ []
+
+
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ paginas                 : chr [1:9] "64 - 85" "63
+ - 76" "255 - 269" "31 - 58" ...[] 
+ []
+
+
+Overfull \hbox (149.74318pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza          : chr [1:10] "CFESS Manifesta" 
+"CFESS Manifesta" "CFESS Manifesta" "CFESS Manifesta" ...[] 
+ []
+
+
+Overfull \hbox (1372.98962pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo            : chr [1:10] "O Amor Exige Expr
+essão e Reverência Coletiva" "Lutas Sociais e Exercício Profisisonal no Context
+o da Crise do Capital: mediações e a consolidação do Projeto É"| __truncated__ 
+"Pela Sustentabilidade dos Conselhos Profissionais e Aprovação do PL Anuidade" 
+"Trabalho com Direitos. Pelo Fim da Desigualdade" ...[] 
+ []
+
+
+Overfull \hbox (958.24083pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:11] "Política Social e D
+ireitos" "Condições de Trabalho e Projeto Ético Político Profissional" "AS ?REF
+ORMAS? DA PROTEÇÃO SOCIAL EM TEMPOS DE CRISE" "Les effets de la crise actuelle 
+sur la protection sociale au Brésil et en France" ...[] 
+ []
+
+
+Overfull \hbox (1194.49014pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_do_evento  : chr [1:11] "XII Encontro Nacion
+al de Pesquisadores em Serviço Social - ENPES" "Seminário Nacional: O Trabalho 
+de Assistentes Sociais no SUAS" "XIII Encontro Nacional de Pesquisadores em Ser
+viço Social" "Joint World Conference in Social Work and Social Development: Act
+ion and Impact" ...[] 
+ []
+
+
+Overfull \hbox (139.24321pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ cidade_do_evento: chr [1:11] "Rio de Janeiro" "Ri
+o de Janeiro" "Juiz de Fora MG" "Estocolmo, Suécia" ...[] 
+ []
+
+
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ classificacao   : chr [1:11] "NACIONAL" "NACIONAL
+" "NACIONAL" "INTERNACIONAL" ...[] 
+ []
+
+
+Overfull \hbox (931.9909pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                  : chr [1:6] "Política Soc
+ial:Fundamentos e História" "Capitalismo em Crise. Política Social e Direitos" 
+"Direito se Conquista: a Luta dos/as assistentes Sociais pelas 30 horas Semanai
+s" "Política Social. Fundamentos e História" ...[] 
+ []
+
+
+Overfull \hbox (291.49277pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ tipo                    : chr [1:6] "LIVRO_PUBLIC
+ADO" "LIVRO_ORGANIZADO_OU_EDICAO" "LIVRO_ORGANIZADO_OU_EDICAO" "LIVRO_PUBLICADO
+" ...[] 
+ []
+
+
+Overfull \hbox (60.49344pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                : chr [1:6] "TEXTO_INTEGR
+AL" "LIVRO" "LIVRO" "TEXTO_INTEGRAL" ...[] 
+ []
+
+
+Overfull \hbox (102.49332pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ isbn                    : chr [1:6] "8524912596" 
+"9788524916694" "579.496.707-2" "8524912596" ...[] 
+ []
+
+
+Overfull \hbox (23.74355pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_da_editora         : chr [1:6] "Cortez" "Cor
+tez" "CFESS" "Cortez Editora" ...[] 
+ []
+
+
+Overfull \hbox (1640.73885pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:10] "Condições de trabal
+ho e a luta dos(as) assistentes sociais pela jornada semanal de 30 horas" "Desa
+fios e Atuação da ABEPSS no Contexto da ?Reforma? do Ensino Superior no Final d
+os Anos 1990 - Gestão 1998-2000 Qualis B1" "Os Intensos Anos de ?Atitude Crític
+a para Avançar na Luta? - Qualis B4" "A insidiosa corrosão dos sistemas de prot
+eção social europeus" ...[] 
+ []
+
+
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ periodico       : chr [1:10] "Serviço Social & So
+ciedade" "Temporalis (Brasília)" "Revista Inscrita (Rio de Janeiro)" "Serviço S
+ocial & Sociedade" ...[] 
+ []
+
+
+Overfull \hbox (149.74318pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ doi             : chr [1:10] "10.1590/S0101-66282
+011000300010" "" "" "10.1590/S0101-66282012000400008" ...[] 
+ []
+
+[24]
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_CONCLUIDA_DOUTORADO              :'data.f
+rame': 11 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (238.99292pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:11] "Tese de 
+doutorado" "Tese de doutorado" "Tese de doutorado" "Tese de doutorado" ...[] 
+ []
+
+
+Overfull \hbox (1819.23833pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:11] "(Des)Est
+ruturação do Trabalho e Condições para a Universalização da Previdência Social 
+no Brasil" "Mercosul e a Política de Assistência Social:" "A Concepção da Polít
+ica de Assistência Social e sua Efetivação em Municípios Goianos: o Novo Jargão
+ e o Conserv"| __truncated__ "Proteção Social no Capitalismo: Contribuições à C
+rítica de Matrizes Teóricas e Ideológicas Conflitantes" ...[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:11] "69857606
+72107950" "5314743908635602" "5100268908025158" "4621637454405096" ...[] 
+ []
+
+
+Overfull \hbox (396.49246pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:11] "Maria Lu
+cia Lopes da Silva" "Karen Santana de Almeida Vieira" "Maisa Miralva Silva" "Ca
+mila Potyara Pereira" ...[] 
+ []
+
+
+Overfull \hbox (385.9925pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:11] "Universi
+dade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univer
+sidade de Brasília" ...[] 
+ []
+
+
+Overfull \hbox (196.99304pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:11] "Política
+ Social" "Política Social" "Política Social" "Política Social" ...[] 
+ []
+
+
+Overfull \hbox (49.99347pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:11] "51500353
+" "51500353" "51500353" "51500353" ...[] 
+ []
+
+
+Overfull \hbox (191.74306pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:11] "" "" "" 
+"Coordenação de Aperfeiçoamento de Pessoal de Nível Superior" ...[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_CONCLUIDA_MESTRADO               :'data.f
+rame': 4 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (338.74263pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:4] "Dissertaç
+ão de mestrado" "Dissertação de mestrado" "Dissertação de mestrado" "Dissertaçã
+o de mestrado"[] 
+ []
+
+
+Overfull \hbox (2081.73756pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:4] "O Direito
+ Socio-assistencial de Segurança de Renda no Brasil" "O Crescimento da Previdên
+cia Complementar como Efeito da Contrarreforma do Estado no Brasil: o Direito à
+ Proteç"| __truncated__ "Conceito de Deficiência na Materialização do Acesso ao
+ BPC: Impactos na Proteção e na Relação Assistência Social e Trabalho" "A Polít
+ica de Trabalho no Brasil e a Efetivação de Vínculos Estáveis: retorno à Indivi
+dualização da Proteção Social"[] 
+ []
+
+
+Overfull \hbox (191.74306pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:4] "827661383
+9586798" "9076244548086829" "0126476057249391" "5310348041508543"[] 
+ []
+
+
+Overfull \hbox (359.74257pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:4] "Alvaro An
+dré Santarém Amorim" "Pollyana Moreira de Assis" "Taís Leite Flores" "Fabiana E
+steves Boaventura"[] 
+ []
+
+
+Overfull \hbox (359.74257pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:4] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univers
+idade de Brasília"[] 
+ []
+
+
+Overfull \hbox (170.74312pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:4] "Política 
+Social" "Política Social" "Política Social" "Política Social"[] 
+ []
+
+
+Overfull \hbox (23.74355pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:4] "51500353"
+ "51500353" "51500353" "51500353"[] 
+ []
+
+
+Overfull \hbox (165.49313pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:4] "" "" "" "
+Coordenação de Aperfeiçoamento de Pessoal de Nível Superior"[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_CONCLUIDA_POS_DOUTORADO          :'data.f
+rame': 3 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (265.24284pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Supervisã
+o de pós-doutorado" "Supervisão de pós-doutorado" "Supervisão de pós-doutorado"
+[] 
+ []
+
+
+Overfull \hbox (259.99286pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Silvana M
+ara de Morais dos Santos" "Andrea Lima da Silva" "Esther Luiza de Souza Lemos"[
+] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (769.24138pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "Coordenaç
+ão de Aperfeiçoamento de Pessoal de Nível Superior" "Coordenação de Aperfeiçoam
+ento de Pessoal de Nível Superior" "Coordenação de Aperfeiçoamento de Pessoal d
+e Nível Superior"[] 
+ []
+
+
+Overfull \hbox (28.99353pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_agencia_financiadora: chr [1:3] "045000000
+000" "045000000000" "045000000000"[] 
+ []
+
+[25]
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_EM_ANDAMENTO_DOUTORADO           :'data.f
+rame': 4 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (212.743pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:4] "Tese de d
+outorado" "Tese de doutorado" "Tese de doutorado" "Tese de doutorado"[] 
+ []
+
+
+Overfull \hbox (1808.73836pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:4] "O fetiche
+ da inserção individual no mercado de trabalho no Brasil: precarização do traba
+lho e das políticas de "| __truncated__ "O extermínio da juventude negra e os d
+esafios às políticas sociais" "O debate teórico e as polêmicas sobre a assistên
+cia social nas produções do Serviço Social" "TRABALHO, OPRESSÕES E ONTOLOGIA DO
+ SER SOCIAL: A ALIENAÇÃO E A UNIDADE EXPLORAÇÃO-OPRESSÃO"[] 
+ []
+
+
+Overfull \hbox (317.74269pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:4] "Fabiana E
+steves Boaventura" "Leonardo Ortegal" "Raquel Sabará de Freitas" "PAULO WESCLEY
+ PINHEIRO"[] 
+ []
+
+
+Overfull \hbox (359.74257pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:4] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univers
+idade de Brasília"[] 
+ []
+
+
+Overfull \hbox (170.74312pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:4] "Política 
+Social" "Política Social" "Política Social" "Política Social"[] 
+ []
+
+
+Overfull \hbox (23.74355pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:4] "51500353"
+ "51500353" "51500353" "51500353"[] 
+ []
+
+
+Overfull \hbox (165.49313pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:4] "" "" "Coo
+rdenação de Aperfeiçoamento de Pessoal de Nível Superior" ""[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_EM_ANDAMENTO_INICIACAO_CIENTIFICA:'data.f
+rame': 4 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (275.74281pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:4] "Iniciação
+ Científica" "Iniciação Científica" "Iniciação Científica" "Iniciação Científic
+a"[] 
+ []
+
+
+Overfull \hbox (1761.4885pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:4] "O Debate 
+sobre Dívida Pública e Expropriação de Direitos nas Teses de Doutorados e Livro
+s do Serviço Social" "O Debate sobre Dívida Pública e Expropriação de Direitos 
+nos Artigos Científicos na Área do Serviço Social" "A Dívida Pública e os Proce
+ssos de Expropriação dos Direitos Sociais no Brasileiro" "Expropriação e Acumul
+ação de Capital na Literatura Francesa Marxista"[] 
+ []
+
+
+Overfull \hbox (286.24278pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:4] "Victoria 
+Maria da Costa" "Giovanna Guarese" "Gabriela Rodrigues de Moraes" "Sofia Rodrig
+ues"[] 
+ []
+
+
+Overfull \hbox (359.74257pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:4] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univers
+idade de Brasília"[] 
+ []
+
+
+Overfull \hbox (149.74318pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:4] "Serviço S
+ocial" "Serviço Social" "Serviço Social" "Serviço Social"[] 
+ []
+
+
+Overfull \hbox (23.74355pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:4] "60317493"
+ "60317493" "60317493" "60317493"[] 
+ []
+
+
+Overfull \hbox (921.49094pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:4] "Coordenaç
+ão de Aperfeiçoamento de Pessoal de Nível Superior" "Universidade de Brasília" 
+"Conselho Nacional de Desenvolvimento Científico e Tecnológico" "Coordenação de
+ Aperfeiçoamento de Pessoal de Nível Superior"[] 
+ []
+
+
+Overfull \hbox (107.7433pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_agencia_financiadora: chr [1:4] "045000000
+000" "002000000996" "002200000000" "045000000000"[] 
+ []
+
+
+Overfull \hbox (13.24358pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ ORIENTACAO_EM_ANDAMENTO_MESTRADO            :'data.f
+rame': 3 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (202.24303pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:3] "Dissertaç
+ão de mestrado" "Dissertação de mestrado" "Dissertação de mestrado"[] 
+ []
+
+
+Overfull \hbox (1288.98987pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:3] "Política 
+Econômica e Bloco Político no Governo Lula" "A concepção da família na segurida
+de social brasileira e a garantia dos direitos das pessoas LGBT: Uma analise "|
+ __truncated__ "POLÍTICA SOCIAL E CIDADANIA LGBT: A GARANTIA DE DIREITOS E OS L
+IMITES EMANCIPATÓRIOS NO CAPITALISMO"[] 
+ []
+
+
+Overfull \hbox (7.99359pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ id_lattes_aluno            : chr [1:3] "" "629822
+6014768391" "1134437109362587"[] 
+ []
+
+
+Overfull \hbox (212.743pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:3] "Franklin 
+Rabelo de Melo" "Helena Godoy Brito" "DJONATAN KAIC RIBEIRO DE SOUZA"[] 
+ []
+
+
+Overfull \hbox (217.99298pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:3] "Universid
+ade de Brasília" "Universidade de Brasília" "Universidade de Brasília"[] 
+ []
+
+
+Overfull \hbox (76.2434pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:3] "Política 
+Social" "Política Social" "Política Social"[] 
+ []
+
+
+Overfull \hbox (149.74318pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ agencia_financiadora       : chr [1:3] "" "Coorde
+nação de Aperfeiçoamento de Pessoal de Nível Superior" ""[] 
+ []
+
+
+Overfull \hbox (18.49356pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   ..$ OUTRAS_ORIENTACOES_CONCLUIDAS               :'data.f
+rame': 32 obs. of  13 variables:[] 
+ []
+
+
+Overfull \hbox (616.99182pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ natureza                   : chr [1:32] "TRABALHO
+_DE_CONCLUSAO_DE_CURSO_GRADUACAO" "TRABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO" "T
+RABALHO_DE_CONCLUSAO_DE_CURSO_GRADUACAO" "INICIACAO_CIENTIFICA" ...[] 
+ []
+
+
+Overfull \hbox (1677.48874pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo                     : chr [1:32] "Os Desaf
+ios da Avaliação Social para Acesso ao BPC" "O Avanço dos Planos Privados de Sa
+úde Pós Constituição de 1988: a Consolidação de um Sistema Dual" "População de 
+Rua e (Des) Proteção Social: Análise da Política Nacional para a População em S
+ituação de Rua" "As Tendências Contemporâneas da Política de Direitos da Cidada
+nia para Mulheres no Brasil" ...[] 
+ []
+
+
+Overfull \hbox (391.24248pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_aluno                 : chr [1:32] "Alan Tel
+es da Silva" "Jorge Augusto Bezerra" "Getúlio Henrique Alves" "Helena Fragoso d
+e Mendonça Santiago" ...[] 
+ []
+
+
+Overfull \hbox (385.9925pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ instituicao                : chr [1:32] "Universi
+dade de Brasília" "Universidade de Brasília" "Universidade de Brasília" "Univer
+sidade de Brasília" ...[] 
+ []
+
+
+Overfull \hbox (175.9931pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ curso                      : chr [1:32] "Serviço 
+Social" "Serviço Social" "Serviço Social" "Serviço Social" ...[] 
+ []
+
+
+Overfull \hbox (49.99347pt too wide) in paragraph at lines 1993--1993
+[]\T1/lmtt/m/n/10 ##   .. ..$ codigo_do_curso            : chr [1:32] "90000004
+" "90000004" "90000004" "60083557" ...[] 
+ []
+
+[26]
+Overfull \hbox (380.74251pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##  $ resumo_cv             : chr "Graduação em Sociologia - 
+Universite de Paris VIII (1981), Mestrado em Sociologia - Universite Paris VIII
+I (198"| __truncated__[] 
+ []
+
+
+Overfull \hbox (2.7436pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   ..$ grande_area  : chr [1:3] "CIENCIAS_HUMANAS" "CIENCIA
+S_HUMANAS" "CIENCIAS_HUMANAS"[] 
+ []
+
+
+Overfull \hbox (469.99225pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo          : chr [1:2] "Entre o prescrito e 
+o real: o papel da subjetividade na efetivação dos direitos das empregadas dome
+sticas no Brasil" "A Arte de trabalhar"[] 
+ []
+
+
+Overfull \hbox (144.4932pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ periodico       : chr [1:2] "Sociedade e Estado (
+UnB. Impresso)" "Lamparina: Revista de Ensino do Teatro"[] 
+ []
+
+
+Overfull \hbox (406.99243pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ tipo                    : chr [1:4] "Capítulo de 
+livro publicado" "Capítulo de livro publicado" "Capítulo de livro publicado" "C
+apítulo de livro publicado"[] 
+ []
+
+
+Overfull \hbox (1204.99011pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_capitulo      : chr [1:4] "As Represent
+ações dos Empresários Sobre Inovação" "Sociologia Clinica" "o contexto do traba
+lho dos professores (as) na educação superior: as mudanças no mundo do trabalho
+ do professor" "A pluralidade dos movimentos sociais (em temáticas de Políticas
+ Públicas Espaciais)"[] 
+ []
+
+
+Overfull \hbox (1488.48929pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ titulo_do_livro         : chr [1:4] "PAEDI - Pesq
+uisa sobre Atitudes Empresariais para Desenvolvimento e Inovação" "Dicionário C
+ritica de Gestão e Psicodinâmica do trabalho" "O contexto do trabalho dos profe
+ssores (as) na educação superior: as mudanças no mundo do trabalho e no mundo d
+os professores" "Território, agentes-atores e políticas públicas espaciais"[] 
+ []
+
+
+Overfull \hbox (112.99329pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ isbn                    : chr [1:4] "978857811146
+5" "9788536243559" "9788536242514" "9788564898820"[] 
+ []
+
+
+Overfull \hbox (112.99329pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ nome_da_editora         : chr [1:4] "Ipea" "Juruá
+ editora psicologia biblioteca" "Juruá editora" ""[] 
+ []
+
+
+Overfull \hbox (774.49136pt too wide) in paragraph at lines 2163--2163
+[]\T1/lmtt/m/n/10 ##   .. ..$ organizadores           : chr [1:4] "Lenita Maria
+ Turchi; João Alberto de Negri; Alvaro Comin" "Fernando de Oliveira Viera; Ana 
+Magnolia Mendes, Alvaro Roberto Crespo de Melo" "Leda Gonçalves de Freitas" "Ma
+rilia Steinberger"[] 
+ []
+
+[27]
+
+! Package inputenc Error: Unicode char Â´ (U+B4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2163 \end{verbatim}
+                      
+Here is how much of TeX's memory you used:
+ 10994 strings out of 494931
+ 151531 string characters out of 6180850
+ 248108 words of memory out of 5000000
+ 14091 multiletter control sequences out of 15000+600000
+ 47454 words of font info for 44 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 28i,5n,32p,584b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+!  ==> Fatal error occurred, no output PDF file produced!
