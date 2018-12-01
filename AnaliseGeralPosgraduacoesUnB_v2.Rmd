@@ -1,16 +1,24 @@
 ---
-title:  Ciência de Dados para Todos (Data Science
-  For All) - 2018.1 - Análise da Produção Científica e Acadêmica da Universidade de Brasília - Modelo de Relatório Final da Disciplina - Departamento de Ciência da Computação da UnB
+title: Análise da Produção Científica e Acadêmica da Universidade de Brasília
 author: "Antônio Henrique de Moura Rodrigues, Breno Felipe Nunes Gomes, Ícaro Nery Rezende"
-date: "17/11/2019"
+date: "30/11/2019"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
+```{r echo= FALSE}
+# Diretórios da cada usuário
+# Antônio Henrique
+my_dir = "/home/ahmoura/Documents/relatorio-ds4all"
+# Ícaro Rezende
+# my_dir = ""
+# Breno Felipe
+# my_dir = ""
+```
 
 ```{r setup, include=FALSE}
-knitr::opts_knit$set(root.dir = "~/Projects/DS4ALL/Relatorio")
+knitr::opts_knit$set(root.dir = my_dir)
 knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 ```
 
