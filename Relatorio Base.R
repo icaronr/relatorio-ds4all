@@ -30,6 +30,10 @@ ci.public <- fromJSON("./ciencia_informacao/ci.publication.json")
 ci.orient <- fromJSON("./ciencia_informacao/ci.advise.json")
 ci.graphl <- fromJSON("./ciencia_informacao/ci.graph.json")
 #sociologia
+so.perfil <- fromJSON("./sociologia/so.profile.json")
+so.public <- fromJSON("./sociologia/so.publication.json")
+so.orient <- fromJSON("./sociologia/so.advise.json")
+so.graphl <- fromJSON("./sociologia/so.graph.json")
 #politica social
 ######
 #Análise do arquivo perfil
